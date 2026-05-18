@@ -679,3 +679,33 @@ Nội dung:
   - Không bắt đầu Batch 3A.
 - Next recommended action:
   - PROMPT 2P-D — Verify Remaining Mojibake Fix
+
+## Batch 2P-E — Vietnamese User-Facing Docs And Temp Script Cleanup
+
+Nội dung:
+- Mục tiêu: Việt hóa các tài liệu user-facing chính và dọn file script tạm nếu có.
+- Files updated:
+  - D:\bbo_team\Ct_Mr\README.md (Root)
+  - agentic-ai-content-marketing-skill/README.md
+  - 10-system/safety/DATA_INGESTION_SAFETY.md
+  - 10-system/safety/INGESTION_SOP.md
+  - 10-system/handoff/FINAL_PACKAGING_SNAPSHOT.md
+  - 10-system/handoff/HANDOFF_SUMMARY.md
+  - 10-system/guides/FIRST_WORKFLOW_TEST_PLAN.md
+  - 10-system/guides/OPERATOR_PLAYBOOK.md
+- Temp scripts removed:
+  - d:\bbo_team\Ct_Mr\agentic-ai-content-marketing-skill\scan_mojibake.py
+  - d:\bbo_team\Ct_Mr\agentic-ai-content-marketing-skill\fix_mojibake*.py
+- What was NOT done:
+  - Không ingest docs mới.
+  - Không sửa docs/.
+  - Không sửa 09-reports/.
+  - Không dịch historical reports.
+  - Không sửa Agent_Skills.md.
+  - Không đổi command/path/layout/workflow logic.
+  - Không đổi status/confidence.
+  - Không bắt đầu Batch 3A.
+- Remaining risks:
+  - Một số report lịch sử hoặc file reference có thể vẫn còn tiếng Anh có chủ đích.
+- Next recommended action:
+  - PROMPT 2P-F — Verify Vietnamese User-Facing Docs

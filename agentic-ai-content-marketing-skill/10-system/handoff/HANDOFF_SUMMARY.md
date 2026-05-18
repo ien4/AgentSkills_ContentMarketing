@@ -1,17 +1,17 @@
-﻿# Handoff Summary — Agentic AI Content Marketing Skill
+# Handoff Summary — Agentic AI Content Marketing Skill
 
-## 1. Current State
+## 1. Trạng Thái Hiện Tại
 - Current phase: End of Batch 2 / Packaging-ready phase.
 - Last completed batch: Batch 2L.
 - Current verdict: Ready for operator use (packaging snapshot).
 - Ready for: Operator/model using the skill commands (/outline, /post, /qa, /content-score) with QA gates and progressive disclosure.
 - Not ready for: Any new ingestion, or any change to layout taxonomy/matrix/confidence/status without confirmed source files and evidence.
 
-## 2. What This Skill Does
+## 2. Bộ Skill Này Làm Gì
 Skill giúp Agentic AI tạo content marketing theo pipeline:
 brief → audience → pain point → insight → 5W-1H → layout selection → taxonomy validation → outline → content → CTA → QA.
 
-## 3. What Has Been Built
+## 3. Các Thành Phần Đã Xây Dựng
 - Core skill files: SKILL.md, 10-system/control/PROMPT_MASTER.md
 - Command mapping: 10-system/control/COMMAND_MAPPING.md
 - Layout systems + safety: 02-frameworks/content-layout-systems/* (protected by matrix + taxonomy + fit checklist)
@@ -23,7 +23,7 @@ brief → audience → pain point → insight → 5W-1H → layout selection →
 - Reports: 09-reports/* up to Batch 2L
 - Ingestion log history: INGESTION_LOG.md
 
-## 4. What Must Not Be Changed Casually
+## 4. Những Điều Không Được Tùy Tiện Thay Đổi
 Không thay đổi “casually”:
 - Layout confidence/status (không nâng High/Medium/Low khi chưa có source riêng)
 - `00-course-knowledge/source-map.md` / `00-course-knowledge/course-index.md`
@@ -35,7 +35,7 @@ Không thay đổi “casually”:
 - Diễn dịch status (giữ đúng “needs review / partially ingested” nếu chưa có source evidence)
 - Dẫn dắt thuyết phục role (persuasive application / argument flow; không dùng độc lập nếu chưa validate)
 
-## 5. How To Continue Safely
+## 5. Cách Tiếp Tục An Toàn
 Nếu tiếp tục vận hành hoặc xử lý yêu cầu mới:
 1. Read `10-system/handoff/FINAL_PACKAGING_SNAPSHOT.md`.
 2. Read `10-system/guides/OPERATOR_PLAYBOOK.md`.
@@ -48,17 +48,17 @@ Nếu tiếp tục vận hành hoặc xử lý yêu cầu mới:
 5. Follow batch-based workflow and do not broaden scope.
 6. Ask approval before edits outside snapshot/handoff/report scope.
 
-## 6. Next Recommended Paths
-### Path A — Use the skill now
+## 6. Các Hướng Đi Khuyến Nghị Tiếp Theo
+### Hướng A — Sử dụng skill ngay
 Dùng 10-system/guides/OPERATOR_PLAYBOOK.md và 10-system/guides/USAGE_GUIDE.md.
 
-### Path B — Run a real dry-run
+### Hướng B — Chạy thử nghiệm thực tế
 Dùng 1 brief thật do user cung cấp, không ingest docs.
 
-### Path C — Start Batch 3A ingestion
+### Hướng C — Bắt đầu nạp dữ liệu Batch 3A
 Chỉ làm khi user xác nhận exact source files.
 
-## 7. Handoff Message Template
+## 7. Mẫu Tin Nhắn Bàn Giao
 Current project: agentic-ai-content-marketing-skill  
 Skill folder: agentic-ai-content-marketing-skill/  
 Last completed batch: Batch 2L  
@@ -70,7 +70,7 @@ What was not done: no new ingestion, no doc changes, no new tests/layout changes
 Safety rules: ingestion safety still enforce (ask exact source files before any ingestion)  
 Next recommended action: Choose Path A/B/C; if C then confirm exact source files.
 
-## 8. Final Warning
+## 8. Cảnh Báo Cuối Cùng
 Nếu model/operator không chắc file nào đã ingest, không được ingest tiếp. Phải kiểm:
 `source-map.md`, `course-index.md`, và `INGESTION_LOG.md`, sau đó hỏi user.  
 Giữ phân tách vai trò:

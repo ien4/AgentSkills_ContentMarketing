@@ -1,6 +1,6 @@
-﻿# Practical Operator Playbook — Agentic AI Content Marketing Skill
+# Practical Operator Playbook — Agentic AI Content Marketing Skill
 
-## 1. Purpose
+## 1. Mục Đích
 Playbook này giúp operator/đồng nghiệp dùng bộ **agentic-ai-content-marketing-skill** đúng quy trình thực chiến, không cần hiểu toàn bộ cấu trúc bên trong ngay từ đầu.
 
 Mục tiêu vận hành:
@@ -9,7 +9,7 @@ Mục tiêu vận hành:
 - Bảo vệ output bằng checklist & quality gates.
 - Thực thi **progressive disclosure**: chỉ ingest khi user xác nhận **exact source files**.
 
-## 2. Who Should Use This
+## 2. Ai Nên Dùng
 - Content writer / content marketer
 - Social media content creator
 - Content marketing executive
@@ -17,7 +17,7 @@ Mục tiêu vận hành:
 - AI operator dùng Blackbox/Kimi/Minimax/Antigravity/Codex
 - Người quản lý muốn kiểm output content trước khi đăng
 
-## 3. Core Operating Principle
+## 3. Nguyên Tắc Vận Hành Cốt Lõi
 Operator vận hành theo nguyên tắc:
 1. **Brief trước** (đọc mục tiêu, audience, platform, CTA).
 2. **Audience trước** (xác định ai, level hiểu biết, nhu cầu).
@@ -28,7 +28,7 @@ Operator vận hành theo nguyên tắc:
 7. **QA trước khi dùng output** (logic + layout-fit + final-output checklist).
 8. **Ingestion safety**: không ingest docs mới nếu user chưa xác nhận exact source files.
 
-## 4. Quick Start For New Operator
+## 4. Bắt Đầu Nhanh Cho Operator Mới
 
 ### Nếu muốn viết Facebook post
 **Đọc:**
@@ -140,7 +140,7 @@ Operator vận hành theo nguyên tắc:
 **Safety stop:**
 - Nếu user chưa xác nhận exact source files → dừng ingestion và yêu cầu xác nhận.
 
-## 5. Daily Operating Workflow
+## 5. Quy Trình Vận Hành Hàng Ngày
 Workflow thực tế cho operator (lặp mỗi task):
 
 1. Nhận yêu cầu từ user.
@@ -162,7 +162,7 @@ Workflow thực tế cho operator (lặp mỗi task):
 13. Nếu fail: sửa theo checklist, không đoán.
 14. Nếu task là ingestion: dừng và hỏi exact source files theo ingestion safety.
 
-## 6. Decision Tree (text)
+## 6. Cây Quyết Định (Decision Tree)
 - User muốn viết bài hoàn chỉnh?
   → Dùng `/post`
 - User chỉ muốn dàn ý?
@@ -176,7 +176,7 @@ Workflow thực tế cho operator (lặp mỗi task):
 - User yêu cầu dùng “Professional planning” như layout chính?
   → Không dùng như root layout → dùng như meta-check sau khi đã chọn layout đúng
 
-## 7. Output Review Checklist
+## 7. Checklist Kiểm Tra Output
 Checklist operator trước khi giao output cho người dùng/đưa lên publish:
 
 - Có đúng command không?
@@ -192,7 +192,7 @@ Checklist operator trước khi giao output cho người dùng/đưa lên publis
 - Có QA notes / PASS-FAIL checklist không?
 - Có cảnh báo nếu user yêu cầu ingestion docs (nhớ rule “exact source files”) không?
 
-## 8. Common Mistakes And How To Avoid
+## 8. Lỗi Thường Gặp Và Cách Tránh
 1. **Dùng 5W-1H như bố cục chính**  
    - Vì sao sai: 5W-1H là công cụ mở ý, không thay layout.  
    - Cách đúng: chọn layout + taxonomy validation, dùng 5W-1H trong brainstorm.
@@ -233,7 +233,7 @@ Checklist operator trước khi giao output cho người dùng/đưa lên publis
    - Vì sao sai: vi phạm progressive disclosure & làm chậm.  
    - Cách đúng: đọc “đủ dùng” theo resource map.
 
-## 9. Model Usage Recommendation
+## 9. Đề Xuất Model Sử Dụng
 Bảng gợi ý chọn model theo vai trò (operator dùng khi cấu hình prompt):
 
 | Task | Recommended model | Reason |
@@ -245,7 +245,7 @@ Bảng gợi ý chọn model theo vai trò (operator dùng khi cấu hình promp
 | File edit khi có credit | Codex | Tối ưu viết patch theo format |
 | Không dùng model sáng tạo để tự ý ingest docs | — | Luôn enforce ingestion safety |
 
-## 10. Safe Handoff Protocol
+## 10. Giao Thức Bàn Giao An Toàn (Safe Handoff)
 Khi chuyển việc cho model khác/operator khác, luôn gửi gói handoff tối thiểu:
 
 Template:
@@ -261,7 +261,7 @@ Next step:
 Safety:
 Do not ingest docs unless user confirms exact source files.
 
-## 11. When To Stop And Ask User
+## 11. Khi Nào Cần Dừng Lại Hỏi User
 Operator phải dừng và hỏi user khi:
 - User yêu cầu ingestion docs nhưng chưa nói **file nguồn cụ thể**.
 - File đã từng ingest nhưng user muốn nạp lại/overwrite.
@@ -271,7 +271,7 @@ Operator phải dừng và hỏi user khi:
 - Output có thể làm hỏng cấu trúc skill (ví dụ trộn sai 5W-1H/layout/hook/CTA).
 - Model/agent đề xuất hành động ngoài phạm vi (chỉnh command/framework/layout, chạy test mới, v.v.).
 
-## 12. Ready-To-Copy Operator Prompts
+## 12. Prompt Mẫu Sẵn Sàng Copy
 
 ### 1) Prompt dùng `/post`
 **Input cần điền:**
@@ -322,7 +322,7 @@ Trước khi ingest, hãy hỏi user theo ingestion safety:
 (7) Có giữ bản cũ không?  
 Chỉ tiếp tục sau khi user xác nhận exact source files. Không đọc/sửa ngoài phạm vi.”
 
-## 13. Final Operator Rule
+## 13. Quy Tắc Vận Hành Cuối Cùng
 - Không ưu tiên làm nhanh hơn làm đúng.
 - Không ingest dữ liệu mới khi chưa có xác nhận exact source files.
 - Không sửa file ngoài phạm vi batch.

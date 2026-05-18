@@ -1,12 +1,12 @@
-﻿# Data Ingestion Safety
+# Data Ingestion Safety
 
-## Purpose
+## Mục Đích
 Tài liệu này bảo vệ bộ skill khỏi lỗi nạp trùng, nạp sai, ghi đè kiến thức cũ, hoặc trộn bố cục/framework.
 
-## Golden Rule
+## Nguyên Tắc Vàng
 Trước mọi bước nạp dữ liệu kiến thức mới, Agent phải yêu cầu user xác nhận exact source files.
 
-## Required Confirmation Before New Ingestion
+## Yêu Cầu Xác Nhận Trước Khi Nạp Mới
 Agent phải hỏi hoặc yêu cầu user cung cấp:
 1. File nào cần nạp?
 2. File nào đã nạp rồi?
@@ -16,7 +16,7 @@ Agent phải hỏi hoặc yêu cầu user cung cấp:
 6. Có được đổi status/confidence không?
 7. Có cần giữ bản cũ không?
 
-## Duplicate Ingestion Guard
+## Chống Nạp Trùng Lặp
 Trước khi nạp file mới:
 - Kiểm tra source-map.md.
 - Kiểm tra course-index.md.
@@ -27,7 +27,7 @@ Trước khi nạp file mới:
   - Ghi “already ingested”.
   - Chỉ update nếu user xác nhận.
 
-## No Overwrite Rule
+## Quy Tắc Không Ghi Đè
 Không ghi đè:
 - Definition.
 - Core Principle.
@@ -36,7 +36,7 @@ Không ghi đè:
 - Status.
 nếu chưa có lý do rõ và chưa ghi report.
 
-## Layout Knowledge Protection
+## Bảo Vệ Kiến Thức Bố Cục
 Không trộn:
 - 5W-1H với layout.
 - Hook với layout.
@@ -44,7 +44,7 @@ Không trộn:
 - Template nền tảng với layout.
 - Meta-framework với root layout.
 
-## Required Report For Every Ingestion
+## Báo Cáo Bắt Buộc Sau Mỗi Lần Nạp
 Mỗi batch nạp dữ liệu phải có report:
 - Source files scanned.
 - Source files used.

@@ -1,4 +1,4 @@
-﻿# Ingestion SOP — Agentic AI Content Marketing Skill
+# Ingestion SOP — Agentic AI Content Marketing Skill
 
 ## 1. Mục Đích
 
@@ -19,7 +19,7 @@ Mục tiêu là biến tài liệu thô thành kiến thức đã xử lý, có 
 - Không trộn hook với CTA.
 - Không trộn nguyên lý nền tảng với template ứng dụng.
 
-## Mandatory User Confirmation Before Ingestion
+## Bắt Buộc Yêu Cầu Xác Nhận Trước Khi Nạp Mới
 
 - Trước mọi batch nạp dữ liệu mới, Agent phải yêu cầu user xác nhận exact source files.
 - Nếu source file đã từng được ingest, không ingest lại tự động.

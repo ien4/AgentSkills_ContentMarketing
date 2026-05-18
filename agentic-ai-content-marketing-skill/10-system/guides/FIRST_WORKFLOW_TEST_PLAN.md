@@ -1,9 +1,9 @@
-﻿# First Workflow Test Plan — Agentic AI Content Marketing Skill
+# First Workflow Test Plan — Agentic AI Content Marketing Skill
 
-## 1. Purpose
+## 1. Mục Đích
 Kế hoạch này dùng để test thực tế bộ skill sau khi đã packaging-ready.
 
-## 2. Scope
+## 2. Phạm Vi
 Test các workflow chính:
 - /outline
 - /post
@@ -12,7 +12,7 @@ Test các workflow chính:
 - layout selection
 - ingestion safety prompt
 
-## 3. Out of Scope
+## 3. Ngoài Phạm Vi
 Không test:
 - Ingest docs mới
 - Tạo layout mới
@@ -21,12 +21,12 @@ Không test:
 - Test bằng dữ liệu nhạy cảm
 - Test automation script
 
-## 4. Test Environment
+## 4. Môi Trường Test
 Ghi:
 - Có thể chạy trên Blackbox AI / Kimi K2.6 / Minimax M2.7 / Antigravity Gemini 3 Flash / Gemini 3.1 Pro Low / Codex khi có credit.
 - Với hiện tại, ưu tiên Blackbox AI Kimi K2.6 cho read/check và Minimax M2.7 cho content output dài.
 
-## 5. Test Cases
+## 5. Các Ca Test (Test Cases)
 
 Tạo bảng test case:
 
@@ -104,7 +104,7 @@ Expected:
 - Yêu cầu user xác nhận exact source files
 - Kiểm source-map/course-index/INGESTION_LOG trước
 
-## 6. Pass/Fail Rules
+## 6. Tiêu Chí Đạt/Chưa Đạt (Pass/Fail Rules)
 
 PASS nếu:
 - Agent chọn đúng file cần đọc theo Resource Map.
@@ -125,7 +125,7 @@ FAIL nếu:
 - Agent nạp lại file đã ingest.
 - Agent không hỏi user xác nhận exact source files trước ingestion.
 
-## 7. Recommended Model For Each Test
+## 7. Đề Xuất Model Cho Từng Test
 Tạo bảng:
 
 | Test | Recommended model | Reason |
@@ -138,7 +138,7 @@ Tạo bảng:
 | T06 | Kimi K2.6 | Kiểm ingestion safety prompts |
 | Notes | (Nếu Codex có credit) Codex | Kiểm file/report sau test (không chạy ingestion) |
 
-## 8. Test Report Template
+## 8. Mẫu Báo Cáo Test
 Tạo template:
 
 # Workflow Test Report
@@ -152,7 +152,7 @@ Tạo template:
 ## Files That Need Update
 ## Recommended Next Prompt
 
-## 9. Do Not Run Yet
+## 9. Cảnh Báo Chưa Chạy Test
 Ghi rõ:
 File này chỉ là test plan.
 Không chạy test trong Batch 2H.

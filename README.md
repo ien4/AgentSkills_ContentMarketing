@@ -1,58 +1,56 @@
 # AgentSkills ContentMarketing
 
-This repository contains an Agentic AI Skill for content marketing workflows.
+Kho lưu trữ này chứa bộ Skill AI hỗ trợ quy trình content marketing cho BBO Tech.
 
-## Main Skill Folder
+## Thư mục chính
 
-The main skill is located in:
+Bộ skill chính nằm tại:
 
 `agentic-ai-content-marketing-skill/`
 
-Start here:
+Nên bắt đầu từ:
 
 `agentic-ai-content-marketing-skill/README.md`
 
-## What This Skill Does
+## Bộ skill này dùng để làm gì?
 
-This skill helps AI agents and operators create structured content marketing outputs:
+- Phân tích brief content marketing.
+- Xác định audience, pain point, insight.
+- Mở ý bằng 5W-1H.
+- Chọn layout/bố cục nội dung phù hợp.
+- Viết outline marketing.
+- Viết bài Facebook post.
+- QA và chấm điểm content.
+- Quản lý việc nạp kiến thức mới an toàn.
 
-- Analyze content briefs.
-- Identify audience, pain points, and insight.
-- Use 5W-1H for idea expansion.
-- Select content layout safely.
-- Build a 5-part marketing outline.
-- Write Facebook posts.
-- QA and score content.
-- Manage knowledge ingestion safely.
+## Dành cho đồng nghiệp mới
 
-## For New Users
-
-Read:
+Đọc theo thứ tự:
 
 1. `agentic-ai-content-marketing-skill/README.md`
 2. `agentic-ai-content-marketing-skill/10-system/guides/OPERATOR_PLAYBOOK.md`
 3. `agentic-ai-content-marketing-skill/10-system/guides/USAGE_GUIDE.md`
 
-## For AI Agents
+## Dành cho AI Agent
 
-Read:
+Đọc theo thứ tự:
 
 1. `agentic-ai-content-marketing-skill/SKILL.md`
 2. `agentic-ai-content-marketing-skill/10-system/control/COMMAND_MAPPING.md`
 3. `agentic-ai-content-marketing-skill/10-system/control/PROMPT_MASTER.md`
 
-## Safety Notice
+## Lưu ý an toàn
 
-Do not ingest new documents unless the user confirms the exact source files.
+Không nạp tài liệu mới nếu người dùng chưa xác nhận chính xác file nguồn.
 
-Before any knowledge ingestion, read:
+Trước mọi batch ingestion/nạp kiến thức, phải đọc:
 
 - `agentic-ai-content-marketing-skill/10-system/safety/DATA_INGESTION_SAFETY.md`
 - `agentic-ai-content-marketing-skill/10-system/safety/INGESTION_SOP.md`
 - `agentic-ai-content-marketing-skill/INGESTION_LOG.md`
 
-## Current Status
+## Trạng thái hiện tại
 
-Ready for real content work.
+Bộ skill đã sẵn sàng dùng cho workflow content thực tế.
 
-No new foundational files should be created unless there is a clear maintenance reason.
+Không tạo thêm file nền mới nếu không có lý do bảo trì rõ ràng.

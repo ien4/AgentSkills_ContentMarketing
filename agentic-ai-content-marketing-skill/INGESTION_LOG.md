@@ -579,3 +579,23 @@ Before any new ingestion, ask user to confirm exact source files.
 - Next recommended action:
   - PROMPT 2O-C — VERIFY SAFE ROOT FILE RELOCATION
 
+## Batch 2O-D — README Display And Root Repo Entry Fix
+
+- Mục tiêu: sửa README display/encoding và tạo root repo README.
+- Files updated:
+  - `agentic-ai-content-marketing-skill/README.md`
+  - `README.md` (root repo)
+  - `INGESTION_LOG.md`
+- What was NOT done:
+  - Không ingest docs mới.
+  - Không sửa docs/.
+  - Không sửa command/framework/layout.
+  - Không move file.
+  - Không sửa `09-reports/`.
+  - Không bắt đầu Batch 3A.
+- Remaining risks:
+  - Nếu file .md khác còn mojibake, cần xử lý bằng batch riêng sau khi scan.
+- Next recommended action:
+  - Verify README display on GitHub.
+  - Then use skill for real work.
+

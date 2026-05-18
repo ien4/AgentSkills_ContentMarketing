@@ -1,0 +1,88 @@
+# Course Index
+
+## Mục Đích
+
+File này là mục lục kiến thức khóa học đã được nạp vào skill.
+
+## Batch 001
+
+### Chủ Đề Đã Nạp
+
+1. Tư duy bố cục nội dung Marketing.
+2. Tư duy lập dàn ý trước khi viết.
+3. Công thức 5W-1H.
+4. Nguyên tắc dùng AI trong sáng tạo nội dung.
+
+### File Kiến Thức Liên Quan
+
+- `chapter-01-content-mindset.md`
+- `chapter-01-5w1h-framework.md`
+- `chapter-01-content-layout.md`
+- `source-map.md`
+
+## Batch Sau
+
+Các tài liệu trong `docs/` cần được đọc sâu và tách thành:
+
+- Nguyên tắc.
+- Framework.
+- Workflow.
+- Template.
+- Checklist.
+- Ví dụ.
+
+## Pending Batch 2B — Layout Systems From docs
+
+Historical planning note from Batch 002A. Batch 2B ingestion results are recorded in the next section.
+
+Batch 2B sẽ nạp có kiểm soát các tài liệu về bố cục gốc từ `docs/`, gồm:
+
+- Bố cục móc xích.
+- Bố cục tổng phân hợp.
+- Bố cục quy nạp.
+- Bố cục liệt kê.
+- Bố cục quy nạp và dẫn dắt thuyết phục.
+- Bố cục chi tiết và quy trình xây dựng nội dung chi tiết.
+- Bố cục Content Marketing chuyên nghiệp.
+
+Batch 2B chỉ nên nạp từng bố cục vào khu `02-frameworks/content-layout-systems/` và không trộn với 5W-1H, hook, CTA hoặc template.
+
+## Batch 2B — Layout Systems
+
+### Tài Liệu Nguồn Đã Đọc
+
+- `Nghệ thuật Sáng tạo Nội dung theo Bố cục Móc xích.pdf`
+- `Nghệ thuật Bố cục Tổng Phân Hợp trong Sáng tạo Nội dung.pdf`
+- `Nghệ thuật Bố cục Quy nạp và Dẫn dắt Content Thuyết phục.pdf`
+- `Nghệ thuật Bố cục Quy nạp và Dẫn dắt Content Thuyết phục (1).pdf`
+- `Nghệ Thuật Làm Chủ Bố Cục Liệt Kê Trong Content Marketing.pdf`
+- `Nghệ Thuật Bố Cục Và Quy Trình Xây Dựng Nội Dung Chi Tiết.pdf`
+- `Nghệ Thuật Xây Dựng Bố Cục Content Marketing Chuyên Nghiệp.pdf`
+
+### Kiến Thức Đã Nạp
+
+- Bố cục móc xích: ý sau nối ý trước, tạo chuỗi lập luận liên hoàn.
+- Bố cục tổng phân hợp: tổng quan, phân tích chi tiết, tổng hợp lại thông điệp.
+- Bố cục quy nạp: đi từ chi tiết/dẫn chứng đến kết luận cuối.
+- Bố cục liệt kê: trình bày các ý độc lập nhưng cùng chủ đề.
+- Dẫn dắt thuyết phục: ứng dụng quy nạp để xây niềm tin trước khi đưa offer/CTA.
+- Quy trình xây dựng nội dung chi tiết: chọn bố cục gốc, lập dàn ý, dùng 5W-1H bổ trợ, rồi viết.
+- Professional content marketing layout: meta-framework làm chủ bố cục gốc và tùy biến công thức.
+
+### Bố Cục Đã Hoàn Thiện
+
+- `moc-xich-layout.md`
+- `tong-phan-hop-layout.md`
+- `quy-nap-layout.md`
+- `liet-ke-layout.md`
+- `detailed-content-process-layout.md`
+
+### Bố Cục Cần Review
+
+- `dien-dich-layout.md`: chỉ có nguồn so sánh/overview, chưa có tài liệu riêng.
+- `dan-dat-thuyet-phuc-layout.md`: nguồn rõ về ứng dụng thuyết phục của quy nạp, nhưng chưa tách thành bố cục độc lập.
+- `professional-content-marketing-layout.md`: nguồn rõ về meta-framework, không phải bố cục gốc đơn lẻ.
+
+### Ghi Chú Tài Liệu Chưa Dùng
+
+- Các tài liệu 5W-1H và Marketing outline 5 phần được xét inventory nhưng không nạp vào layout systems để tránh trộn loại kiến thức.

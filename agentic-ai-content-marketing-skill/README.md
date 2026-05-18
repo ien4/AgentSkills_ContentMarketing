@@ -85,7 +85,7 @@ agentic-ai-content-marketing-skill/
 ├── 08-examples/
 ├── 09-reports/
 ├── 10-system/
-├── Agent_Skills.md
+├── 10-system/reference/Agent_Skills.md
 ├── INGESTION_LOG.md
 ├── README.md
 └── SKILL.md

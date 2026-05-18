@@ -599,3 +599,83 @@ Before any new ingestion, ask user to confirm exact source files.
   - Verify README display on GitHub.
   - Then use skill for real work.
 
+## Batch 2O-D — Resolve Agent_Skills Root Placement
+
+- Mục tiêu: xử lý vị trí Agent_Skills.md để root gọn hơn.
+- Kết quả:
+  - Agent_Skills.md already in 10-system/reference/
+- Root now keeps:
+  - README.md
+  - SKILL.md
+  - INGESTION_LOG.md
+- What was NOT done:
+  - Không ingest docs mới.
+  - Không sửa docs/.
+  - Không sửa command/framework/layout.
+  - Không sửa 09-reports/.
+  - Không bắt đầu Batch 3A.
+  - Không dịch nội dung trong bước này.
+- Next recommended action:
+  - PROMPT 2P-B — Verify Mojibake Fix And Vietnamese Display
+
+## Batch 2P-A — Fix Mojibake And Vietnamese Standardization
+
+Nội dung:
+- Mục tiêu: sửa lỗi font/encoding mojibake và chuẩn hóa tiếng Việt cho các file chính.
+- Files scanned:
+  - 90 file .md được scan.
+- Files fixed:
+  - SKILL.md
+  - 10-system/control/PROMPT_MASTER.md
+  - 10-system/control/PACKAGING_CHECKLIST.md
+  - 10-system/guides/USAGE_GUIDE.md
+  - 10-system/guides/OPERATOR_PLAYBOOK.md
+  - 10-system/guides/FIRST_WORKFLOW_TEST_PLAN.md
+  - 10-system/handoff/FINAL_PACKAGING_SNAPSHOT.md
+  - 10-system/handoff/HANDOFF_SUMMARY.md
+  - 10-system/safety/DATA_INGESTION_SAFETY.md
+  - 10-system/safety/INGESTION_SOP.md
+- Files not fixed:
+  - 0 (Mọi file có lỗi mojibake đều đã được tự động fix thành công).
+- What was NOT done:
+  - Không ingest docs mới.
+  - Không sửa docs/.
+  - Không tạo file mới.
+  - Không move file.
+  - Không đổi command/layout logic.
+  - Không sửa 09-reports/ nếu chỉ là audit trail không cần sửa.
+  - Không bắt đầu Batch 3A.
+- Remaining risks:
+  - Một số report lịch sử có thể vẫn còn path cũ hoặc tiếng Anh vì đó là audit trail.
+- Next recommended action:
+  - Verify Vietnamese display on GitHub.
+  - Then use the skill for real work.
+
+## Batch 2P-C — Fix Remaining Mojibake Only
+
+- Mục tiêu: sửa các lỗi mojibake/display encoding còn sót sau 2P-A/2P-B.
+- Files scanned:
+  - 90
+- Files fixed:
+  - 10-system/control/PACKAGING_CHECKLIST.md
+  - 10-system/guides/FIRST_WORKFLOW_TEST_PLAN.md
+  - 10-system/guides/OPERATOR_PLAYBOOK.md
+  - 10-system/guides/USAGE_GUIDE.md
+  - 10-system/handoff/FINAL_PACKAGING_SNAPSHOT.md
+  - 10-system/handoff/HANDOFF_SUMMARY.md
+  - 10-system/safety/DATA_INGESTION_SAFETY.md
+- Mojibake patterns fixed:
+  - ngoặc kép đóng, dấu ba chấm
+- Files left for manual review:
+  - 0
+- What was NOT done:
+  - Không ingest docs mới.
+  - Không sửa docs/.
+  - Không tạo file mới.
+  - Không move file.
+  - Không đổi command/layout/workflow logic.
+  - Không đổi status/confidence.
+  - Không sửa 09-reports/ nếu không cần.
+  - Không bắt đầu Batch 3A.
+- Next recommended action:
+  - PROMPT 2P-D — Verify Remaining Mojibake Fix

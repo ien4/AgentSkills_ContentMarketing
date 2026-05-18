@@ -1,31 +1,31 @@
-﻿# Final Packaging Snapshot â€” Agentic AI Content Marketing Skill
+﻿# Final Packaging Snapshot — Agentic AI Content Marketing Skill
 
 ## 1. Snapshot Status
 - Current phase: End of Batch 2 / Packaging-ready phase.
 - Current status: Ready for operator use.
-- Next phase: optional Batch 3A â€” New Knowledge Ingestion, only after user confirms exact source files.
+- Next phase: optional Batch 3A — New Knowledge Ingestion, only after user confirms exact source files.
 - Last completed batch: Batch 2L.
 - Recommended next batch after snapshot: Batch 3A planning or archive/release depending on user decision.
 
 ## 2. Skill Purpose
-Bá»™ skill há»— trá»£ Agentic AI xÃ¢y content marketing theo quy trÃ¬nh:
-brief â†’ audience â†’ pain point â†’ insight â†’ 5W-1H â†’ layout selection â†’ taxonomy validation â†’ outline â†’ content â†’ CTA â†’ QA.
+Bộ skill hỗ trợ Agentic AI xây content marketing theo quy trình:
+brief → audience → pain point → insight → 5W-1H → layout selection → taxonomy validation → outline → content → CTA → QA.
 
 ## 3. Core Rules
-Rule báº¥t biáº¿n:
-- Brief trÆ°á»›c.
-- Audience trÆ°á»›c.
-- 5W-1H dÃ¹ng Ä‘á»ƒ má»Ÿ Ã½.
-- Layout dÃ¹ng Ä‘á»ƒ sáº¯p xáº¿p Ã½.
-- Hook dÃ¹ng Ä‘á»ƒ kÃ©o chÃº Ã½.
-- CTA dÃ¹ng Ä‘á»ƒ Ä‘iá»u hÆ°á»›ng hÃ nh Ä‘á»™ng.
-- QA trÆ°á»›c khi dÃ¹ng output.
-- KhÃ´ng ingest docs má»›i náº¿u chÆ°a cÃ³ exact source files.
-- KhÃ´ng dÃ¹ng Professional planning nhÆ° root layout.
-- KhÃ´ng nÃ¢ng confidence/status náº¿u chÆ°a cÃ³ source riÃªng.
-- KhÃ´ng sá»­a ngoÃ i pháº¡m vi batch (khÃ´ng thay logic/khÃ´ng bá»‹a káº¿t quáº£ test má»›i).
-- KhÃ´ng trá»™n 5W-1H/hook/CTA/template vÃ o layout (giá»¯ vai trÃ² Ä‘Ãºng).
-- KhÃ´ng tá»± náº¡p láº¡i file Ä‘Ã£ ingest náº¿u chÆ°a cÃ³ xÃ¡c nháº­n/update lÃ½ do rÃµ.
+Rule bất biến:
+- Brief trước.
+- Audience trước.
+- 5W-1H dùng để mở ý.
+- Layout dùng để sắp xếp ý.
+- Hook dùng để kéo chú ý.
+- CTA dùng để điều hướng hành động.
+- QA trước khi dùng output.
+- Không ingest docs mới nếu chưa có exact source files.
+- Không dùng Professional planning như root layout.
+- Không nâng confidence/status nếu chưa có source riêng.
+- Không sửa ngoài phạm vi batch (không thay logic/không bịa kết quả test mới).
+- Không trộn 5W-1H/hook/CTA/template vào layout (giữ vai trò đúng).
+- Không tự nạp lại file đã ingest nếu chưa có xác nhận/update lý do rõ.
 
 ## 4. Current Main Files
 
@@ -76,15 +76,15 @@ Rule báº¥t biáº¿n:
 | Batch 002L | Practical operator playbook | Created operator playbook + operator report | 09-reports/BATCH_002L_OPERATOR_PLAYBOOK_REPORT.md |
 
 ## 7. Layout System Status
-- Root/validated layouts hiá»‡n cÃ³: layout systems protected by:
+- Root/validated layouts hiện có: layout systems protected by:
   - `02-frameworks/content-layout-systems/layout-selection-matrix.md`
   - `02-frameworks/content-layout-systems/layout-taxonomy.md`
   - `07-quality-gates/layout-fit-checklist.md`
 - Partially ingested / Needs review layouts:
-  - Some layout types were explicitly framed as â€œPartially ingested / Needs reviewâ€ in Batch logs (notably around â€œdiá»…n dá»‹châ€ confidence/source readiness).
+  - Some layout types were explicitly framed as “Partially ingested / Needs review” in Batch logs (notably around “diễn dịch” confidence/source readiness).
 - Professional planning = meta-framework:
   - Treated as planning/check layer, not as an independent root layout.
-- Dáº«n dáº¯t thuyáº¿t phá»¥c = persuasive application / argument flow:
+- Dẫn dắt thuyết phục = persuasive application / argument flow:
   - Not used as an independent layout unless validated with required source + taxonomy boundaries.
 - Layout selection must pass:
   - matrix + taxonomy + layout-fit checklist.
@@ -100,14 +100,14 @@ Rule báº¥t biáº¿n:
 | /brainstorm-5w1h | Expand ideas using 5W-1H | Present (only for idea expansion) | keep 5W-1H distinct from layout |
 
 Notes:
-- Evidence expectations are enforced by prompt contracts and quality gates (no â€œguessingâ€).
+- Evidence expectations are enforced by prompt contracts and quality gates (no “guessing”).
 - Ingestion-related workflows must follow ingestion safety and stop-and-ask rules.
 
 ## 9. Quality Gates Status
 | Quality Gate | Purpose | Status |
 |---|---|---|
 | layout-fit-checklist.md | Enforce layout-fit and guardrail compliance | Present |
-| final-output-checklist.md | Final â€œpublish-readyâ€ gate | Present |
+| final-output-checklist.md | Final “publish-ready” gate | Present |
 | content-logic-checklist.md | Enforce content logic / avoid lan man | Present |
 | marketing-layout-checklist.md | Enforce outline/CTA/layout correctness | Present |
 | 5w1h-checklist.md | Enforce 5W-1H usage correctness (incl N/A rules) | Present (if present in 07-quality-gates/) |
@@ -121,14 +121,14 @@ Notes:
   4. Check `00-course-knowledge/course-index.md`.
   5. Check `INGESTION_LOG.md`.
   6. Ask user to confirm exact source files.
-- KhÃ´ng ingest láº¡i file Ä‘Ã£ ingest náº¿u chÆ°a cÃ³ lÃ½ do/user confirmation.
-- KhÃ´ng overwrite definition/status/confidence/source mapping náº¿u chÆ°a cÃ³ report evidence.
+- Không ingest lại file đã ingest nếu chưa có lý do/user confirmation.
+- Không overwrite definition/status/confidence/source mapping nếu chưa có report evidence.
 
 ## 11. Known Remaining Risks
-- Dáº«n dáº¯t thuyáº¿t phá»¥c cáº§n source riÃªng náº¿u muá»‘n nÃ¢ng confidence.
-- Diá»…n dá»‹ch cáº§n source riÃªng náº¿u muá»‘n nÃ¢ng confidence.
+- Dẫn dắt thuyết phục cần source riêng nếu muốn nâng confidence.
+- Diễn dịch cần source riêng nếu muốn nâng confidence.
 - Professional planning must stay meta-framework.
-- Real runtime execution (beyond markdown contract compliance) chÆ°a cÃ³ vÃ¬ repo lÃ  markdown skill; test hiá»‡n táº¡i lÃ  simulated/prompt compliance.
+- Real runtime execution (beyond markdown contract compliance) chưa có vì repo là markdown skill; test hiện tại là simulated/prompt compliance.
 - Batch 3A ingestion needs explicit user confirmation of exact source files.
 
 ## 12. Ready For Use Checklist
@@ -147,7 +147,7 @@ Notes:
 - Ready for operator use.
 
 ## 13. Recommended Next Options
-Option A â€” Archive/release current skill package.  
-Option B â€” Run one real operator dry-run with a user-provided content brief (do not ingest docs).  
-Option C â€” Plan Batch 3A New Knowledge Ingestion.  
-- Vá»›i Option C: Before any new ingestion, ask user to confirm exact source files.
+Option A — Archive/release current skill package.  
+Option B — Run one real operator dry-run with a user-provided content brief (do not ingest docs).  
+Option C — Plan Batch 3A New Knowledge Ingestion.  
+- Với Option C: Before any new ingestion, ask user to confirm exact source files.

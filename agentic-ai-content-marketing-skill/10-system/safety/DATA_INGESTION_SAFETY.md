@@ -1,51 +1,51 @@
 ﻿# Data Ingestion Safety
 
 ## Purpose
-TÃ i liá»‡u nÃ y báº£o vá»‡ bá»™ skill khá»i lá»—i náº¡p trÃ¹ng, náº¡p sai, ghi Ä‘Ã¨ kiáº¿n thá»©c cÅ©, hoáº·c trá»™n bá»‘ cá»¥c/framework.
+Tài liệu này bảo vệ bộ skill khỏi lỗi nạp trùng, nạp sai, ghi đè kiến thức cũ, hoặc trộn bố cục/framework.
 
 ## Golden Rule
-TrÆ°á»›c má»i bÆ°á»›c náº¡p dá»¯ liá»‡u kiáº¿n thá»©c má»›i, Agent pháº£i yÃªu cáº§u user xÃ¡c nháº­n exact source files.
+Trước mọi bước nạp dữ liệu kiến thức mới, Agent phải yêu cầu user xác nhận exact source files.
 
 ## Required Confirmation Before New Ingestion
-Agent pháº£i há»i hoáº·c yÃªu cáº§u user cung cáº¥p:
-1. File nÃ o cáº§n náº¡p?
-2. File nÃ o Ä‘Ã£ náº¡p rá»“i?
-3. Batch ID má»›i lÃ  gÃ¬?
-4. Náº¡p vÃ o folder/file Ä‘Ã­ch nÃ o?
-5. CÃ³ Ä‘Æ°á»£c cáº­p nháº­t kiáº¿n thá»©c cÅ© khÃ´ng?
-6. CÃ³ Ä‘Æ°á»£c Ä‘á»•i status/confidence khÃ´ng?
-7. CÃ³ cáº§n giá»¯ báº£n cÅ© khÃ´ng?
+Agent phải hỏi hoặc yêu cầu user cung cấp:
+1. File nào cần nạp?
+2. File nào đã nạp rồi?
+3. Batch ID mới là gì?
+4. Nạp vào folder/file đích nào?
+5. Có được cập nhật kiến thức cũ không?
+6. Có được đổi status/confidence không?
+7. Có cần giữ bản cũ không?
 
 ## Duplicate Ingestion Guard
-TrÆ°á»›c khi náº¡p file má»›i:
-- Kiá»ƒm tra source-map.md.
-- Kiá»ƒm tra course-index.md.
-- Kiá»ƒm tra INGESTION_LOG.md.
-- Kiá»ƒm tra report gáº§n nháº¥t.
-- Náº¿u file Ä‘Ã£ náº¡p:
-  - KhÃ´ng náº¡p láº¡i tá»± Ä‘á»™ng.
-  - Ghi â€œalready ingestedâ€.
-  - Chá»‰ update náº¿u user xÃ¡c nháº­n.
+Trước khi nạp file mới:
+- Kiểm tra source-map.md.
+- Kiểm tra course-index.md.
+- Kiểm tra INGESTION_LOG.md.
+- Kiểm tra report gần nhất.
+- Nếu file đã nạp:
+  - Không nạp lại tự động.
+  - Ghi “already ingested”.
+  - Chỉ update nếu user xác nhận.
 
 ## No Overwrite Rule
-KhÃ´ng ghi Ä‘Ã¨:
+Không ghi đè:
 - Definition.
 - Core Principle.
 - Source Mapping.
 - Confidence.
 - Status.
-náº¿u chÆ°a cÃ³ lÃ½ do rÃµ vÃ  chÆ°a ghi report.
+nếu chưa có lý do rõ và chưa ghi report.
 
 ## Layout Knowledge Protection
-KhÃ´ng trá»™n:
-- 5W-1H vá»›i layout.
-- Hook vá»›i layout.
-- CTA vá»›i layout.
-- Template ná»n táº£ng vá»›i layout.
-- Meta-framework vá»›i root layout.
+Không trộn:
+- 5W-1H với layout.
+- Hook với layout.
+- CTA với layout.
+- Template nền tảng với layout.
+- Meta-framework với root layout.
 
 ## Required Report For Every Ingestion
-Má»—i batch náº¡p dá»¯ liá»‡u pháº£i cÃ³ report:
+Mỗi batch nạp dữ liệu phải có report:
 - Source files scanned.
 - Source files used.
 - Files updated.

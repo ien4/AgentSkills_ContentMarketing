@@ -2,7 +2,7 @@
 
 ## Mục Đích
 
-Bố cục này giúp AI Agent viết nội dung Marketing có khả năng dẫn dắt và tạo hành động tốt hơn cấu trúc mở bài, thân bài, kết bài thông thường.
+Bố cục này là tiêu chuẩn chuyên nghiệp giúp chuyển đổi từ tư duy "viết văn 3 phần thông thường" (Mở bài - Thân bài - Kết bài) sang tư duy xây dựng nội dung Marketing. Cấu trúc 5 phần giúp AI Agent kiểm soát logic, dẫn dắt tâm lý độc giả và tạo hành động (chuyển đổi) tốt hơn.
 
 ## 1. Tiêu Đề
 
@@ -54,9 +54,21 @@ CTA là lời kêu gọi hành động.
 CTA nên:
 
 - Nói rõ người đọc cần làm gì tiếp theo.
-- Khớp với mục tiêu nội dung.
+- Khớp với mục tiêu nội dung (CTA không nhất thiết luôn là bán hàng).
 - Tự nhiên, không ép buộc.
 - Có thể là bình luận, nhắn tin, đăng ký, tải tài liệu, đặt lịch hoặc mua hàng.
+
+## Lợi Ích Của Lập Dàn Ý (Outline) Trước Khi Viết
+
+Việc lập outline 5 phần trước khi triển khai chi tiết là bắt buộc để đạt các lợi ích:
+- **Kiểm soát thời lượng/độ dài:** Dễ dàng ước lượng nội dung sẽ dài bao lâu (vài giây, 5 phút, hay 30 phút), từ đó điều chỉnh định dạng phù hợp cho từng nền tảng như Facebook, TikTok, hay YouTube.
+- **Tránh sót ý:** Cung cấp góc nhìn toàn cảnh giúp liệt kê đầy đủ thông tin trước khi viết chi tiết.
+- **Đảm bảo tính logic:** Giúp người viết dễ dàng quan sát, sắp xếp xem các phần nội dung có đang bổ trợ liền mạch cho nhau không (ý nào nên đặt đầu, ý nào đặt cuối).
+
+> **Cảnh báo an toàn (Safety Guardrail):** 
+> 
+> - Không sử dụng 5 phần một cách máy móc, cứng nhắc.
+> - Bố cục 5 phần Marketing là **tiêu chuẩn khung**, KHÔNG nhầm lẫn nó với 7 "Core Layouts" (Bố cục cốt lõi như Liệt kê, Diễn dịch, v.v.) trong `01-core-layouts/`. Core layout là cách bạn triển khai phần *Thân Bài*.
 
 ## Checklist Nhanh
 

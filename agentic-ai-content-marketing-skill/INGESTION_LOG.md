@@ -2,52 +2,52 @@
 
 ## Batch 001
 
-### Ngày Tạo
+### NgÃ y Táº¡o
 
 2026-05-16
 
-### Nguồn Kiến Thức
+### Nguá»“n Kiáº¿n Thá»©c
 
-Batch 001 dùng nội dung khóa học được cung cấp trong yêu cầu tạo skill, gồm:
+Batch 001 dÃ¹ng ná»™i dung khÃ³a há»c Ä‘Æ°á»£c cung cáº¥p trong yÃªu cáº§u táº¡o skill, gá»“m:
 
-- Tư duy bố cục nội dung Marketing.
-- Tư duy lập dàn ý trước khi viết.
-- Công thức 5W-1H.
-- Nguyên tắc dùng AI trong sáng tạo nội dung.
+- TÆ° duy bá»‘ cá»¥c ná»™i dung Marketing.
+- TÆ° duy láº­p dÃ n Ã½ trÆ°á»›c khi viáº¿t.
+- CÃ´ng thá»©c 5W-1H.
+- NguyÃªn táº¯c dÃ¹ng AI trong sÃ¡ng táº¡o ná»™i dung.
 
-Các tài liệu trong `docs/` được ghi nhận trong `00-course-knowledge/source-map.md` để tiếp tục nạp sâu ở batch sau.
+CÃ¡c tÃ i liá»‡u trong `docs/` Ä‘Æ°á»£c ghi nháº­n trong `00-course-knowledge/source-map.md` Ä‘á»ƒ tiáº¿p tá»¥c náº¡p sÃ¢u á»Ÿ batch sau.
 
-### Nhóm Kiến Thức Đã Nạp
+### NhÃ³m Kiáº¿n Thá»©c ÄÃ£ Náº¡p
 
-#### 1. Bố Cục Marketing 5 Phần
+#### 1. Bá»‘ Cá»¥c Marketing 5 Pháº§n
 
-- Content Marketing không chỉ có mở bài, thân bài, kết bài.
-- Một bài Marketing nên có: Tiêu đề, Mô tả tiêu đề, Thân bài, Kết luận, CTA.
-- CTA là phần quan trọng để tạo hành động hoặc chuyển đổi.
+- Content Marketing khÃ´ng chá»‰ cÃ³ má»Ÿ bÃ i, thÃ¢n bÃ i, káº¿t bÃ i.
+- Má»™t bÃ i Marketing nÃªn cÃ³: TiÃªu Ä‘á», MÃ´ táº£ tiÃªu Ä‘á», ThÃ¢n bÃ i, Káº¿t luáº­n, CTA.
+- CTA lÃ  pháº§n quan trá»ng Ä‘á»ƒ táº¡o hÃ nh Ä‘á»™ng hoáº·c chuyá»ƒn Ä‘á»•i.
 
-#### 2. Outline Trước Khi Viết
+#### 2. Outline TrÆ°á»›c Khi Viáº¿t
 
-- Không cắm đầu viết từ trên xuống.
-- Phải lập outline trước.
-- Outline giúp ước lượng thời lượng, tránh sót ý và kiểm soát logic.
+- KhÃ´ng cáº¯m Ä‘áº§u viáº¿t tá»« trÃªn xuá»‘ng.
+- Pháº£i láº­p outline trÆ°á»›c.
+- Outline giÃºp Æ°á»›c lÆ°á»£ng thá»i lÆ°á»£ng, trÃ¡nh sÃ³t Ã½ vÃ  kiá»ƒm soÃ¡t logic.
 
 #### 3. 5W-1H
 
 - Who, What, When, Where, Why, How.
-- Phân tích theo góc nhìn Marketer và khách hàng.
-- Dùng để brainstorm ý tưởng.
-- Không bắt buộc dùng đủ 5W-1H trong mọi bài.
-- Có thể đảo Who, When hoặc Why lên đầu nếu đó là điểm tạo hook tốt nhất.
+- PhÃ¢n tÃ­ch theo gÃ³c nhÃ¬n Marketer vÃ  khÃ¡ch hÃ ng.
+- DÃ¹ng Ä‘á»ƒ brainstorm Ã½ tÆ°á»Ÿng.
+- KhÃ´ng báº¯t buá»™c dÃ¹ng Ä‘á»§ 5W-1H trong má»i bÃ i.
+- CÃ³ thá»ƒ Ä‘áº£o Who, When hoáº·c Why lÃªn Ä‘áº§u náº¿u Ä‘Ã³ lÃ  Ä‘iá»ƒm táº¡o hook tá»‘t nháº¥t.
 
-#### 4. Nguyên Tắc Dùng AI
+#### 4. NguyÃªn Táº¯c DÃ¹ng AI
 
-- AI chỉ là công cụ hỗ trợ.
-- Không để AI viết thay toàn bộ tư duy.
-- Agent phải ưu tiên outline, logic, audience và mục tiêu trước khi viết.
+- AI chá»‰ lÃ  cÃ´ng cá»¥ há»— trá»£.
+- KhÃ´ng Ä‘á»ƒ AI viáº¿t thay toÃ n bá»™ tÆ° duy.
+- Agent pháº£i Æ°u tiÃªn outline, logic, audience vÃ  má»¥c tiÃªu trÆ°á»›c khi viáº¿t.
 
-### File Được Tạo Hoặc Cập Nhật
+### File ÄÆ°á»£c Táº¡o Hoáº·c Cáº­p Nháº­t
 
-Batch 001 tạo mới toàn bộ cấu trúc nền:
+Batch 001 táº¡o má»›i toÃ n bá»™ cáº¥u trÃºc ná»n:
 
 - Root skill files.
 - `00-course-knowledge/`.
@@ -61,33 +61,33 @@ Batch 001 tạo mới toàn bộ cấu trúc nền:
 - `08-examples/`.
 - `09-reports/`.
 
-### Cần Bổ Sung Ở Batch Sau
+### Cáº§n Bá»• Sung á»ž Batch Sau
 
-- Trích xuất chi tiết từ từng file PDF và DOCX trong `docs/`.
-- Bổ sung các bố cục nâng cao: móc xích, liệt kê, tổng phân hợp, quy nạp.
-- Bổ sung ví dụ thật theo ngành.
-- Bổ sung hook bank, CTA bank và transition bank phong phú hơn.
-- Bổ sung tiêu chí scoring có thang điểm chi tiết theo nền tảng.
+- TrÃ­ch xuáº¥t chi tiáº¿t tá»« tá»«ng file PDF vÃ  DOCX trong `docs/`.
+- Bá»• sung cÃ¡c bá»‘ cá»¥c nÃ¢ng cao: mÃ³c xÃ­ch, liá»‡t kÃª, tá»•ng phÃ¢n há»£p, quy náº¡p.
+- Bá»• sung vÃ­ dá»¥ tháº­t theo ngÃ nh.
+- Bá»• sung hook bank, CTA bank vÃ  transition bank phong phÃº hÆ¡n.
+- Bá»• sung tiÃªu chÃ­ scoring cÃ³ thang Ä‘iá»ƒm chi tiáº¿t theo ná»n táº£ng.
 
-## Batch 002A — Stabilization Batch
+## Batch 002A â€” Stabilization Batch
 
-### Ngày Tạo
+### NgÃ y Táº¡o
 
 2026-05-16
 
-### Mục Tiêu
+### Má»¥c TiÃªu
 
-Ổn định Batch 001 trước khi nạp sâu tài liệu nguồn từ `docs/`.
+á»”n Ä‘á»‹nh Batch 001 trÆ°á»›c khi náº¡p sÃ¢u tÃ i liá»‡u nguá»“n tá»« `docs/`.
 
-Batch này tập trung vào:
+Batch nÃ y táº­p trung vÃ o:
 
-- Đồng bộ thuật ngữ `Marketing outline 5 phần`.
-- Khóa rule N/A cho bảng 5W-1H.
-- Bổ sung fail rules cho quality gates.
-- Tạo `INGESTION_SOP.md`.
-- Tạo khu riêng cho `content-layout-systems`.
+- Äá»“ng bá»™ thuáº­t ngá»¯ `Marketing outline 5 pháº§n`.
+- KhÃ³a rule N/A cho báº£ng 5W-1H.
+- Bá»• sung fail rules cho quality gates.
+- Táº¡o `INGESTION_SOP.md`.
+- Táº¡o khu riÃªng cho `content-layout-systems`.
 
-### File Cập Nhật
+### File Cáº­p Nháº­t
 
 - `SKILL.md`
 - `README.md`
@@ -103,7 +103,7 @@ Batch này tập trung vào:
 - `07-quality-gates/marketing-layout-checklist.md`
 - `07-quality-gates/final-output-checklist.md`
 
-### File Tạo Mới
+### File Táº¡o Má»›i
 
 - `INGESTION_SOP.md`
 - `02-frameworks/content-layout-systems/README.md`
@@ -120,42 +120,42 @@ Batch này tập trung vào:
 - `02-frameworks/content-layout-systems/professional-content-marketing-layout.md`
 - `09-reports/BATCH_002A_STABILIZATION_REPORT.md`
 
-### Chưa Thực Hiện
+### ChÆ°a Thá»±c Hiá»‡n
 
-- Chưa nạp sâu nội dung từ `docs/`.
-- Chưa viết nội dung chi tiết cho từng bố cục.
-- Chưa tạo command nâng cao cho từng layout.
+- ChÆ°a náº¡p sÃ¢u ná»™i dung tá»« `docs/`.
+- ChÆ°a viáº¿t ná»™i dung chi tiáº¿t cho tá»«ng bá»‘ cá»¥c.
+- ChÆ°a táº¡o command nÃ¢ng cao cho tá»«ng layout.
 
-### Batch Tiếp Theo Đề Xuất
+### Batch Tiáº¿p Theo Äá» Xuáº¥t
 
 Batch 2B Controlled Ingestion Layout Systems.
 
-## Batch 2B — Controlled Ingestion Layout Systems From docs
+## Batch 2B â€” Controlled Ingestion Layout Systems From docs
 
-### Ngày Thực Hiện
+### NgÃ y Thá»±c Hiá»‡n
 
 2026-05-16
 
-### Mục Tiêu
+### Má»¥c TiÃªu
 
-Đọc các tài liệu trong `docs/` liên quan đến bố cục gốc, trích xuất kiến thức có nguồn rõ, và nạp vào đúng file trong `02-frameworks/content-layout-systems/`.
+Äá»c cÃ¡c tÃ i liá»‡u trong `docs/` liÃªn quan Ä‘áº¿n bá»‘ cá»¥c gá»‘c, trÃ­ch xuáº¥t kiáº¿n thá»©c cÃ³ nguá»“n rÃµ, vÃ  náº¡p vÃ o Ä‘Ãºng file trong `02-frameworks/content-layout-systems/`.
 
-### Source Files Đã Đọc
+### Source Files ÄÃ£ Äá»c
 
-- `docs/Nghệ thuật Sáng tạo Nội dung theo Bố cục Móc xích.pdf`
-- `docs/Nghệ thuật Bố cục Tổng Phân Hợp trong Sáng tạo Nội dung.pdf`
-- `docs/Nghệ thuật Bố cục Quy nạp và Dẫn dắt Content Thuyết phục.pdf`
-- `docs/Nghệ thuật Bố cục Quy nạp và Dẫn dắt Content Thuyết phục (1).pdf`
-- `docs/Nghệ Thuật Làm Chủ Bố Cục Liệt Kê Trong Content Marketing.pdf`
-- `docs/Nghệ Thuật Bố Cục Và Quy Trình Xây Dựng Nội Dung Chi Tiết.pdf`
-- `docs/Nghệ Thuật Xây Dựng Bố Cục Content Marketing Chuyên Nghiệp.pdf`
+- `docs/Nghá»‡ thuáº­t SÃ¡ng táº¡o Ná»™i dung theo Bá»‘ cá»¥c MÃ³c xÃ­ch.pdf`
+- `docs/Nghá»‡ thuáº­t Bá»‘ cá»¥c Tá»•ng PhÃ¢n Há»£p trong SÃ¡ng táº¡o Ná»™i dung.pdf`
+- `docs/Nghá»‡ thuáº­t Bá»‘ cá»¥c Quy náº¡p vÃ  Dáº«n dáº¯t Content Thuyáº¿t phá»¥c.pdf`
+- `docs/Nghá»‡ thuáº­t Bá»‘ cá»¥c Quy náº¡p vÃ  Dáº«n dáº¯t Content Thuyáº¿t phá»¥c (1).pdf`
+- `docs/Nghá»‡ Thuáº­t LÃ m Chá»§ Bá»‘ Cá»¥c Liá»‡t KÃª Trong Content Marketing.pdf`
+- `docs/Nghá»‡ Thuáº­t Bá»‘ Cá»¥c VÃ  Quy TrÃ¬nh XÃ¢y Dá»±ng Ná»™i Dung Chi Tiáº¿t.pdf`
+- `docs/Nghá»‡ Thuáº­t XÃ¢y Dá»±ng Bá»‘ Cá»¥c Content Marketing ChuyÃªn Nghiá»‡p.pdf`
 
-### Source Files Chỉ Xét Inventory
+### Source Files Chá»‰ XÃ©t Inventory
 
-- `docs/Nghệ Thuật Sáng Tạo Nội Dung Đỉnh Cao Với 5W-1H.pdf`
-- `docs/Nghệ Thuật Sáng Tạo Nội Dung Đỉnh Cao Với 5W-1H.docx`
-- `docs/Nghệ Thuật Xây Dựng Bố Cục Nội Dung Marketing Chuẩn Xu Hướng.docx`
-- `docs/Nghệ Thuật Chuyển Đổi Tư Duy Viết Nội Dung Marketing Chuẩn Toàn Diện.docx`
+- `docs/Nghá»‡ Thuáº­t SÃ¡ng Táº¡o Ná»™i Dung Äá»‰nh Cao Vá»›i 5W-1H.pdf`
+- `docs/Nghá»‡ Thuáº­t SÃ¡ng Táº¡o Ná»™i Dung Äá»‰nh Cao Vá»›i 5W-1H.docx`
+- `docs/Nghá»‡ Thuáº­t XÃ¢y Dá»±ng Bá»‘ Cá»¥c Ná»™i Dung Marketing Chuáº©n Xu HÆ°á»›ng.docx`
+- `docs/Nghá»‡ Thuáº­t Chuyá»ƒn Äá»•i TÆ° Duy Viáº¿t Ná»™i Dung Marketing Chuáº©n ToÃ n Diá»‡n.docx`
 
 ### Files Updated
 
@@ -175,33 +175,33 @@ Batch 2B Controlled Ingestion Layout Systems.
 - `02-frameworks/content-layout-systems/professional-content-marketing-layout.md`
 - `09-reports/BATCH_002B_LAYOUT_SYSTEMS_INGESTION_REPORT.md`
 
-### Files Not Updated Và Lý Do
+### Files Not Updated VÃ  LÃ½ Do
 
-- `04-commands/`: không cập nhật vì Batch 2B không mở rộng command nâng cao.
-- `05-templates/`: không cập nhật vì layout systems không được trộn với template ứng dụng.
-- `06-reference-banks/`: không cập nhật vì hook/CTA/transition bank nằm ngoài phạm vi Batch 2B.
-- `07-quality-gates/`: không cập nhật vì Batch 2A đã khóa quality gates nền; Batch 2B tập trung ingestion layout.
+- `04-commands/`: khÃ´ng cáº­p nháº­t vÃ¬ Batch 2B khÃ´ng má»Ÿ rá»™ng command nÃ¢ng cao.
+- `05-templates/`: khÃ´ng cáº­p nháº­t vÃ¬ layout systems khÃ´ng Ä‘Æ°á»£c trá»™n vá»›i template á»©ng dá»¥ng.
+- `06-reference-banks/`: khÃ´ng cáº­p nháº­t vÃ¬ hook/CTA/transition bank náº±m ngoÃ i pháº¡m vi Batch 2B.
+- `07-quality-gates/`: khÃ´ng cáº­p nháº­t vÃ¬ Batch 2A Ä‘Ã£ khÃ³a quality gates ná»n; Batch 2B táº­p trung ingestion layout.
 
 ### Risks Remaining
 
-- `dien-dich-layout.md` cần tài liệu riêng để nâng từ `Partially ingested / Needs review`.
-- `dan-dat-thuyet-phuc-layout.md` cần review xem nên giữ là ứng dụng của quy nạp hay tách thành layout riêng.
-- `professional-content-marketing-layout.md` là meta-framework, cần tránh dùng như một bố cục đơn lẻ.
-- `layout-selection-matrix.md` cần audit lại sau khi có thêm nguồn về diễn dịch, đồng tâm và giải pháp song hành/đối xứng.
+- `dien-dich-layout.md` cáº§n tÃ i liá»‡u riÃªng Ä‘á»ƒ nÃ¢ng tá»« `Partially ingested / Needs review`.
+- `dan-dat-thuyet-phuc-layout.md` cáº§n review xem nÃªn giá»¯ lÃ  á»©ng dá»¥ng cá»§a quy náº¡p hay tÃ¡ch thÃ nh layout riÃªng.
+- `professional-content-marketing-layout.md` lÃ  meta-framework, cáº§n trÃ¡nh dÃ¹ng nhÆ° má»™t bá»‘ cá»¥c Ä‘Æ¡n láº».
+- `layout-selection-matrix.md` cáº§n audit láº¡i sau khi cÃ³ thÃªm nguá»“n vá» diá»…n dá»‹ch, Ä‘á»“ng tÃ¢m vÃ  giáº£i phÃ¡p song hÃ nh/Ä‘á»‘i xá»©ng.
 
 ### Next Recommended Batch
 
-Batch 2C — Audit Layout Systems Consistency.
+Batch 2C â€” Audit Layout Systems Consistency.
 
-## Batch 2D — Layout Consistency Fix + Agent Skill Compliance
+## Batch 2D â€” Layout Consistency Fix + Agent Skill Compliance
 
-### Ngày Thực Hiện
+### NgÃ y Thá»±c Hiá»‡n
 
 2026-05-16
 
-### Mục Tiêu
+### Má»¥c TiÃªu
 
-Sửa các lỗi consistency từ audit Batch 2C và đưa skill gần hơn với chuẩn Agent Skill: progressive disclosure, resource map, trigger rõ, và không bắt Agent đọc toàn bộ thư mục nếu task nhỏ.
+Sá»­a cÃ¡c lá»—i consistency tá»« audit Batch 2C vÃ  Ä‘Æ°a skill gáº§n hÆ¡n vá»›i chuáº©n Agent Skill: progressive disclosure, resource map, trigger rÃµ, vÃ  khÃ´ng báº¯t Agent Ä‘á»c toÃ n bá»™ thÆ° má»¥c náº¿u task nhá».
 
 ### Files Updated
 
@@ -240,26 +240,26 @@ Sửa các lỗi consistency từ audit Batch 2C và đưa skill gần hơn vớ
 
 ### Remaining Risks
 
-- Diễn dịch still needs a direct source before confidence can increase.
-- Dẫn dắt thuyết phục still needs a direct source if it should ever become independent.
+- Diá»…n dá»‹ch still needs a direct source before confidence can increase.
+- Dáº«n dáº¯t thuyáº¿t phá»¥c still needs a direct source if it should ever become independent.
 - Professional planning framework must stay a meta-check layer.
 - Layout fixes should be audited before any new document ingestion.
 
 ### Next Recommended Batch
 
-Batch 2E — Audit Layout Fixes + Skill Compliance Verification.
+Batch 2E â€” Audit Layout Fixes + Skill Compliance Verification.
 
-## Batch 2F — Minor Fixes Before Packaging
+## Batch 2F â€” Minor Fixes Before Packaging
 
-### Mục Tiêu
-- Khóa các minor fixes sau Batch 2E để chuẩn bị đóng gói (packaging) ổn định.
-- Không nạp dữ liệu mới từ `docs/`.
-- Không sửa/bổ sung nội dung “layout knowledge” hoặc nâng confidence/status của layout.
-- Tập trung bổ sung tài liệu an toàn, checklist đóng gói/validation, và log/report.
+### Má»¥c TiÃªu
+- KhÃ³a cÃ¡c minor fixes sau Batch 2E Ä‘á»ƒ chuáº©n bá»‹ Ä‘Ã³ng gÃ³i (packaging) á»•n Ä‘á»‹nh.
+- KhÃ´ng náº¡p dá»¯ liá»‡u má»›i tá»« `docs/`.
+- KhÃ´ng sá»­a/bá»• sung ná»™i dung â€œlayout knowledgeâ€ hoáº·c nÃ¢ng confidence/status cá»§a layout.
+- Táº­p trung bá»• sung tÃ i liá»‡u an toÃ n, checklist Ä‘Ã³ng gÃ³i/validation, vÃ  log/report.
 
 ### Verified Evidence
-- `09-reports/BATCH_002D_LAYOUT_CONSISTENCY_AND_SKILL_COMPLIANCE_REPORT.md` đã nêu rõ phần guardrails và **“No new documents were ingested from `docs/`”** (Batch 2D là minor consistency/compliance fix, không ingestion docs mới).
-- `INGESTION_LOG.md` không có dấu hiệu Batch 2D/Batch 2E nạp thêm tài liệu mới từ `docs/`; các thay đổi Batch 2D là chỉnh guardrails/compliance và tạo checklist/report.
+- `09-reports/BATCH_002D_LAYOUT_CONSISTENCY_AND_SKILL_COMPLIANCE_REPORT.md` Ä‘Ã£ nÃªu rÃµ pháº§n guardrails vÃ  **â€œNo new documents were ingested from `docs/`â€** (Batch 2D lÃ  minor consistency/compliance fix, khÃ´ng ingestion docs má»›i).
+- `INGESTION_LOG.md` khÃ´ng cÃ³ dáº¥u hiá»‡u Batch 2D/Batch 2E náº¡p thÃªm tÃ i liá»‡u má»›i tá»« `docs/`; cÃ¡c thay Ä‘á»•i Batch 2D lÃ  chá»‰nh guardrails/compliance vÃ  táº¡o checklist/report.
 
 ### Files Created
 - `PACKAGING_CHECKLIST.md`
@@ -270,24 +270,24 @@ Batch 2E — Audit Layout Fixes + Skill Compliance Verification.
 - `SKILL.md`
 - `README.md`
 - `INGESTION_SOP.md`
-- `INGESTION_LOG.md` (bổ sung section Batch 2F)
+- `INGESTION_LOG.md` (bá»• sung section Batch 2F)
 
 ### Remaining Risks
-- Diễn dịch vẫn cần source riêng để có thể tăng confidence (không thay đổi ở Batch 2F).
-- Dẫn dắt thuyết phục vẫn cần source riêng nếu mục tiêu là layout độc lập (không thay đổi ở Batch 2F).
-- Professional planning phải giữ dạng meta-framework (Batch 2F không thay đổi status/confidence/layout).
+- Diá»…n dá»‹ch váº«n cáº§n source riÃªng Ä‘á»ƒ cÃ³ thá»ƒ tÄƒng confidence (khÃ´ng thay Ä‘á»•i á»Ÿ Batch 2F).
+- Dáº«n dáº¯t thuyáº¿t phá»¥c váº«n cáº§n source riÃªng náº¿u má»¥c tiÃªu lÃ  layout Ä‘á»™c láº­p (khÃ´ng thay Ä‘á»•i á»Ÿ Batch 2F).
+- Professional planning pháº£i giá»¯ dáº¡ng meta-framework (Batch 2F khÃ´ng thay Ä‘á»•i status/confidence/layout).
 
 ### Next Recommended Step
-Batch 2G — Read-only Packaging Readiness Audit
+Batch 2G â€” Read-only Packaging Readiness Audit
 
-## Batch 2H — Usage Guide And First Workflow Test Plan
+## Batch 2H â€” Usage Guide And First Workflow Test Plan
 
-### Mục Tiêu
-- Tạo `USAGE_GUIDE.md` để hướng dẫn người mới dùng bộ skill.
-- Tạo `FIRST_WORKFLOW_TEST_PLAN.md` để chuẩn bị kế hoạch test workflow thực tế đầu tiên sau packaging-ready.
-- Không chạy workflow test thực tế trong batch này.
-- Không ingest thêm tài liệu mới từ `docs/`.
-- Không nâng confidence/status layout; không tạo layout mới.
+### Má»¥c TiÃªu
+- Táº¡o `USAGE_GUIDE.md` Ä‘á»ƒ hÆ°á»›ng dáº«n ngÆ°á»i má»›i dÃ¹ng bá»™ skill.
+- Táº¡o `FIRST_WORKFLOW_TEST_PLAN.md` Ä‘á»ƒ chuáº©n bá»‹ káº¿ hoáº¡ch test workflow thá»±c táº¿ Ä‘áº§u tiÃªn sau packaging-ready.
+- KhÃ´ng cháº¡y workflow test thá»±c táº¿ trong batch nÃ y.
+- KhÃ´ng ingest thÃªm tÃ i liá»‡u má»›i tá»« `docs/`.
+- KhÃ´ng nÃ¢ng confidence/status layout; khÃ´ng táº¡o layout má»›i.
 
 ### Files Created
 - `USAGE_GUIDE.md`
@@ -299,88 +299,88 @@ Batch 2G — Read-only Packaging Readiness Audit
 - `INGESTION_LOG.md`
 
 ### What Was NOT Done
-- Không ingest docs mới.
-- Không sửa/bổ sung nội dung “layout knowledge”.
-- Không chạy workflow test thật (Batch 2H chỉ tạo test plan).
-- Không tạo layout mới.
-- Không nâng confidence/status layout.
-- Không thay đổi code app hoặc tạo script.
+- KhÃ´ng ingest docs má»›i.
+- KhÃ´ng sá»­a/bá»• sung ná»™i dung â€œlayout knowledgeâ€.
+- KhÃ´ng cháº¡y workflow test tháº­t (Batch 2H chá»‰ táº¡o test plan).
+- KhÃ´ng táº¡o layout má»›i.
+- KhÃ´ng nÃ¢ng confidence/status layout.
+- KhÃ´ng thay Ä‘á»•i code app hoáº·c táº¡o script.
 
 ### Files/Reports Status Notes
-- Batch 2G report not stored as file (không tìm thấy file `09-reports/BATCH_002G*.md`).
+- Batch 2G report not stored as file (khÃ´ng tÃ¬m tháº¥y file `09-reports/BATCH_002G*.md`).
 
-### Test Plan Summary (T01–T06)
-- T01 — `/outline` với brief ngắn: expected đủ audience + selected layout + marketing outline 5 phần + layout-fit notes.
-- T02 — `/post` với nội dung thô: expected 5W-1H table, selected layout, 10 hooks, final post, CTA, QA checklist.
-- T03 — `/qa` bài viết yếu: expected Fail rõ + chỉ ra thiếu audience/pain/CTA/layout-fit + gợi ý sửa.
-- T04 — `/content-score`: expected các score theo tiêu chí (Layout Fit/10, Content Logic, CTA, Platform Fit).
-- T05 — Layout misuse guard: expected từ chối dùng Professional Content Marketing Layout như root layout; dùng meta-check phù hợp.
-- T06 — Ingestion safety guard: expected không ingest ngay; yêu cầu xác nhận exact source files và kiểm source-map/course-index/INGESTION_LOG.
+### Test Plan Summary (T01â€“T06)
+- T01 â€” `/outline` vá»›i brief ngáº¯n: expected Ä‘á»§ audience + selected layout + marketing outline 5 pháº§n + layout-fit notes.
+- T02 â€” `/post` vá»›i ná»™i dung thÃ´: expected 5W-1H table, selected layout, 10 hooks, final post, CTA, QA checklist.
+- T03 â€” `/qa` bÃ i viáº¿t yáº¿u: expected Fail rÃµ + chá»‰ ra thiáº¿u audience/pain/CTA/layout-fit + gá»£i Ã½ sá»­a.
+- T04 â€” `/content-score`: expected cÃ¡c score theo tiÃªu chÃ­ (Layout Fit/10, Content Logic, CTA, Platform Fit).
+- T05 â€” Layout misuse guard: expected tá»« chá»‘i dÃ¹ng Professional Content Marketing Layout nhÆ° root layout; dÃ¹ng meta-check phÃ¹ há»£p.
+- T06 â€” Ingestion safety guard: expected khÃ´ng ingest ngay; yÃªu cáº§u xÃ¡c nháº­n exact source files vÃ  kiá»ƒm source-map/course-index/INGESTION_LOG.
 
 ### Safety Confirmation
-- Ingestion safety vẫn được enforce bằng rule “xác nhận exact source files trước ingestion”.
-- Layout selection safety vẫn được enforce: luôn chọn layout theo matrix, validate taxonomy, và chạy layout-fit QA trong test prompt sau.
+- Ingestion safety váº«n Ä‘Æ°á»£c enforce báº±ng rule â€œxÃ¡c nháº­n exact source files trÆ°á»›c ingestionâ€.
+- Layout selection safety váº«n Ä‘Æ°á»£c enforce: luÃ´n chá»n layout theo matrix, validate taxonomy, vÃ  cháº¡y layout-fit QA trong test prompt sau.
 
 ### Remaining Risks
-- Không có dữ liệu kết quả test thực tế trong Batch 2H; cần Batch 2I để chạy controlled workflow tests.
+- KhÃ´ng cÃ³ dá»¯ liá»‡u káº¿t quáº£ test thá»±c táº¿ trong Batch 2H; cáº§n Batch 2I Ä‘á»ƒ cháº¡y controlled workflow tests.
 
 ### Next Recommended Prompt
-Batch 2I — Run First Controlled Workflow Tests
+Batch 2I â€” Run First Controlled Workflow Tests
 
-## Batch 2I — First Controlled Workflow Tests
+## Batch 2I â€” First Controlled Workflow Tests
 
-### Ngày Thực Hiện
+### NgÃ y Thá»±c Hiá»‡n
 2026-05-17
 
-### Mục Tiêu
-Chạy thử có kiểm soát các workflow chính bằng input mẫu T01–T06 để kiểm:
-- Agent có chọn đúng command/workflow.
-- Agent có chọn layout từ `layout-selection-matrix.md`.
-- Agent có validate layout bằng `layout-taxonomy.md`.
-- Agent có chạy layout-fit QA.
-- Agent có giữ đúng 5W-1H = mở ý, layout = sắp xếp ý, hook = kéo chú ý, CTA = điều hướng hành động.
-- Agent có chặn ingestion nếu user chưa xác nhận exact source files.
+### Má»¥c TiÃªu
+Cháº¡y thá»­ cÃ³ kiá»ƒm soÃ¡t cÃ¡c workflow chÃ­nh báº±ng input máº«u T01â€“T06 Ä‘á»ƒ kiá»ƒm:
+- Agent cÃ³ chá»n Ä‘Ãºng command/workflow.
+- Agent cÃ³ chá»n layout tá»« `layout-selection-matrix.md`.
+- Agent cÃ³ validate layout báº±ng `layout-taxonomy.md`.
+- Agent cÃ³ cháº¡y layout-fit QA.
+- Agent cÃ³ giá»¯ Ä‘Ãºng 5W-1H = má»Ÿ Ã½, layout = sáº¯p xáº¿p Ã½, hook = kÃ©o chÃº Ã½, CTA = Ä‘iá»u hÆ°á»›ng hÃ nh Ä‘á»™ng.
+- Agent cÃ³ cháº·n ingestion náº¿u user chÆ°a xÃ¡c nháº­n exact source files.
 
-### Phạm Vi
-- Không ingest docs mới từ `docs/`.
-- Không sửa docs/.
-- Không tạo layout mới.
-- Không nâng confidence/status layout.
-- Không sửa framework/command/layout/template.
-- Không tạo command mới / script.
+### Pháº¡m Vi
+- KhÃ´ng ingest docs má»›i tá»« `docs/`.
+- KhÃ´ng sá»­a docs/.
+- KhÃ´ng táº¡o layout má»›i.
+- KhÃ´ng nÃ¢ng confidence/status layout.
+- KhÃ´ng sá»­a framework/command/layout/template.
+- KhÃ´ng táº¡o command má»›i / script.
 
 ### Report
-- Đã tạo report: `09-reports/BATCH_002I_FIRST_CONTROLLED_WORKFLOW_TEST_REPORT.md`
-- Overall verdict (từ report mô phỏng): **PASS WITH MINOR FIXES**
-- Next recommended prompt: **Batch 2J — Fix Workflow Test Issues**
+- ÄÃ£ táº¡o report: `09-reports/BATCH_002I_FIRST_CONTROLLED_WORKFLOW_TEST_REPORT.md`
+- Overall verdict (tá»« report mÃ´ phá»ng): **PASS WITH MINOR FIXES**
+- Next recommended prompt: **Batch 2J â€” Fix Workflow Test Issues**
 
 ### What Was NOT Done
-- Không ingest dữ liệu mới.
-- Không cập nhật layout/framework.
-- Không cập nhật content production.
+- KhÃ´ng ingest dá»¯ liá»‡u má»›i.
+- KhÃ´ng cáº­p nháº­t layout/framework.
+- KhÃ´ng cáº­p nháº­t content production.
 
-## Batch 2J — Fix Workflow Test Issues
+## Batch 2J â€” Fix Workflow Test Issues
 
-### Mục Tiêu
-Sửa 2 minor issues từ Batch 2I về workflow test output wording của:
-- T01 — `/outline`: taxonomy validation evidence/label chưa rõ ràng đủ để agent hiểu phải “show evidence/label” trong output.
-- T04 — `/content-score`: phần Content Logic critique còn hơi chung, thiếu evidence/ý mạnh-yếu để recommendation actionable.
+### Má»¥c TiÃªu
+Sá»­a 2 minor issues tá»« Batch 2I vá» workflow test output wording cá»§a:
+- T01 â€” `/outline`: taxonomy validation evidence/label chÆ°a rÃµ rÃ ng Ä‘á»§ Ä‘á»ƒ agent hiá»ƒu pháº£i â€œshow evidence/labelâ€ trong output.
+- T04 â€” `/content-score`: pháº§n Content Logic critique cÃ²n hÆ¡i chung, thiáº¿u evidence/Ã½ máº¡nh-yáº¿u Ä‘á»ƒ recommendation actionable.
 
 ### Issues fixed
 - T01 (minor):
-  - Added requirement “Taxonomy Validation Evidence” để output `/outline` phải có nhãn/bằng chứng validate theo taxonomy.
+  - Added requirement â€œTaxonomy Validation Evidenceâ€ Ä‘á»ƒ output `/outline` pháº£i cÃ³ nhÃ£n/báº±ng chá»©ng validate theo taxonomy.
 - T04 (minor):
-  - Added requirement “Content Logic Evidence” để output `/content-score` khi chấm logic phải chỉ ra ý/câu mạnh-yếu và cầu nối logic (bridge) để recommendation actionable.
+  - Added requirement â€œContent Logic Evidenceâ€ Ä‘á»ƒ output `/content-score` khi cháº¥m logic pháº£i chá»‰ ra Ã½/cÃ¢u máº¡nh-yáº¿u vÃ  cáº§u ná»‘i logic (bridge) Ä‘á»ƒ recommendation actionable.
 
-### Safety / Scope Guards (không mở rộng phạm vi)
-- Không ingest docs mới.
-- Không sửa docs/.
-- Không tạo layout mới.
-- Không nâng confidence/status layout.
-- Không sửa/cập nhật layout taxonomy/matrix trong Batch 2J.
-- Không chạy test thực tế T01–T06 trong Batch 2J.
-- Không bịa kết quả test mới.
-- Không sửa framework/command ngoài 2 command files: `04-commands/outline.md` và `04-commands/content-score.md`.
+### Safety / Scope Guards (khÃ´ng má»Ÿ rá»™ng pháº¡m vi)
+- KhÃ´ng ingest docs má»›i.
+- KhÃ´ng sá»­a docs/.
+- KhÃ´ng táº¡o layout má»›i.
+- KhÃ´ng nÃ¢ng confidence/status layout.
+- KhÃ´ng sá»­a/cáº­p nháº­t layout taxonomy/matrix trong Batch 2J.
+- KhÃ´ng cháº¡y test thá»±c táº¿ T01â€“T06 trong Batch 2J.
+- KhÃ´ng bá»‹a káº¿t quáº£ test má»›i.
+- KhÃ´ng sá»­a framework/command ngoÃ i 2 command files: `04-commands/outline.md` vÃ  `04-commands/content-score.md`.
 
 ### Files updated
 - `04-commands/outline.md`
@@ -391,34 +391,34 @@ Sửa 2 minor issues từ Batch 2I về workflow test output wording của:
 - `09-reports/BATCH_002J_FIX_WORKFLOW_TEST_ISSUES_REPORT.md`
 
 ### Next Recommended Batch
-Batch 2K — Re-test Fixed Workflow Issues
+Batch 2K â€” Re-test Fixed Workflow Issues
 
-## Batch 2K — Retest Fixed Workflow Issues (Prompt Compliance Review)
+## Batch 2K â€” Retest Fixed Workflow Issues (Prompt Compliance Review)
 
-### Ngày Thực Hiện
+### NgÃ y Thá»±c Hiá»‡n
 2026-05-17
 
-### Mục Tiêu
-- Prompt Compliance Review + Micro Simulated Re-test cho 2 điểm fix từ Batch 2J:
+### Má»¥c TiÃªu
+- Prompt Compliance Review + Micro Simulated Re-test cho 2 Ä‘iá»ƒm fix tá»« Batch 2J:
   - T01 (/outline): Taxonomy Validation Evidence field presence/format.
-  - T04 (/content-score): Content Logic Evidence field presence/format + đảm bảo critique actionable.
+  - T04 (/content-score): Content Logic Evidence field presence/format + Ä‘áº£m báº£o critique actionable.
 
-### Phạm vi / Guards
-- Không execute workflow thật (không runtime).
-- Không ingest docs mới từ `docs/`.
-- Không sửa docs/.
-- Không tạo layout mới.
-- Không nâng confidence/status layout.
-- Không tạo command mới / script.
-- Không sửa framework/layout/taxonomy/matrix ở Batch 2K.
-- Nếu có vấn đề: **không tự fix**, chỉ ghi issue vào report.
+### Pháº¡m vi / Guards
+- KhÃ´ng execute workflow tháº­t (khÃ´ng runtime).
+- KhÃ´ng ingest docs má»›i tá»« `docs/`.
+- KhÃ´ng sá»­a docs/.
+- KhÃ´ng táº¡o layout má»›i.
+- KhÃ´ng nÃ¢ng confidence/status layout.
+- KhÃ´ng táº¡o command má»›i / script.
+- KhÃ´ng sá»­a framework/layout/taxonomy/matrix á»Ÿ Batch 2K.
+- Náº¿u cÃ³ váº¥n Ä‘á»: **khÃ´ng tá»± fix**, chá»‰ ghi issue vÃ o report.
 
-### Kết quả theo micro simulated output
-- **T01**: PASS (đủ fields theo checklist: Selected layout, Layout type, Taxonomy label, Confidence level, Source basis, Guardrail checked, Why fits goal, Why not meta-framework misuse)
-- **T04**: PASS (đủ fields Content Logic Evidence: Strong idea, Weak idea, Missing logic bridge, Why affects persuasion, Recommended rewrite direction)
+### Káº¿t quáº£ theo micro simulated output
+- **T01**: PASS (Ä‘á»§ fields theo checklist: Selected layout, Layout type, Taxonomy label, Confidence level, Source basis, Guardrail checked, Why fits goal, Why not meta-framework misuse)
+- **T04**: PASS (Ä‘á»§ fields Content Logic Evidence: Strong idea, Weak idea, Missing logic bridge, Why affects persuasion, Recommended rewrite direction)
 - Smoke check:
-  - `/content-score` giữ “Layout Fit / 10” và các nhóm score chính
-  - Critique chuyển từ chung chung sang actionable theo evidence fields
+  - `/content-score` giá»¯ â€œLayout Fit / 10â€ vÃ  cÃ¡c nhÃ³m score chÃ­nh
+  - Critique chuyá»ƒn tá»« chung chung sang actionable theo evidence fields
 
 ### Files updated
 - `INGESTION_LOG.md`
@@ -427,77 +427,77 @@ Batch 2K — Re-test Fixed Workflow Issues
 - `09-reports/BATCH_002K_RETEST_FIXED_WORKFLOW_ISSUES_REPORT.md`
 
 ### Next Recommended Batch
-Batch 2L — Create Practical Operator Playbook
+Batch 2L â€” Create Practical Operator Playbook
 
-## Batch 2L — Create Practical Operator Playbook
+## Batch 2L â€” Create Practical Operator Playbook
 
-### Ngày Thực Hiện
+### NgÃ y Thá»±c Hiá»‡n
 2026-05-17
 
-### Mục Tiêu
-- Tạo **Practical Operator Playbook** để đồng nghiệp/operator dùng bộ Agentic AI Content Marketing Skill trong thực tế.
-- Mục tiêu vận hành: command selection, resource map đọc đúng, layout selection + taxonomy validation + layout-fit QA, output review checklist, ingestion safety stop-and-ask rules, safe handoff protocol.
-- Không chạy/sửa workflow test; không tạo/sửa layout; không thay đổi logic skill.
+### Má»¥c TiÃªu
+- Táº¡o **Practical Operator Playbook** Ä‘á»ƒ Ä‘á»“ng nghiá»‡p/operator dÃ¹ng bá»™ Agentic AI Content Marketing Skill trong thá»±c táº¿.
+- Má»¥c tiÃªu váº­n hÃ nh: command selection, resource map Ä‘á»c Ä‘Ãºng, layout selection + taxonomy validation + layout-fit QA, output review checklist, ingestion safety stop-and-ask rules, safe handoff protocol.
+- KhÃ´ng cháº¡y/sá»­a workflow test; khÃ´ng táº¡o/sá»­a layout; khÃ´ng thay Ä‘á»•i logic skill.
 
-### Phạm Vi / Guards (không mở rộng)
-- Không ingest dữ liệu mới từ `docs/`.
-- Không sửa docs/.
-- Không chạy workflow test mới.
-- Không tạo layout mới.
-- Không nâng confidence/status layout.
-- Không sửa command files.
-- Không sửa framework/layout/taxonomy/matrix.
-- Không bịa kết quả test mới (Batch 2K PASS được giữ như bối cảnh).
-- Không thay đổi logic skill.
+### Pháº¡m Vi / Guards (khÃ´ng má»Ÿ rá»™ng)
+- KhÃ´ng ingest dá»¯ liá»‡u má»›i tá»« `docs/`.
+- KhÃ´ng sá»­a docs/.
+- KhÃ´ng cháº¡y workflow test má»›i.
+- KhÃ´ng táº¡o layout má»›i.
+- KhÃ´ng nÃ¢ng confidence/status layout.
+- KhÃ´ng sá»­a command files.
+- KhÃ´ng sá»­a framework/layout/taxonomy/matrix.
+- KhÃ´ng bá»‹a káº¿t quáº£ test má»›i (Batch 2K PASS Ä‘Æ°á»£c giá»¯ nhÆ° bá»‘i cáº£nh).
+- KhÃ´ng thay Ä‘á»•i logic skill.
 
 ### Files Created
 - `OPERATOR_PLAYBOOK.md`
 - `09-reports/BATCH_002L_OPERATOR_PLAYBOOK_REPORT.md`
 
 ### Files Updated
-- `README.md` (thêm section “Practical Operator Playbook”)
-- `INGESTION_LOG.md` (bổ sung entry Batch 2L)
+- `README.md` (thÃªm section â€œPractical Operator Playbookâ€)
+- `INGESTION_LOG.md` (bá»• sung entry Batch 2L)
 
 ### What Was NOT Done
-- Không ingest docs mới.
-- Không sửa docs/.
-- Không chạy workflow test mới.
-- Không tạo/sửa layout.
-- Không nâng confidence/status layout.
-- Không sửa command/framework/layout.
-- Không tạo command mới.
+- KhÃ´ng ingest docs má»›i.
+- KhÃ´ng sá»­a docs/.
+- KhÃ´ng cháº¡y workflow test má»›i.
+- KhÃ´ng táº¡o/sá»­a layout.
+- KhÃ´ng nÃ¢ng confidence/status layout.
+- KhÃ´ng sá»­a command/framework/layout.
+- KhÃ´ng táº¡o command má»›i.
 
 ### Playbook Highlights
-- Quick Start theo từng case: `/post`, `/outline`, `/qa`, `/content-score`, và ingestion safety.
-- Daily Operating Workflow: nhận request → chọn command → đọc tài nguyên đúng → layout selection → taxonomy validate → outline/write → QA → fail sửa theo checklist.
+- Quick Start theo tá»«ng case: `/post`, `/outline`, `/qa`, `/content-score`, vÃ  ingestion safety.
+- Daily Operating Workflow: nháº­n request â†’ chá»n command â†’ Ä‘á»c tÃ i nguyÃªn Ä‘Ãºng â†’ layout selection â†’ taxonomy validate â†’ outline/write â†’ QA â†’ fail sá»­a theo checklist.
 - Decision Tree cho operator.
 - Output Review Checklist.
-- Common mistakes & cách tránh (5W-1H vs layout, meta-framework misuse, bỏ taxonomy, thiếu CTA, QA quá chung chung, ingestion safety).
+- Common mistakes & cÃ¡ch trÃ¡nh (5W-1H vs layout, meta-framework misuse, bá» taxonomy, thiáº¿u CTA, QA quÃ¡ chung chung, ingestion safety).
 - Model usage recommendation.
 - Safe handoff protocol template.
-- Stop-and-ask rules (đặc biệt ingestion exact source files).
+- Stop-and-ask rules (Ä‘áº·c biá»‡t ingestion exact source files).
 
 ### Safety Confirmation
-- Ingestion safety vẫn enforce theo `DATA_INGESTION_SAFETY.md`: **không ingest docs mới khi user chưa xác nhận exact source files**.
-- Thực thi đúng vai trò: 5W-1H = mở ý; layout = sắp xếp ý; hook = kéo chú ý; CTA = điều hướng hành động; không trộn framework/template.
-- Không dùng “Professional planning” như root layout; chỉ dùng như meta-check.
+- Ingestion safety váº«n enforce theo `DATA_INGESTION_SAFETY.md`: **khÃ´ng ingest docs má»›i khi user chÆ°a xÃ¡c nháº­n exact source files**.
+- Thá»±c thi Ä‘Ãºng vai trÃ²: 5W-1H = má»Ÿ Ã½; layout = sáº¯p xáº¿p Ã½; hook = kÃ©o chÃº Ã½; CTA = Ä‘iá»u hÆ°á»›ng hÃ nh Ä‘á»™ng; khÃ´ng trá»™n framework/template.
+- KhÃ´ng dÃ¹ng â€œProfessional planningâ€ nhÆ° root layout; chá»‰ dÃ¹ng nhÆ° meta-check.
 
 ### Recommended Next Prompt
-Batch 2M — Final Packaging Snapshot And Handoff Summary
+Batch 2M â€” Final Packaging Snapshot And Handoff Summary
 
-## Batch 2M — Final Packaging Snapshot And Handoff Summary
+## Batch 2M â€” Final Packaging Snapshot And Handoff Summary
 
-### Mục tiêu
-- Tạo final snapshot cuối phase và tài liệu bàn giao (handoff) cho operator/model.
+### Má»¥c tiÃªu
+- Táº¡o final snapshot cuá»‘i phase vÃ  tÃ i liá»‡u bÃ n giao (handoff) cho operator/model.
 
-### Không làm
-- Không ingest docs mới.
-- Không sửa docs/.
-- Không chạy workflow test mới.
-- Không tạo layout mới.
-- Không nâng confidence/status layout.
-- Không sửa command/framework/layout/taxonomy/matrix.
-- Không bắt đầu Batch 3A.
+### KhÃ´ng lÃ m
+- KhÃ´ng ingest docs má»›i.
+- KhÃ´ng sá»­a docs/.
+- KhÃ´ng cháº¡y workflow test má»›i.
+- KhÃ´ng táº¡o layout má»›i.
+- KhÃ´ng nÃ¢ng confidence/status layout.
+- KhÃ´ng sá»­a command/framework/layout/taxonomy/matrix.
+- KhÃ´ng báº¯t Ä‘áº§u Batch 3A.
 
 ### Files created
 - `FINAL_PACKAGING_SNAPSHOT.md`
@@ -509,46 +509,46 @@ Batch 2M — Final Packaging Snapshot And Handoff Summary
 - `INGESTION_LOG.md` (append Batch 2M section)
 
 ### Remaining risks
-- Dẫn dắt thuyết phục cần source riêng nếu muốn nâng confidence.
-- Diễn dịch cần source riêng nếu muốn nâng confidence.
-- Batch 3A ingestion cần user xác nhận exact source files trước khi ingest.
+- Dáº«n dáº¯t thuyáº¿t phá»¥c cáº§n source riÃªng náº¿u muá»‘n nÃ¢ng confidence.
+- Diá»…n dá»‹ch cáº§n source riÃªng náº¿u muá»‘n nÃ¢ng confidence.
+- Batch 3A ingestion cáº§n user xÃ¡c nháº­n exact source files trÆ°á»›c khi ingest.
 
 ### Next recommended prompt/options
-- Option A — Archive/release current skill package.
-- Option B — Run one real operator dry-run with a user-provided content brief.
-- Option C — Plan Batch 3A New Knowledge Ingestion.
+- Option A â€” Archive/release current skill package.
+- Option B â€” Run one real operator dry-run with a user-provided content brief.
+- Option C â€” Plan Batch 3A New Knowledge Ingestion.
 
 With Option C:
 Before any new ingestion, ask user to confirm exact source files.
 
-## Batch 2N — Minimal Navigation Cleanup
+## Batch 2N â€” Minimal Navigation Cleanup
 
-- Mục tiêu: làm README thành navigation hub rõ hơn.
-- Không tạo file mới.
-- Không xóa/move/archive file.
-- Không ingest docs mới.
-- Không sửa command/framework/layout.
+- Má»¥c tiÃªu: lÃ m README thÃ nh navigation hub rÃµ hÆ¡n.
+- KhÃ´ng táº¡o file má»›i.
+- KhÃ´ng xÃ³a/move/archive file.
+- KhÃ´ng ingest docs má»›i.
+- KhÃ´ng sá»­a command/framework/layout.
 - Files updated: `README.md`, `INGESTION_LOG.md`.
 - Next recommended action: Use skill for real work; only plan Batch 3A after user confirms exact source files.
 
-## Batch 2O-B — Safe Root File Relocation
+## Batch 2O-B â€” Safe Root File Relocation
 
-- Mục tiêu: move root support files into 10-system/ safely.
+- Má»¥c tiÃªu: move root support files into 10-system/ safely.
 - Files kept in root:
   - `README.md`
   - `SKILL.md`
   - `INGESTION_LOG.md`
 - Files moved:
-  - `COMMAND_MAPPING.md` → `10-system/control/COMMAND_MAPPING.md`
-  - `PROMPT_MASTER.md` → `10-system/control/PROMPT_MASTER.md`
-  - `PACKAGING_CHECKLIST.md` → `10-system/control/PACKAGING_CHECKLIST.md`
-  - `DATA_INGESTION_SAFETY.md` → `10-system/safety/DATA_INGESTION_SAFETY.md`
-  - `INGESTION_SOP.md` → `10-system/safety/INGESTION_SOP.md`
-  - `USAGE_GUIDE.md` → `10-system/guides/USAGE_GUIDE.md`
-  - `OPERATOR_PLAYBOOK.md` → `10-system/guides/OPERATOR_PLAYBOOK.md`
-  - `FIRST_WORKFLOW_TEST_PLAN.md` → `10-system/guides/FIRST_WORKFLOW_TEST_PLAN.md`
-  - `FINAL_PACKAGING_SNAPSHOT.md` → `10-system/handoff/FINAL_PACKAGING_SNAPSHOT.md`
-  - `HANDOFF_SUMMARY.md` → `10-system/handoff/HANDOFF_SUMMARY.md`
+  - `COMMAND_MAPPING.md` â†’ `10-system/control/COMMAND_MAPPING.md`
+  - `PROMPT_MASTER.md` â†’ `10-system/control/PROMPT_MASTER.md`
+  - `PACKAGING_CHECKLIST.md` â†’ `10-system/control/PACKAGING_CHECKLIST.md`
+  - `DATA_INGESTION_SAFETY.md` â†’ `10-system/safety/DATA_INGESTION_SAFETY.md`
+  - `INGESTION_SOP.md` â†’ `10-system/safety/INGESTION_SOP.md`
+  - `USAGE_GUIDE.md` â†’ `10-system/guides/USAGE_GUIDE.md`
+  - `OPERATOR_PLAYBOOK.md` â†’ `10-system/guides/OPERATOR_PLAYBOOK.md`
+  - `FIRST_WORKFLOW_TEST_PLAN.md` â†’ `10-system/guides/FIRST_WORKFLOW_TEST_PLAN.md`
+  - `FINAL_PACKAGING_SNAPSHOT.md` â†’ `10-system/handoff/FINAL_PACKAGING_SNAPSHOT.md`
+  - `HANDOFF_SUMMARY.md` â†’ `10-system/handoff/HANDOFF_SUMMARY.md`
 - Agent_Skills.md:
   - Skipped intentionally (not moved).
   - No replacement file created.
@@ -565,65 +565,65 @@ Before any new ingestion, ask user to confirm exact source files.
   - `10-system/handoff/FINAL_PACKAGING_SNAPSHOT.md`
   - `10-system/handoff/HANDOFF_SUMMARY.md`
 - What was NOT done:
-  - Không move `INGESTION_LOG.md`.
-  - Không move `README.md`.
-  - Không move `SKILL.md`.
-  - Không sửa `09-reports/`.
-  - Không ingest docs mới.
-  - Không sửa docs/.
-  - Không sửa command/framework/layout logic.
-  - Không bắt đầu Batch 3A.
+  - KhÃ´ng move `INGESTION_LOG.md`.
+  - KhÃ´ng move `README.md`.
+  - KhÃ´ng move `SKILL.md`.
+  - KhÃ´ng sá»­a `09-reports/`.
+  - KhÃ´ng ingest docs má»›i.
+  - KhÃ´ng sá»­a docs/.
+  - KhÃ´ng sá»­a command/framework/layout logic.
+  - KhÃ´ng báº¯t Ä‘áº§u Batch 3A.
 - Remaining risks:
   - Historical reports may still mention old paths intentionally.
   - Future prompts should follow README navigation hub and new 10-system paths.
 - Next recommended action:
-  - PROMPT 2O-C — VERIFY SAFE ROOT FILE RELOCATION
+  - PROMPT 2O-C â€” VERIFY SAFE ROOT FILE RELOCATION
 
-## Batch 2O-D — README Display And Root Repo Entry Fix
+## Batch 2O-D â€” README Display And Root Repo Entry Fix
 
-- Mục tiêu: sửa README display/encoding và tạo root repo README.
+- Má»¥c tiÃªu: sá»­a README display/encoding vÃ  táº¡o root repo README.
 - Files updated:
   - `agentic-ai-content-marketing-skill/README.md`
   - `README.md` (root repo)
   - `INGESTION_LOG.md`
 - What was NOT done:
-  - Không ingest docs mới.
-  - Không sửa docs/.
-  - Không sửa command/framework/layout.
-  - Không move file.
-  - Không sửa `09-reports/`.
-  - Không bắt đầu Batch 3A.
+  - KhÃ´ng ingest docs má»›i.
+  - KhÃ´ng sá»­a docs/.
+  - KhÃ´ng sá»­a command/framework/layout.
+  - KhÃ´ng move file.
+  - KhÃ´ng sá»­a `09-reports/`.
+  - KhÃ´ng báº¯t Ä‘áº§u Batch 3A.
 - Remaining risks:
-  - Nếu file .md khác còn mojibake, cần xử lý bằng batch riêng sau khi scan.
+  - Náº¿u file .md khÃ¡c cÃ²n mojibake, cáº§n xá»­ lÃ½ báº±ng batch riÃªng sau khi scan.
 - Next recommended action:
   - Verify README display on GitHub.
   - Then use skill for real work.
 
-## Batch 2O-D — Resolve Agent_Skills Root Placement
+## Batch 2O-D â€” Resolve Agent_Skills Root Placement
 
-- Mục tiêu: xử lý vị trí Agent_Skills.md để root gọn hơn.
-- Kết quả:
+- Má»¥c tiÃªu: xá»­ lÃ½ vá»‹ trÃ­ Agent_Skills.md Ä‘á»ƒ root gá»n hÆ¡n.
+- Káº¿t quáº£:
   - Agent_Skills.md already in 10-system/reference/
 - Root now keeps:
   - README.md
   - SKILL.md
   - INGESTION_LOG.md
 - What was NOT done:
-  - Không ingest docs mới.
-  - Không sửa docs/.
-  - Không sửa command/framework/layout.
-  - Không sửa 09-reports/.
-  - Không bắt đầu Batch 3A.
-  - Không dịch nội dung trong bước này.
+  - KhÃ´ng ingest docs má»›i.
+  - KhÃ´ng sá»­a docs/.
+  - KhÃ´ng sá»­a command/framework/layout.
+  - KhÃ´ng sá»­a 09-reports/.
+  - KhÃ´ng báº¯t Ä‘áº§u Batch 3A.
+  - KhÃ´ng dá»‹ch ná»™i dung trong bÆ°á»›c nÃ y.
 - Next recommended action:
-  - PROMPT 2P-B — Verify Mojibake Fix And Vietnamese Display
+  - PROMPT 2P-B â€” Verify Mojibake Fix And Vietnamese Display
 
-## Batch 2P-A — Fix Mojibake And Vietnamese Standardization
+## Batch 2P-A â€” Fix Mojibake And Vietnamese Standardization
 
-Nội dung:
-- Mục tiêu: sửa lỗi font/encoding mojibake và chuẩn hóa tiếng Việt cho các file chính.
+Ná»™i dung:
+- Má»¥c tiÃªu: sá»­a lá»—i font/encoding mojibake vÃ  chuáº©n hÃ³a tiáº¿ng Viá»‡t cho cÃ¡c file chÃ­nh.
 - Files scanned:
-  - 90 file .md được scan.
+  - 90 file .md Ä‘Æ°á»£c scan.
 - Files fixed:
   - SKILL.md
   - 10-system/control/PROMPT_MASTER.md
@@ -636,24 +636,24 @@ Nội dung:
   - 10-system/safety/DATA_INGESTION_SAFETY.md
   - 10-system/safety/INGESTION_SOP.md
 - Files not fixed:
-  - 0 (Mọi file có lỗi mojibake đều đã được tự động fix thành công).
+  - 0 (Má»i file cÃ³ lá»—i mojibake Ä‘á»u Ä‘Ã£ Ä‘Æ°á»£c tá»± Ä‘á»™ng fix thÃ nh cÃ´ng).
 - What was NOT done:
-  - Không ingest docs mới.
-  - Không sửa docs/.
-  - Không tạo file mới.
-  - Không move file.
-  - Không đổi command/layout logic.
-  - Không sửa 09-reports/ nếu chỉ là audit trail không cần sửa.
-  - Không bắt đầu Batch 3A.
+  - KhÃ´ng ingest docs má»›i.
+  - KhÃ´ng sá»­a docs/.
+  - KhÃ´ng táº¡o file má»›i.
+  - KhÃ´ng move file.
+  - KhÃ´ng Ä‘á»•i command/layout logic.
+  - KhÃ´ng sá»­a 09-reports/ náº¿u chá»‰ lÃ  audit trail khÃ´ng cáº§n sá»­a.
+  - KhÃ´ng báº¯t Ä‘áº§u Batch 3A.
 - Remaining risks:
-  - Một số report lịch sử có thể vẫn còn path cũ hoặc tiếng Anh vì đó là audit trail.
+  - Má»™t sá»‘ report lá»‹ch sá»­ cÃ³ thá»ƒ váº«n cÃ²n path cÅ© hoáº·c tiáº¿ng Anh vÃ¬ Ä‘Ã³ lÃ  audit trail.
 - Next recommended action:
   - Verify Vietnamese display on GitHub.
   - Then use the skill for real work.
 
-## Batch 2P-C — Fix Remaining Mojibake Only
+## Batch 2P-C â€” Fix Remaining Mojibake Only
 
-- Mục tiêu: sửa các lỗi mojibake/display encoding còn sót sau 2P-A/2P-B.
+- Má»¥c tiÃªu: sá»­a cÃ¡c lá»—i mojibake/display encoding cÃ²n sÃ³t sau 2P-A/2P-B.
 - Files scanned:
   - 90
 - Files fixed:
@@ -665,25 +665,25 @@ Nội dung:
   - 10-system/handoff/HANDOFF_SUMMARY.md
   - 10-system/safety/DATA_INGESTION_SAFETY.md
 - Mojibake patterns fixed:
-  - ngoặc kép đóng, dấu ba chấm
+  - ngoáº·c kÃ©p Ä‘Ã³ng, dáº¥u ba cháº¥m
 - Files left for manual review:
   - 0
 - What was NOT done:
-  - Không ingest docs mới.
-  - Không sửa docs/.
-  - Không tạo file mới.
-  - Không move file.
-  - Không đổi command/layout/workflow logic.
-  - Không đổi status/confidence.
-  - Không sửa 09-reports/ nếu không cần.
-  - Không bắt đầu Batch 3A.
+  - KhÃ´ng ingest docs má»›i.
+  - KhÃ´ng sá»­a docs/.
+  - KhÃ´ng táº¡o file má»›i.
+  - KhÃ´ng move file.
+  - KhÃ´ng Ä‘á»•i command/layout/workflow logic.
+  - KhÃ´ng Ä‘á»•i status/confidence.
+  - KhÃ´ng sá»­a 09-reports/ náº¿u khÃ´ng cáº§n.
+  - KhÃ´ng báº¯t Ä‘áº§u Batch 3A.
 - Next recommended action:
-  - PROMPT 2P-D — Verify Remaining Mojibake Fix
+  - PROMPT 2P-D â€” Verify Remaining Mojibake Fix
 
-## Batch 2P-E — Vietnamese User-Facing Docs And Temp Script Cleanup
+## Batch 2P-E â€” Vietnamese User-Facing Docs And Temp Script Cleanup
 
-Nội dung:
-- Mục tiêu: Việt hóa các tài liệu user-facing chính và dọn file script tạm nếu có.
+Ná»™i dung:
+- Má»¥c tiÃªu: Viá»‡t hÃ³a cÃ¡c tÃ i liá»‡u user-facing chÃ­nh vÃ  dá»n file script táº¡m náº¿u cÃ³.
 - Files updated:
   - D:\bbo_team\Ct_Mr\README.md (Root)
   - agentic-ai-content-marketing-skill/README.md
@@ -697,23 +697,23 @@ Nội dung:
   - d:\bbo_team\Ct_Mr\agentic-ai-content-marketing-skill\scan_mojibake.py
   - d:\bbo_team\Ct_Mr\agentic-ai-content-marketing-skill\fix_mojibake*.py
 - What was NOT done:
-  - Không ingest docs mới.
-  - Không sửa docs/.
-  - Không sửa 09-reports/.
-  - Không dịch historical reports.
-  - Không sửa Agent_Skills.md.
-  - Không đổi command/path/layout/workflow logic.
-  - Không đổi status/confidence.
-  - Không bắt đầu Batch 3A.
+  - KhÃ´ng ingest docs má»›i.
+  - KhÃ´ng sá»­a docs/.
+  - KhÃ´ng sá»­a 09-reports/.
+  - KhÃ´ng dá»‹ch historical reports.
+  - KhÃ´ng sá»­a Agent_Skills.md.
+  - KhÃ´ng Ä‘á»•i command/path/layout/workflow logic.
+  - KhÃ´ng Ä‘á»•i status/confidence.
+  - KhÃ´ng báº¯t Ä‘áº§u Batch 3A.
 - Remaining risks:
-  - Một số report lịch sử hoặc file reference có thể vẫn còn tiếng Anh có chủ đích.
+  - Má»™t sá»‘ report lá»‹ch sá»­ hoáº·c file reference cÃ³ thá»ƒ váº«n cÃ²n tiáº¿ng Anh cÃ³ chá»§ Ä‘Ã­ch.
 - Next recommended action:
-  - PROMPT 2P-F — Verify Vietnamese User-Facing Docs
+  - PROMPT 2P-F â€” Verify Vietnamese User-Facing Docs
 
-## Batch 3A-1R � Core Layout Folder Restructure
+## Batch 3A-1R — Core Layout Folder Restructure
 
 N?i dung:
-- M?c ti�u: t�ch layout system th�nh control, core layouts, supporting frameworks.
+- M?c tiêu: tách layout system thành control, core layouts, supporting frameworks.
 - Folders created:
   - 00-layout-system-control/
   - 01-core-layouts/
@@ -742,14 +742,47 @@ N?i dung:
   - 00-course-knowledge/course-index.md
   - 02-frameworks/content-layout-systems/README.md
 - What was NOT done:
-  - Kh�ng ingest docs m?i.
-  - Kh�ng s?a docs/.
-  - Kh�ng t?o �?ng t�m layout.
-  - Kh�ng t?o Gi?i ph�p song h�nh / �?i x?ng layout.
-  - Kh�ng s?a 09-reports/.
-  - Kh�ng commit/push.
-  - Kh�ng b?t d?u Batch 3A ingestion.
+  - Không ingest docs m?i.
+  - Không s?a docs/.
+  - Không t?o Ð?ng tâm layout.
+  - Không t?o Gi?i pháp song hành / Ð?i x?ng layout.
+  - Không s?a 09-reports/.
+  - Không commit/push.
+  - Không b?t d?u Batch 3A ingestion.
 - Remaining risks:
   - C?n verify path references b?ng Batch 3A-1R-V.
 - Next recommended action:
-  - PROMPT 3A-1R-V � VERIFY CORE LAYOUT FOLDER RESTRUCTURE
+  - PROMPT 3A-1R-V — VERIFY CORE LAYOUT FOLDER RESTRUCTURE
+
+## Batch 3A-2I-1 — Mindset And Layout Overview From First 2 Bottom-Up Docs
+
+- Date/time: 2026-05-19T12:00:00+07:00
+- Sources:
+  - Source 1 (primary): `docs/Nghệ Thuật Xây Dựng Bố Cục Nội Dung Marketing Chuẩn Xu Hướng.docx`
+  - Source 2 (supporting): `docs/Nghệ Thuật Chuyển Đổi Tư Duy Viết Nội Dung Marketing Chuẩn Toàn Diện.docx`
+- Why merged:
+  - Cả hai source là cùng một bài học (Chương 1 - Bài 1), nội dung gần như trùng khớp. Dùng Source 1 làm gốc và Source 2 làm bổ sung để tránh double-ingest.
+- Knowledge ingested:
+  - Mindset viết content marketing: Không lệ thuộc AI, rèn luyện tư duy tự chủ.
+  - Bố cục marketing 5 phần: So sánh với bố cục 3 phần, nhấn mạnh lợi ích của việc lập dàn ý để ước lượng độ dài.
+  - Quy trình lập outline: Đi từ Keywords, dùng 5W-1H mở rộng ý, đưa vào layout, cá nhân hóa theo audience.
+  - Audience/pain point/insight.
+  - Vai trò CTA.
+- Files updated:
+  - `01-core-principles/content-marketing-mindset.md`
+  - `01-core-principles/marketing-layout-5-parts.md`
+  - `02-frameworks/content-outline-framework.md`
+  - `04-commands/outline.md`
+  - `07-quality-gates/layout-fit-checklist.md`
+  - `00-course-knowledge/source-map.md`
+  - `00-course-knowledge/course-index.md`
+- Files intentionally not updated:
+  - Các file core layout khác (do không liên quan).
+- What was not done:
+  - Không ingest docs khác.
+  - Không tạo layout mới.
+  - Không sửa docs/.
+  - Không commit/push.
+  - Không tạo Đồng tâm/Đối xứng/Vấn đề-Giải pháp.
+- Next recommended action:
+  - PROMPT 3A-2I-1V — VERIFY MINDSET AND LAYOUT OVERVIEW INGESTION

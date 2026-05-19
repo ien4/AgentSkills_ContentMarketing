@@ -6,11 +6,11 @@
 
 ## Nguyên Tắc Chính
 
-- Nội dung phải phục vụ mục tiêu kinh doanh hoặc truyền thông.
-- Người đọc là trung tâm của cách diễn đạt.
-- Logic quan trọng hơn độ dài.
-- CTA phải khớp với mục tiêu.
-- AI chỉ hỗ trợ phân tích và triển khai, không thay thế tư duy chiến lược.
+- **Mục tiêu rõ ràng:** Nội dung phải phục vụ mục tiêu kinh doanh hoặc truyền thông (chuyển từ tư duy "viết cho đủ ý" sang "viết để phục vụ mục tiêu").
+- **Lấy độc giả làm trung tâm:** Người đọc là trung tâm của cách diễn đạt. Cần quan sát, phân tích bối cảnh và insight trước khi viết.
+- **Tự chủ tư duy (Không lạm dụng AI):** AI chỉ hỗ trợ phân tích và triển khai, không thay thế tư duy chiến lược. Người viết/Operator phải tự chủ kiểm soát logic.
+- **Thói quen rèn luyện:** Luôn lập dàn ý (outline) trước khi viết, kiên trì đọc tài liệu và phân tích người đọc thường xuyên.
+- **Logic & Chuyển đổi:** Logic quan trọng hơn độ dài. CTA phải định hướng hành động rõ ràng.
 
 ## Cách Dùng
 

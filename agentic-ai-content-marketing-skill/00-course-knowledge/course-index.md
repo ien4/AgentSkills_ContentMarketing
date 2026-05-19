@@ -86,3 +86,16 @@ Batch 2B chỉ nên nạp từng bố cục vào khu `02-frameworks/content-layo
 ### Ghi Chú Tài Liệu Chưa Dùng
 
 - Các tài liệu 5W-1H và Marketing outline 5 phần được xét inventory nhưng không nạp vào layout systems để tránh trộn loại kiến thức.
+
+## Batch 3A-2I-1 — Mindset and Layout Overview
+
+### Tài Liệu Nguồn Đã Đọc
+- `Nghệ Thuật Xây Dựng Bố Cục Nội Dung Marketing Chuẩn Xu Hướng.docx` (Ingested)
+- `Nghệ Thuật Chuyển Đổi Tư Duy Viết Nội Dung Marketing Chuẩn Toàn Diện.docx` (Used as supporting/cross-check)
+
+### Kiến Thức Đã Nạp
+- Bổ sung tư duy tự chủ: Không lạm dụng AI, phải kiểm soát logic và rèn luyện thói quen lập dàn ý (Chương 1 - Bài 1).
+- So sánh sự ưu việt của bố cục 5 phần Marketing so với văn học 3 phần.
+- Lợi ích của việc lập dàn ý: Kiểm soát độ dài, tránh sót ý, đảm bảo logic.
+- Quy trình lập dàn ý: Gạch đầu dòng Keywords trước, sau đó dùng 5W-1H để mở rộng và mổ xẻ ý, cuối cùng sắp xếp vào layout.
+- Cá nhân hóa ý tưởng (Keywords) dựa trên audience và insight.

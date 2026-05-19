@@ -7,7 +7,8 @@ Kiểm tra layout được chọn có phù hợp với mục tiêu content khôn
 ## Required Checks
 
 - [ ] Content goal đã rõ chưa?
-- [ ] Audience đã rõ chưa?
+- [ ] Content có đi từ Audience, Pain point, và Insight cụ thể không?
+- [ ] Đã có dàn ý thô (keywords/5W-1H) có logic rõ ràng trước khi chọn layout chưa?
 - [ ] Layout được chọn từ `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` chưa?
 - [ ] Layout đã được validate lại bằng `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` chưa?
 - [ ] Layout là root layout, meta-framework, application flow hay reference layout?
@@ -15,6 +16,7 @@ Kiểm tra layout được chọn có phù hợp với mục tiêu content khôn
 - [ ] Nếu dùng Professional Content Marketing Planning Framework, có dùng như meta-check thay vì layout chính không?
 - [ ] Nếu dùng Dẫn dắt thuyết phục, có validate với Quy nạp hoặc root layout khác không?
 - [ ] Nếu dùng Diễn dịch, có ghi Needs review nếu nguồn chưa đủ không?
+- [ ] CTA (Call To Action) của content có phù hợp với mục tiêu chưa?
 
 ## Fail Rules
 

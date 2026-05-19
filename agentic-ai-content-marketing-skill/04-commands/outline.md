@@ -36,11 +36,13 @@ Bắt buộc output `/outline` phải có block **Taxonomy Validation Evidence**
 
 ## Process
 
-1. Clarify content goal and audience.
-2. Select layout from `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md`.
-3. Validate the selected layout with `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md`.
-4. Run `07-quality-gates/layout-fit-checklist.md`.
-5. Build the Marketing outline 5 phần from the selected layout.
+1. Clarify content goal and audience (pain point, insight).
+2. Draft initial ideas using keywords (gạch đầu dòng ý thô).
+3. Use 5W-1H to expand and verify these keywords into detailed points.
+4. Select layout from `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md`.
+5. Validate the selected layout with `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md`.
+6. Run `07-quality-gates/layout-fit-checklist.md`.
+7. Build the Marketing outline 5 phần by placing expanded points into the layout.
 
 ## Checklist
 

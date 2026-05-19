@@ -6,6 +6,8 @@
 
 Không bắt buộc dùng đủ toàn bộ 5W-1H trong bài cuối. Framework này giúp phát hiện ý, không phải khuôn ép nội dung.
 
+> **Guardrail:** 5W-1H là công cụ tư duy trước khi chọn layout — **KHÔNG phải Layout**. Không được nhầm 5W-1H với 7 Core Layouts hoặc Marketing Layout 5 Phần. Nghiêm cấm tạo `5w1h-layout.md`.
+
 ## Bảng Phân Tích Hai Góc Nhìn
 
 | Yếu tố | Góc nhìn Marketer | Góc nhìn khách hàng |
@@ -65,9 +67,24 @@ Không bắt buộc dùng đủ toàn bộ 5W-1H trong bài cuối. Framework n�
 
 Có thể đảo thứ tự và đưa yếu tố mạnh nhất lên đầu:
 
-- Who: nếu nhóm người đọc rất cụ thể.
-- When: nếu thời điểm tạo áp lực hoặc tính cấp thiết.
+- Who: nếu nhóm người đọc rất cụ thể, hoặc sản phẩm gắn với KOL/người nổi tiếng.
+- When: nếu thời điểm tạo áp lực, tính cấp thiết, hoặc thương hiệu được ngóng chờ lâu.
 - Why: nếu lý do đủ mạnh để gây tò mò.
 - What: nếu lợi ích hoặc vấn đề rất rõ.
 - How: nếu người đọc cần một cách làm cụ thể.
+
+## Dùng Linh Hoạt — Không Nhồi Nhét
+
+1. **Lược bỏ thành tố ít giá trị:** Bài ngắn có thể chỉ cần 2–3 thành tố (ví dụ: What + Who, hoặc What + When + Where + How). Không cần 6 ô đầy đủ trong bài hoàn chỉnh.
+2. **Gộp thành tố:** Có thể kết hợp *Where + Why* vào cùng một đoạn để tăng tính thuyết phục. Có thể lặp *What* nhiều lần miễn là logic bài rõ.
+3. **Tìm ý ngách từ mỗi thành tố:** Mỗi thành tố đều có thể phát triển thành nhiều góc nhỏ hơn.
+   - Ví dụ *How* của đôi giày ABC: không chỉ là "làm sao để mua" mà còn là "làm sao để phối đồ", "làm sao để bảo quản", "làm sao để vệ sinh".
+4. **Biến thành phản xạ:** Mục tiêu là không cần ngồi điền bảng 6 ô mà vẫn tự động tư duy đa chiều khi tiếp nhận đề bài.
+
+## Liên Kết Hệ Thống
+
+- **Dùng trước:** `02-frameworks/content-outline-framework.md` — Bước 4 của quy trình lập outline.
+- **Không nhầm với:** `02-frameworks/content-layout-systems/01-core-layouts/` (7 Core Layouts).
+- **Không nhầm với:** `01-core-principles/marketing-layout-5-parts.md` (Khung 5 phần Marketing).
+- **QA:** `07-quality-gates/5w1h-checklist.md`.
 

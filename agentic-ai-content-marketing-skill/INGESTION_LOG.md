@@ -786,3 +786,52 @@ N?i dung:
   - Không tạo Đồng tâm/Đối xứng/Vấn đề-Giải pháp.
 - Next recommended action:
   - PROMPT 3A-2I-1V — VERIFY MINDSET AND LAYOUT OVERVIEW INGESTION
+
+## Batch 3A-2I-2 — 5W-1H Framework From Bottom-Up Sources 3 And 4
+
+### Ngày Tạo
+
+2026-05-19
+
+### Sources
+
+| Source | File | Role | Read status |
+|---|---|---|---|
+| Source A | `docs/Nghệ Thuật Sáng Tạo Nội Dung Đỉnh Cao Với 5W-1H.docx` | Primary | Read / Ingested |
+| Source B | `docs/Nghệ Thuật Sáng Tạo Nội Dung Đỉnh Cao Với 5W-1H.pdf` | Supporting / Cross-check | Read / Cross-checked |
+
+### Tại Sao Merge
+
+Hai file là cùng bài giảng Chương 1 - Bài 2 về công thức 5W-1H. File DOCX có text sạch hơn (extraction hoàn hảo), file PDF bị lỗi ngắt dòng từng từ khi trích xuất. Nội dung trùng khớp 100%. Đã hợp nhất để tránh double-ingest.
+
+### Kiến Thức Đã Nạp
+
+1. 5W-1H là framework tư duy, KHÔNG phải Layout và KHÔNG phải Core Layout.
+2. Phân tích đa chiều: Góc nhìn Marketer (muốn truyền tải) vs góc nhìn Khách hàng (thực sự quan tâm).
+3. 6 thành tố: Who, What, When, Where, Why, How — mỗi thành tố có hai góc nhìn song song.
+4. Cách dùng linh hoạt: lược bỏ, ghép ý, lặp ý, tìm ý ngách từ từng thành tố.
+5. Ví dụ ý ngách: How của đôi giày ABC = cách mua + phối đồ + bảo quản + vệ sinh.
+6. Đảo vị trí thành tố mạnh nhất lên đầu để tạo Hook (Who nếu gắn KOL, When nếu ngóng chờ lâu).
+7. Mục tiêu dài hạn: biến 5W-1H thành phản xạ tư duy tự nhiên.
+
+### Files Đã Cập Nhật
+
+- `02-frameworks/5w1h-framework.md` — Bổ sung guardrail (KHÔNG phải layout), linh hoạt, ý ngách, liên kết hệ thống.
+- `07-quality-gates/5w1h-checklist.md` — Bổ sung check ý ngách và guardrail layout.
+- `00-course-knowledge/source-map.md` — Cập nhật mapping 2 source 5W-1H sang Batch 3A-2I-2.
+- `00-course-knowledge/course-index.md` — Append section Batch 3A-2I-2.
+- `INGESTION_LOG.md` — Append log này.
+
+### Không Làm Trong Batch Này
+
+- Không sửa content-marketing-mindset.md (đã có đủ nội dung liên quan từ Batch 3A-2I-1).
+- Không sửa content-outline-framework.md (đã có liên kết 5W-1H ở bước 4).
+- Không sửa outline.md (đã có step 3 dùng 5W-1H).
+- Không sửa layout-fit-checklist.md (đã có check keywords/5W-1H).
+- Không tạo 5w1h-layout.md.
+- Không add docs/.
+- Không commit/push.
+
+### Next Recommended Action
+
+PROMPT 3A-2I-2V — VERIFY 5W-1H FRAMEWORK INGESTION

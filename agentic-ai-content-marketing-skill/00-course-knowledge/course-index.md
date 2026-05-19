@@ -99,3 +99,24 @@ Batch 2B chỉ nên nạp từng bố cục vào khu `02-frameworks/content-layo
 - Lợi ích của việc lập dàn ý: Kiểm soát độ dài, tránh sót ý, đảm bảo logic.
 - Quy trình lập dàn ý: Gạch đầu dòng Keywords trước, sau đó dùng 5W-1H để mở rộng và mổ xẻ ý, cuối cùng sắp xếp vào layout.
 - Cá nhân hóa ý tưởng (Keywords) dựa trên audience và insight.
+
+## Batch 3A-2I-2 — 5W-1H Framework
+
+### Tài Liệu Nguồn Đã Đọc
+- `Nghệ Thuật Sáng Tạo Nội Dung Đỉnh Cao Với 5W-1H.docx` (Primary — Ingested)
+- `Nghệ Thuật Sáng Tạo Nội Dung Đỉnh Cao Với 5W-1H.pdf` (Supporting / Cross-check — Merged để tránh double-ingest)
+
+### Kiến Thức Đã Nạp
+- 5W-1H là công cụ tư duy/brainstorm — KHÔNG phải Layout.
+- Phân tích đa chiều: Góc nhìn Marketer (muốn truyền tải) và góc nhìn Khách hàng (thực sự quan tâm).
+- Cách dùng linh hoạt: lược bỏ thành tố ít giá trị, gộp ý, lặp ý, tìm ý ngách từ mỗi thành tố (ví dụ: How của đôi giày = cách mua + cách phối đồ + bảo quản + vệ sinh).
+- Đảo vị trí thành tố mạnh nhất lên đầu để tạo Hook (Who nếu gắn KOL, When nếu ngóng chờ lâu).
+- Mục tiêu dài hạn: Biến 5W-1H thành phản xạ tư duy tự nhiên.
+
+### File Đã Cập Nhật
+- `02-frameworks/5w1h-framework.md` (Bổ sung guardrail, linh hoạt, ý ngách, liên kết hệ thống)
+- `07-quality-gates/5w1h-checklist.md` (Bổ sung check ý ngách và guardrail layout)
+- `00-course-knowledge/source-map.md` (Cập nhật mapping 2 source 5W-1H)
+- `00-course-knowledge/course-index.md` (Section này)
+- `INGESTION_LOG.md` (Append log)
+

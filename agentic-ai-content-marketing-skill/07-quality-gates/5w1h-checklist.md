@@ -13,6 +13,8 @@ Kiểm tra phần brainstorm 5W-1H trước khi lập outline.
 - [ ] Có tránh nhồi nhét cả 5W-1H vào final content không?
 - [ ] Không có ô trống trong bảng 5W-1H.
 - [ ] Cột `Use in final content?` chỉ dùng `Yes`, `No`, hoặc `N/A — Not used`.
+- [ ] Đã tìm ý ngách trong mỗi thành tố chưa? (VD: How không chỉ là cách mua mà còn là cách dùng, bảo quản, phối đồ...)
+- [ ] **5W-1H được dùng như công cụ tư duy, KHÔNG được chọn làm Layout.**
 
 ## Ghi Chú
 

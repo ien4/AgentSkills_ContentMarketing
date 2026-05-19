@@ -77,8 +77,8 @@ Rule bất biến:
 
 ## 7. Trạng Thái Layout System
 - Root/validated layouts hiện có: layout systems protected by:
-  - `02-frameworks/content-layout-systems/layout-selection-matrix.md`
-  - `02-frameworks/content-layout-systems/layout-taxonomy.md`
+  - `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md`
+  - `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md`
   - `07-quality-gates/layout-fit-checklist.md`
 - Partially ingested / Needs review layouts:
   - Some layout types were explicitly framed as “Partially ingested / Needs review” in Batch logs (notably around “diễn dịch” confidence/source readiness).

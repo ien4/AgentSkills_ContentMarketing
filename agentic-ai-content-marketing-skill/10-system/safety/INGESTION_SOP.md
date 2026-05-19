@@ -48,7 +48,7 @@ Mục tiêu là biến tài liệu thô thành kiến thức đã xử lý, có 
 | Mindset | Tư duy nền điều khiển cách làm content. | AI hỗ trợ tư duy, không thay thế tư duy. | `00-course-knowledge/`, `01-core-principles/` | `05-templates/`, `06-reference-banks/` |
 | Core principle | Nguyên tắc cốt lõi cần tuân thủ nhiều lần. | Outline trước khi viết. | `01-core-principles/` | `04-commands/`, `05-templates/` |
 | Framework | Khung phân tích hoặc ra quyết định. | 5W-1H, audience angle. | `02-frameworks/` | `03-workflows/`, `06-reference-banks/` |
-| Layout system | Nguyên lý sắp xếp ý trong nội dung. | Tổng phân hợp, quy nạp, móc xích. | `02-frameworks/content-layout-systems/` | `02-frameworks/5w1h-framework.md`, `05-templates/` |
+| Layout system | Nguyên lý sắp xếp ý trong nội dung. | Tổng phân hợp, quy nạp, móc xích. | `02-frameworks/content-layout-systems/01-core-layouts/` | `02-frameworks/5w1h-framework.md`, `05-templates/` |
 | Workflow | Chuỗi bước thực thi một nhiệm vụ. | Raw idea to Facebook post. | `03-workflows/` | `02-frameworks/`, `06-reference-banks/` |
 | Command | Giao diện tác vụ người dùng gọi trực tiếp. | `/post`, `/qa`, `/content-score`. | `04-commands/`, `10-system/control/COMMAND_MAPPING.md` | `01-core-principles/` |
 | Template | Mẫu điền để triển khai output. | Facebook post template. | `05-templates/` | `02-frameworks/content-layout-systems/` |
@@ -68,7 +68,7 @@ Các khái niệm này liên quan nhưng không được nhập chung một file
 
 Khi nạp tài liệu về bố cục:
 
-- Mỗi bố cục có file riêng trong `02-frameworks/content-layout-systems/`.
+- Mỗi bố cục có file riêng trong `02-frameworks/content-layout-systems/01-core-layouts/` hoặc `02-supporting-frameworks/`.
 - Không đưa nội dung 5W-1H vào file bố cục nếu nó chỉ phục vụ brainstorm.
 - Không đưa hook bank hoặc CTA bank vào file bố cục.
 - Không biến bố cục thành template nền tảng nếu tài liệu đang nói về nguyên lý sắp xếp ý.

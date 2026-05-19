@@ -47,7 +47,7 @@ Trước khi thực hiện bất kỳ việc nạp kiến thức mới nào (new
 
 - Không đọc toàn bộ thư mục skill trừ khi task thực sự yêu cầu audit.
 - Nếu viết bài post, đọc `10-system/control/COMMAND_MAPPING.md`, `04-commands/post.md`, `10-system/control/PROMPT_MASTER.md`, và các quality gates liên quan.
-- Nếu chọn layout, đọc `02-frameworks/content-layout-systems/layout-selection-matrix.md`, sau đó đọc `layout-taxonomy.md`, rồi mới đọc file layout cụ thể.
+- Nếu chọn layout, đọc `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md`, sau đó đọc `layout-taxonomy.md`, rồi mới đọc file layout cụ thể.
 - Nếu nạp tài liệu (ingesting), đọc `10-system/safety/INGESTION_SOP.md`, `00-course-knowledge/course-index.md`, và `00-course-knowledge/source-map.md`.
 - Nếu làm QA, đọc `04-commands/qa.md`, `04-commands/content-score.md`, và các file liên quan trong `07-quality-gates/`.
 - Nếu cần ví dụ, chỉ đọc file phù hợp trong `08-examples/`.
@@ -59,7 +59,7 @@ Trước khi thực hiện bất kỳ việc nạp kiến thức mới nào (new
 |---|---|---|---|
 | Viết bài post | `10-system/control/COMMAND_MAPPING.md` | `04-commands/post.md`, `10-system/control/PROMPT_MASTER.md`, `07-quality-gates/final-output-checklist.md` | Toàn bộ `docs/`, tất cả ví dụ, các báo cáo ingestion |
 | Tạo outline | `04-commands/outline.md` | `layout-selection-matrix.md`, `layout-taxonomy.md`, `07-quality-gates/layout-fit-checklist.md` | Hook/CTA banks trừ khi outline cần |
-| Chọn layout | `02-frameworks/content-layout-systems/layout-selection-matrix.md` | `layout-taxonomy.md`, file layout cụ thể | File 5W-1H trừ khi cần brainstorm ý |
+| Chọn layout | `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` | `layout-taxonomy.md`, file layout cụ thể | File 5W-1H trừ khi cần brainstorm ý |
 | Brainstorm 5W-1H | `04-commands/brainstorm-5w1h.md` | `02-frameworks/5w1h-framework.md`, `05-templates/5w1h-analysis-template.md` | Các file layout system trừ khi cần sắp xếp ý |
 | QA content | `04-commands/qa.md` | `07-quality-gates/content-logic-checklist.md`, `layout-fit-checklist.md`, `final-output-checklist.md` | Tài liệu nguồn của khóa học (Course source docs) |
 | Chấm điểm (Score content) | `04-commands/content-score.md` | Các quality gates liên quan đến tiêu chí chấm | Toàn bộ thư mục ví dụ |

@@ -18,7 +18,7 @@ Chuyển ý tưởng thô thành outline Marketing.
 3. Xác định audience.
 4. Tìm pain point.
 5. Brainstorm nhanh bằng 5W-1H.
-6. Choose layout from `02-frameworks/content-layout-systems/layout-selection-matrix.md`.
+6. Choose layout from `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md`.
 7. Validate layout type and confidence with `layout-taxonomy.md`.
 8. Chọn hook.
 9. Build the Marketing outline 5 phần using the selected layout.

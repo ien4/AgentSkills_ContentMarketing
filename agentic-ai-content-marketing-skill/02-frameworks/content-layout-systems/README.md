@@ -1,53 +1,24 @@
 # Content Layout Systems
 
-## Mục Đích
+## Cấu trúc thư mục
 
-Thư mục này chứa các bố cục gốc dùng trong Content Marketing.
+- `00-layout-system-control/`: taxonomy, selection matrix, ingestion rules.
+- `01-core-layouts/`: các bố cục content cốt lõi.
+- `02-supporting-frameworks/`: framework hỗ trợ hoặc meta-framework, không phải root layout chính.
 
-Đây là khu dành cho nguyên lý sắp xếp nội dung: cách tổ chức ý, cách dẫn dắt logic, cách đặt luận điểm và cách chuyển người đọc qua từng phần của bài.
+## 7 bố cục core mục tiêu
 
-## Không Phải Gì
+1. Liệt kê — đã có
+2. Diễn dịch — đã có
+3. Quy nạp — đã có
+4. Tổng - Phân - Hợp — đã có
+5. Móc xích — đã có
+6. Đồng tâm — chưa tạo, chờ ingestion nguồn riêng
+7. Giải pháp song hành / Đối xứng — chưa tạo, chờ ingestion nguồn riêng
 
-Khu này không phải:
+## Quy tắc an toàn
 
-- 5W-1H framework.
-- Hook bank.
-- CTA bank.
-- Template bài post.
-- Workflow viết bài theo nền tảng.
-
-## Nguyên Tắc
-
-- 5W-1H dùng để mở ý và brainstorm.
-- Bố cục gốc dùng để sắp xếp ý.
-- Hook dùng để kéo chú ý.
-- CTA dùng để điều hướng hành động.
-- Template dùng để triển khai theo nền tảng.
-
-Không nhập chung các nhóm này vào một file.
-
-## Batch 2B
-
-Batch 2B sẽ nạp sâu từng bố cục từ tài liệu trong `docs/`.
-
-Trạng thái hiện tại: đã nạp các layout có nguồn đọc được trong `docs/`. Một số mục vẫn giữ `Partially ingested` hoặc `Needs review` nếu tài liệu chưa đủ sâu để khẳng định như một bố cục độc lập.
-
-## Cách Agent Nên Dùng Layout Systems
-
-Agent dùng khu này khi cần chọn hoặc áp dụng nguyên lý sắp xếp ý cho nội dung Marketing.
-
-Thứ tự đọc:
-
-1. `layout-selection-matrix.md` để chọn bố cục theo mục tiêu content.
-2. `layout-taxonomy.md` để kiểm tra trạng thái, source và confidence.
-3. File bố cục cụ thể để đọc định nghĩa, cấu trúc, lỗi thường gặp và source mapping.
-4. Checklist trong file bố cục trước khi viết hoặc QA nội dung.
-
-## Ranh Giới Khái Niệm
-
-- 5W-1H dùng để mở ý.
-- Layout system dùng để sắp xếp ý.
-- Hook dùng để kéo chú ý.
-- CTA dùng để điều hướng hành động.
-
-Các nhóm này có thể phối hợp trong một workflow, nhưng không được trộn thành cùng một loại kiến thức.
+- Không tạo file layout mới nếu chưa có source được xác nhận.
+- Không xem 5W-1H là layout chính.
+- Không xem Professional Content Marketing Planning là root layout.
+- Không trộn supporting framework với core layout.

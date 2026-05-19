@@ -45,7 +45,7 @@ Batch 2B sẽ nạp có kiểm soát các tài liệu về bố cục gốc từ
 - Bố cục chi tiết và quy trình xây dựng nội dung chi tiết.
 - Bố cục Content Marketing chuyên nghiệp.
 
-Batch 2B chỉ nên nạp từng bố cục vào khu `02-frameworks/content-layout-systems/` và không trộn với 5W-1H, hook, CTA hoặc template.
+Batch 2B chỉ nên nạp từng bố cục vào khu `02-frameworks/content-layout-systems/01-core-layouts/` và không trộn với 5W-1H, hook, CTA hoặc template.
 
 ## Batch 2B — Layout Systems
 

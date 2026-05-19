@@ -709,3 +709,47 @@ Ná»™i dung:
   - Má»™t sá»‘ report lá»‹ch sá»­ hoáº·c file reference cÃ³ thá»ƒ váº«n cÃ²n tiáº¿ng Anh cÃ³ chá»§ Ä‘Ã­ch.
 - Next recommended action:
   - PROMPT 2P-F â€” Verify Vietnamese User-Facing Docs
+
+## Batch 3A-1R — Core Layout Folder Restructure
+
+N?i dung:
+- M?c tiêu: tách layout system thành control, core layouts, supporting frameworks.
+- Folders created:
+  - 00-layout-system-control/
+  - 01-core-layouts/
+  - 02-supporting-frameworks/
+- Files moved:
+  - layout-ingestion-rules.md -> 00-layout-system-control/layout-ingestion-rules.md
+  - layout-selection-matrix.md -> 00-layout-system-control/layout-selection-matrix.md
+  - layout-taxonomy.md -> 00-layout-system-control/layout-taxonomy.md
+  - liet-ke-layout.md -> 01-core-layouts/liet-ke-layout.md
+  - dien-dich-layout.md -> 01-core-layouts/dien-dich-layout.md
+  - quy-nap-layout.md -> 01-core-layouts/quy-nap-layout.md
+  - tong-phan-hop-layout.md -> 01-core-layouts/tong-phan-hop-layout.md
+  - moc-xich-layout.md -> 01-core-layouts/moc-xich-layout.md
+  - dan-dat-thuyet-phuc-layout.md -> 02-supporting-frameworks/dan-dat-thuyet-phuc-layout.md
+  - detailed-content-process-layout.md -> 02-supporting-frameworks/detailed-content-process-layout.md
+  - professional-content-marketing-layout.md -> 02-supporting-frameworks/professional-content-marketing-layout.md
+- Files updated:
+  - SKILL.md
+  - 04-commands/outline.md
+  - 03-workflows/raw-idea-to-outline-workflow.md
+  - 07-quality-gates/layout-fit-checklist.md
+  - 10-system/handoff/FINAL_PACKAGING_SNAPSHOT.md
+  - 10-system/guides/OPERATOR_PLAYBOOK.md
+  - 10-system/safety/INGESTION_SOP.md
+  - 00-course-knowledge/source-map.md
+  - 00-course-knowledge/course-index.md
+  - 02-frameworks/content-layout-systems/README.md
+- What was NOT done:
+  - Không ingest docs m?i.
+  - Không s?a docs/.
+  - Không t?o Ð?ng tâm layout.
+  - Không t?o Gi?i pháp song hành / Ð?i x?ng layout.
+  - Không s?a 09-reports/.
+  - Không commit/push.
+  - Không b?t d?u Batch 3A ingestion.
+- Remaining risks:
+  - C?n verify path references b?ng Batch 3A-1R-V.
+- Next recommended action:
+  - PROMPT 3A-1R-V — VERIFY CORE LAYOUT FOLDER RESTRUCTURE

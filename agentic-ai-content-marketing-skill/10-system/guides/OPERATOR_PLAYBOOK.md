@@ -35,7 +35,7 @@ Operator vận hành theo nguyên tắc:
 1. `10-system/control/COMMAND_MAPPING.md`
 2. `04-commands/post.md`
 3. `10-system/control/PROMPT_MASTER.md`
-4. `02-frameworks/content-layout-systems/layout-selection-matrix.md`
+4. `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md`
 5. `07-quality-gates/layout-fit-checklist.md`
 6. `07-quality-gates/final-output-checklist.md`
 
@@ -68,8 +68,8 @@ Operator vận hành theo nguyên tắc:
 ### Nếu muốn lập outline
 **Đọc:**
 1. `04-commands/outline.md`
-2. `02-frameworks/content-layout-systems/layout-selection-matrix.md`
-3. `02-frameworks/content-layout-systems/layout-taxonomy.md`
+2. `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md`
+3. `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md`
 4. `07-quality-gates/layout-fit-checklist.md`
 
 **Output cần kiểm:**

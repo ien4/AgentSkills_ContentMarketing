@@ -835,3 +835,50 @@ Hai file là cùng bài giảng Chương 1 - Bài 2 về công thức 5W-1H. Fil
 ### Next Recommended Action
 
 PROMPT 3A-2I-2V — VERIFY 5W-1H FRAMEWORK INGESTION
+
+## Batch 3A-3I-1A — C1-3 Layout Architecture Foundation
+
+### Ngày Thực Hiện
+
+2026-05-20
+
+### Sources
+
+- `docs/Kiến Trúc Bố Cục Trong Content Marketing Đột Phá C1 - 3.docx` (Primary — Ingested)
+
+### Kiến Thức Đã Nạp
+
+1. **Triết lý "Xây nhà"**: Bố cục đóng vai trò bản vẽ/nền móng quyết định **50%-80%** sự thành công của một chiến dịch nội dung. Sáng tạo phải đi sau công năng (khóa khung trước, trang trí từ ngữ sau).
+2. **Hành vi Scanning**: Độc giả hiện đại cực kỳ lười đọc, họ có hành vi Scanning (lướt tiêu đề, dàn ý heading, từ in đậm) thay vì Reading từng chữ. Bố cục rõ ràng đóng vai trò "biển báo giao thông" hướng người đọc tới CTA.
+3. **Bố cục Content Marketing (5 phần)**: Mở bài → Dẫn nhập (sau tiêu đề) → Thân bài → Kết luận → CTA.
+4. **Phân biệt Root Layouts vs Formulas**: Root Layouts là nguyên lý cốt lõi, Formulas (AIDA, PAS...) chỉ là công thức ứng dụng. Không chọn Formula thay thế cho Root Layout khi thiết kế cấu trúc.
+5. **6 Bố cục gốc cốt lõi**: Liệt kê, Diễn dịch, Quy nạp, Tổng - Phân - Hợp, Móc xích, Đồng tâm (và các dạng bổ sung như Song hành, Đối xứng).
+6. **Framework ACP (Architectural Content Process)** 4 bước:
+   - **Foundation**: Xác định mục tiêu truyền tải và phân tích độc giả.
+   - **Root Structure**: Chọn 1 trong 6 Bố cục gốc phù hợp.
+   - **5W-1H Outlining**: Điền nội dung thô bằng 5W-1H vào khung đã chọn.
+   - **Creative & Freestyle**: Sáng tạo từ ngữ, viết dẫn nhập thu hút và đặt CTA.
+
+### Files Đã Cập Nhật
+
+- `02-frameworks/content-layout-systems/README.md` — Tích hợp triết lý Xây nhà, Root Layouts vs Formulas, và framework ACP.
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` — Thêm Đồng tâm ở trạng thái Pending, cập nhật mapping nguồn.
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` — Bổ sung guardrail lựa chọn layout và triết lý Xây nhà.
+- `02-frameworks/content-layout-systems/02-supporting-frameworks/detailed-content-process-layout.md` — Tích hợp quy trình ACP 4 bước và cập nhật source mapping.
+- `07-quality-gates/layout-fit-checklist.md` — Bổ sung checklist scanning, triết lý Xây nhà và ACP.
+- `00-course-knowledge/source-map.md` — Cập nhật mapping nguồn C1 - 3 và C1 - 3A (Pending).
+- `00-course-knowledge/course-index.md` — Append section Batch 3A-3I-1A.
+- `INGESTION_LOG.md` — Append log này.
+
+### Không Làm Trong Batch Này
+
+- Không đọc/nạp `C1 - 3A` (sẽ thực hiện ở Batch 3A-3I-1B).
+- Không sửa `liet-ke-layout.md`.
+- Không tạo layout mới (Đồng tâm hay Song hành/Đối xứng).
+- Không tạo `kien-truc-bo-cuc-layout.md`.
+- Không sửa `docs/`.
+- Không commit/push.
+
+### Next Recommended Action
+
+PROMPT 3A-3I-1A-V — VERIFY C1-3 LAYOUT ARCHITECTURE INGESTION

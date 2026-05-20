@@ -12,6 +12,10 @@ Kiểm tra layout được chọn có phù hợp với mục tiêu content khôn
 - [ ] Layout được chọn từ `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` chưa?
 - [ ] Layout đã được validate lại bằng `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` chưa?
 - [ ] Layout là root layout, meta-framework, application flow hay reference layout?
+- [ ] Đã chọn Root Layout theo triết lý "Xây nhà" (công năng đi trước, sáng tạo đi sau) chưa?
+- [ ] Cấu trúc bài viết có hỗ trợ thói quen scanning (đọc lướt) của người đọc (sử dụng heading, in đậm, chia đoạn) không?
+- [ ] Đảm bảo KHÔNG dùng công thức ứng dụng (Formulas như AIDA, PAS...) thay thế cho Root Layout?
+- [ ] Bố cục bài viết có tuân thủ 5 phần chuẩn Marketing (Mở bài -> Dẫn nhập -> Thân bài -> Kết luận -> CTA) thay vì văn học 3 phần không?
 - [ ] Nếu layout confidence Medium/Low, Agent có ghi cảnh báo không?
 - [ ] Nếu dùng Professional Content Marketing Planning Framework, có dùng như meta-check thay vì layout chính không?
 - [ ] Nếu dùng Dẫn dắt thuyết phục, có validate với Quy nạp hoặc root layout khác không?

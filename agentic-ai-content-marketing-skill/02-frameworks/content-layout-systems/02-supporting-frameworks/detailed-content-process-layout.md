@@ -39,17 +39,14 @@ Bố cục là khung nhà. Người viết phải chọn khung trước khi sán
 - Khi task là brainstorm ý tưởng thuần 5W-1H, chưa đến bước sắp xếp.
 - Khi đang xây hook bank, CTA bank hoặc template nền tảng.
 
-## Structure
+## Structure (Architectural Content Process - ACP)
 
-Step 1: Chọn bố cục gốc phù hợp với mục tiêu bài viết.
+Quy trình Kiến trúc Nội dung (ACP) gồm 4 bước chuẩn hóa từ giảng viên giúp chuyển đổi tư duy người viết thành "kiến trúc sư nội dung":
 
-Step 2: Lập dàn ý chi tiết cho từng phần trong bố cục.
-
-Step 3: Dùng 5W-1H để phân tách luận điểm bên trong từng phần nếu cần.
-
-Step 4: Viết chi tiết dựa trên dàn ý đã chốt.
-
-Step 5: Kiểm tra bài có bám mục tiêu truyền tải và không lan man.
+- **Step 1: Foundation (Nền móng)**: Xác định rõ mục tiêu truyền tải (Brand awareness, Engagement, hay Sales) và phân tích đối tượng độc giả (pain point/insight).
+- **Step 2: Root Structure (Bản vẽ móng)**: Dựa trên mục tiêu ở bước 1, lựa chọn 1 trong 6 Bố cục gốc cốt lõi (Liệt kê, Diễn dịch, Quy nạp, Tổng - Phân - Hợp, Móc xích, Đồng tâm) để định hình khung xương logic cho bài viết.
+- **Step 3: 5W-1H Outlining (Lập dàn ý)**: Sử dụng công thức 5W-1H để điền nội dung thô, mở ý và phân tách luận điểm chi tiết vào các "phòng" chức năng của cấu trúc gốc.
+- **Step 4: Creative & Freestyle (Trang trí & Phá cách)**: Viết chi tiết, lắp ghép từ ngữ sáng tạo, thiết lập phần dẫn nhập thu hút thị giác và đặt CTA phù hợp để chốt hạ hành động của độc giả.
 
 ## Content Flow
 
@@ -75,11 +72,12 @@ Chủ đề: dịch vụ website.
 
 ## Checklist
 
-- [ ] Đã chọn bố cục gốc trước chưa?
+- [ ] Đã xác định rõ mục tiêu truyền tải (Foundation) chưa?
+- [ ] Đã chọn bố cục gốc (Root Structure) phù hợp với mục tiêu chưa?
 - [ ] Dàn ý chi tiết có bám bố cục đã chọn không?
-- [ ] 5W-1H chỉ được dùng để phân tách ý bên trong, không thay bố cục không?
-- [ ] Bài viết có đi từ dàn ý sang bản chi tiết không?
-- [ ] Có kiểm tra lại mục tiêu truyền tải không?
+- [ ] 5W-1H chỉ được dùng để phân tách ý bên trong (Outlining), không thay bố cục không?
+- [ ] Có bám theo quy trình ACP (khung trước, từ ngữ sau) hay đang viết bản năng?
+- [ ] Có kiểm tra lại mục tiêu truyền tải và CTA không?
 
 ## Difference From Similar Layouts
 
@@ -91,7 +89,8 @@ Chủ đề: dịch vụ website.
 
 | Source file | Extracted knowledge | Target section | Confidence |
 |---|---|---|---|
-| `Nghệ Thuật Bố Cục Và Quy Trình Xây Dựng Nội Dung Chi Tiết.pdf` | Quy trình gồm chọn bố cục gốc, lập dàn ý chi tiết, rồi viết chi tiết. | Definition, Structure, Content Flow | High |
+| `Nghệ Thuật Bố Cục Và Quy Trình Xây Dựng Nội Dung Chi Tiết.pdf` | Quy trình gồm chọn bố cục gốc, lập dàn ý chi tiết, rồi viết chi tiết. | Definition, Content Flow | High |
 | `Nghệ Thuật Bố Cục Và Quy Trình Xây Dựng Nội Dung Chi Tiết.pdf` | Ẩn dụ xây nhà: phải lên khung trước khi sáng tạo chi tiết. | Core Principle, Common Mistakes | High |
 | `Nghệ Thuật Bố Cục Và Quy Trình Xây Dựng Nội Dung Chi Tiết.pdf` | Bố cục gốc là nguyên lý nền tảng sinh ra công thức có sẵn. | Goal, Difference From Similar Layouts | High |
-| `Nghệ Thuật Xây Dựng Bố Cục Content Marketing Chuyên Nghiệp.pdf` | Quy trình tương tự: chọn bố cục gốc, lập dàn ý bằng 5W-1H, viết chi tiết. | Structure, Checklist | High |
+| `Nghệ Thuật Xây Dựng Bố Cục Content Marketing Chuyên Nghiệp.pdf` | Quy trình tương tự: chọn bố cục gốc, lập dàn ý bằng 5W-1H, viết chi tiết. | Checklist | High |
+| `Kiến Trúc Bố Cục Trong Content Marketing Đột Phá C1 - 3.docx` | Triết lý Xây nhà (công năng đi trước, sáng tạo đi sau). Bố cục chiếm 50%-80% thành công. ACP 4 bước (Foundation, Root Structure, Outlining, Creative & Freestyle). | Triết lý Xây nhà, ACP Structure, Checklist | High |

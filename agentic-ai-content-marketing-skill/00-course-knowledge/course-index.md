@@ -120,3 +120,26 @@ Batch 2B chỉ nên nạp từng bố cục vào khu `02-frameworks/content-layo
 - `00-course-knowledge/course-index.md` (Section này)
 - `INGESTION_LOG.md` (Append log)
 
+## Batch 3A-3I-1A — Layout Architecture Foundation
+
+### Tài Liệu Nguồn Đã Đọc
+- `Kiến Trúc Bố Cục Trong Content Marketing Đột Phá C1 - 3.docx` (Primary — Ingested)
+
+### Kiến Thức Đã Nạp
+- **Triết lý "Xây nhà"**: Bố cục đóng vai trò bản vẽ/khung xương quyết định **50%-80%** sự thành công của bài viết. Sáng tạo phải đi sau công năng (khóa khung trước, trang trí từ ngữ sau).
+- **Hành vi Scanning**: Độc giả cực kỳ lười đọc, chỉ lướt xem tiêu đề, heading và từ in đậm để quyết định mua hàng. Bố cục rõ ràng là "biển báo giao thông" hướng độc giả tới CTA.
+- **Bố cục Content Marketing (5 phần)**: Mở bài → Dẫn nhập (sau tiêu đề) → Thân bài → Kết luận → CTA.
+- **Phân biệt Root Layouts vs Formulas**: Root Layouts là nguyên lý cốt lõi, Formulas (AIDA, PAS...) chỉ là công thức ứng dụng. Không dùng Formula thay thế cho Root Layout.
+- **6 Bố cục gốc cốt lõi**: Liệt kê, Diễn dịch, Quy nạp, Tổng - Phân - Hợp, Móc xích, Đồng tâm (và các dạng bổ sung Song hành, Đối xứng).
+- **Framework ACP (Architectural Content Process)** 4 bước: Foundation (Nền móng) → Root Structure (Bản vẽ móng) → 5W-1H Outlining (Dàn ý) → Creative & Freestyle (Trang trí).
+
+### File Đã Cập Nhật
+- `02-frameworks/content-layout-systems/README.md` (Tích hợp triết lý Xây nhà, Root Layouts vs Formulas, và framework ACP)
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` (Thêm bố cục Đồng tâm ở trạng thái Pending, cập nhật mapping nguồn)
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` (Bổ sung guardrail lựa chọn layout và triết lý Xây nhà)
+- `02-frameworks/content-layout-systems/02-supporting-frameworks/detailed-content-process-layout.md` (Tích hợp quy trình ACP 4 bước và cập nhật source mapping)
+- `07-quality-gates/layout-fit-checklist.md` (Bổ sung checklist scanning, triết lý Xây nhà và ACP)
+- `00-course-knowledge/source-map.md` (Cập nhật mapping nguồn C1 - 3 và C1 - 3A)
+- `00-course-knowledge/course-index.md` (Section này)
+- `INGESTION_LOG.md` (Append log)
+

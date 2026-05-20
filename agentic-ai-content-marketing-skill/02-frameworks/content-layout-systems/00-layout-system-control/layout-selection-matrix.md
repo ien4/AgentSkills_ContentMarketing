@@ -26,6 +26,8 @@ Help the Agent choose a layout based on content goal, then validate the choice w
 ## Matrix Guardrails
 
 - Always validate the selected row with `layout-taxonomy.md`.
+- **Triết lý "Xây nhà"**: Chọn root layout dựa trên mục tiêu, công năng và hành vi scanning (đọc lướt) của người đọc. Không chọn layout theo cảm tính hoặc chỉ vì "nghe hay".
+- **Không dùng Formula thay thế**: Tuyệt đối không chọn các công thức ứng dụng như AIDA, PAS, v.v. để thay thế cho một Root Layout thực thụ khi định hình cấu trúc.
 - If `Layout Type` is meta-framework, do not use it as the primary layout.
 - If `Layout Type` is application flow, pair it with a validated root layout.
 - If `Confidence` is Medium or Low, disclose the risk in QA notes.

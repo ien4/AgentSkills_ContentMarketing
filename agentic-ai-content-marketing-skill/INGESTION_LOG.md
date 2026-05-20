@@ -882,3 +882,31 @@ PROMPT 3A-2I-2V — VERIFY 5W-1H FRAMEWORK INGESTION
 ### Next Recommended Action
 
 PROMPT 3A-3I-1A-V — VERIFY C1-3 LAYOUT ARCHITECTURE INGESTION
+
+## Batch 3A-SOP-01 — Packaged Knowledge Ingestion Workflow SOP
+
+### Ngày Thực Hiện
+
+2026-05-20
+
+### Mục Tiêu
+
+Đóng gói quy trình nạp dữ liệu/kiến thức thành một "gói thực thi chuẩn". Tạo và cập nhật tài liệu SOP & Safety cho hệ thống.
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `10-system/safety/INGESTION_SOP.md` (Đóng gói quy trình 9 bước, cổng bảo mật, quy định file đích, điều kiện dừng, quy trình khôi phục sự cố Incident Recovery và đối chiếu lịch sử Ingestion History Recovery).
+- `10-system/safety/DATA_INGESTION_SAFETY.md` (Quy tắc an toàn nguồn, kiến thức, bố cục, git, checklist trước batch, quy tắc xử lý sự cố Incident Recovery và đối chiếu lịch sử).
+- `INGESTION_LOG.md` (Ghi nhận batch này).
+
+### Không Làm Trong Batch Này
+
+- Không nạp kiến thức content marketing mới.
+- Không nạp hoặc đọc nguồn C1 - 3A.
+- Không sửa đổi thư mục `docs/`.
+- Không cập nhật `source-map.md` hay `course-index.md`.
+- Không thực hiện commit hay push.
+
+### Next Recommended Action
+
+PROMPT 3A-SOP-01-V — VERIFY PACKAGED INGESTION WORKFLOW SOP (Cần chạy xác thực, sau đó thực hiện Commit và Post-commit Audit gói SOP trước khi lập kế hoạch nạp C1 - 3A).

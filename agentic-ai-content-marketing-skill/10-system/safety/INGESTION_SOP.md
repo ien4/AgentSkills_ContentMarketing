@@ -57,6 +57,7 @@ Agent phải đi qua đầy đủ các bước sau đây theo thứ tự nghiêm
 - Thực hiện cập nhật nội dung kiến thức vào các file đích đã đề xuất dưới dạng cộng dồn (incremental).
 - Thực hiện phân khối ngữ nghĩa (**Semantic Chunking** tại Mục 14) đảm bảo bảo toàn ý nghĩa của câu, bảng biểu và hyperlink.
 - Gắn thẻ metadata định dạng chuẩn Vector-Ready (Mục 16) đi kèm với từng chunk.
+- Tuyệt đối loại bỏ các số/ký hiệu dẫn nguồn thô (raw source markers) khỏi phần văn bản chính, gom toàn bộ vào bảng Source Mapping Table ở chân tệp tin (Mục 19).
 
 ### Step 8 — Verification
 - Kiểm tra và xác thực lại toàn bộ kiến thức sau khi nạp:
@@ -64,6 +65,7 @@ Agent phải đi qua đầy đủ các bước sau đây theo thứ tự nghiêm
   - **Verify scope**: Đảm bảo sửa đúng file trong scope, không lan man.
   - **Verify source-map / course-index / log**: Đảm bảo cập nhật đầy đủ thông tin nguồn, số lượng file, mã batch.
   - **Verify semantic chunk integrity**: Kiểm tra xem các chunk có bị cắt vỡ ý nghĩa, mất chủ ngữ/vị ngữ, hoặc hỏng bảng biểu/hyperlink không.
+  - **Verify raw source markers**: Đảm bảo không còn ký hiệu/chữ số dẫn nguồn thô trong văn bản chính, tất cả đã được cấu trúc vào bảng mapping ở chân tệp tin (Mục 19).
   - **Verify encoding/mojibake**: Kiểm tra hiển thị tiếng Việt, không bị lỗi font.
   - **Verify docs safety**: Đảm bảo thư mục `docs/` vẫn an toàn, không bị sửa đổi.
 
@@ -367,3 +369,15 @@ Khi phát hiện hoặc có nghi ngờ AI Agent nạp sai kiến thức (sai l�
 2. **Xác thực đồng bộ dữ liệu (Sync Validation)**:
    - Đối chiếu số lượng bài học, chương, và file nguồn đã ghi nhận là "Đã nạp" trong source-map với lịch sử commit thực tế của git.
    - Nếu phát hiện sự lệch pha, Agent phải lập tức dừng lại, đưa vào mục `Issues / Ambiguities` của báo cáo và yêu cầu người dùng hướng dẫn xử lý.
+
+---
+
+## 19. Quy Tắc Dẫn Nguồn & Tránh Raw Source Markers (Source Traceability & Cleanliness Rules)
+
+Để đảm bảo các tệp tin lý thuyết/bố cục (layout/framework files) trong SKILL luôn sạch đẹp, có tính chuyên nghiệp và sẵn sàng cho việc huấn luyện/sử dụng AI, Agent phải tuyệt đối tuân thủ quy tắc quản lý dẫn nguồn sau:
+
+1. **Tuyệt đối KHÔNG giữ các ký hiệu/số dẫn nguồn thô** dạng chữ số trần (như `1`, `3`, `5-7`, `[1]`, `[3]`) trực tiếp trong phần văn bản chính (main body) của tệp tin layout/framework.
+2. **Quản lý Traceability tập trung**:
+   - Nếu cần đối chiếu hoặc truy xuất nguồn gốc dòng văn bản/đoạn trích xuất học liệu, Agent phải gom toàn bộ thông tin này xuống bảng **Source Mapping Table** ở cuối tệp tin đích hoặc lưu trong `source-map.md`, `INGESTION_LOG.md`, hoặc metadata block.
+   - Bảng **Source Mapping Table** ở cuối mỗi tệp tin layout/framework phải được thiết kế rõ ràng với các trường: `Section` (Phân đoạn), `Key Knowledge / Statement` (Kiến thức cốt lõi), `Source File` (Tên file nguồn), `Source Marker / Paragraph` (Ký hiệu nguồn/Số đoạn §), và `Confidence` (Độ tin cậy).
+

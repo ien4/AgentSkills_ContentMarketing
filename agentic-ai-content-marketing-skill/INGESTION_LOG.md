@@ -1074,3 +1074,25 @@ Bổ sung tài liệu hướng dẫn gọi lệnh `@Data_Ingestion_Agent` vào t
 - Không tạo `dong-tam-layout.md`.
 - Không sửa `docs/`.
 - Không thực hiện commit hay push (sẽ thực hiện ở bước commit riêng).
+
+## Batch: harden-agent-rules — Hardening Safety Rules for Raw Source Markers
+
+### Ngày Thực Hiện
+
+2026-05-21
+
+### Mục Tiêu
+
+Hoàn tất quy trình hardening phòng chống rò rỉ ký hiệu dẫn nguồn thô (Raw Source Marker Leakage Prevention) còn thiếu trên các tệp tin hệ thống.
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `10-system/safety/INGESTION_SOP.md` (Cập nhật Step 7, Step 8 và bổ sung Mục 19 về Quy tắc dẫn nguồn & tránh raw source markers).
+- `10-system/safety/DATA_INGESTION_SAFETY.md` (Cập nhật Checklist Mục 6 và bổ sung Mục 13 về Quy tắc an toàn làm sạch ký hiệu dẫn nguồn).
+- `INGESTION_LOG.md` (Ghi nhận batch này).
+
+### Không Làm Trong Batch Này
+
+- Không nạp kiến thức content marketing mới.
+- Không sửa đổi thư mục `docs/`.
+- Không tự ý thực hiện commit hay push hoặc dùng `git add .`.

@@ -59,6 +59,7 @@
 - [ ] Đã quét `source-map.md` để đảm bảo file nguồn chưa từng được nạp chưa?
 - [ ] Đã hiểu rõ file đích cần cập nhật và taxonomy tương ứng chưa?
 - [ ] Đã cam kết tuyệt đối không sửa đổi file trong `docs/` và không dùng `git add .` chưa?
+- [ ] Đã loại bỏ toàn bộ số dẫn nguồn thô (raw source markers) khỏi phần văn bản chính và chuyển vào Source Mapping Table chưa?
 
 ---
 
@@ -106,3 +107,11 @@
 
 - **No Over-Tagging / Fabrication**: Chỉ gắn các thẻ marketing (#Target_Audience, #Pain_Point, #Angle, #Brand_Voice, #Use_Case, #Content_Format) dựa trên thông tin thực tế được đề cập trực tiếp hoặc suy luận logic mạnh từ nội dung bài học. Cấm tự chế các tag không liên quan để tránh làm nhiễu công cụ tìm kiếm ngữ nghĩa.
 - **Standard Tag Format**: Các marketing tag phải tuân theo đúng định dạng chữ thường, ngăn cách bằng dấu gạch dưới (ví dụ: `#audience_b2b`, `#painpoint_bi_y_tuong`).
+
+---
+
+## 13. Source Marker Cleanliness Safety Rules (Quy tắc an toàn làm sạch ký hiệu dẫn nguồn)
+
+- **No Raw Source Markers in Body**: Tuyệt đối không giữ các ký hiệu/số dẫn nguồn thô dạng chữ số trần (như `1`, `3`, `5-7`, `[1]`, `[3]`) trực tiếp trong phần văn bản chính (main body) của tệp tin lý thuyết/bố cục (layout/framework).
+- **Mandatory Source Mapping Table**: Nếu cần đối chiếu hoặc truy xuất nguồn gốc dòng văn bản/đoạn trích xuất học liệu, Agent phải gom toàn bộ thông tin này xuống bảng **Source Mapping Table** ở chân tệp tin đích hoặc lưu tập trung trong `source-map.md`, `INGESTION_LOG.md`, hoặc metadata block.
+- **Traceability Standards**: Bảng **Source Mapping Table** ở cuối mỗi tệp tin layout/framework phải được thiết kế rõ ràng với các trường: `Section` (Phân đoạn), `Key Knowledge / Statement` (Kiến thức cốt lõi), `Source File` (Tên file nguồn), `Source Marker / Paragraph` (Ký hiệu nguồn/Số đoạn §), và `Confidence` (Độ tin cậy).

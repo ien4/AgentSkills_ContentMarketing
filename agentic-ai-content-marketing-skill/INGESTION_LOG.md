@@ -938,3 +938,41 @@ Nâng cấp bộ quy trình nạp dữ liệu (SOP) và quy tắc an toàn (Safe
 ### Next Recommended Action
 
 PROMPT 3A-SOP-02-V — VERIFY ADVANCED INGESTION SOP UPGRADES (Cần xác thực toàn bộ gói nâng cấp advanced trước khi commit).
+
+## Batch 3A-3I-1B — Listing Layout Ingestion
+
+### Ngày Thực Hiện
+
+2026-05-21
+
+### Sources
+
+- `docs/Bố Cục Liệt Kê_ Vũ Khí Tối Ưu Content Marketing C1 - 3A.docx` (Primary — Ingested)
+
+### Kiến Thức Đã Nạp
+
+1. **Tư duy cốt lõi (Core Mindset)**: Sự đơn giản tạo nên sức mạnh; Content Marketing tối ưu hóa tương tác/chuyển đổi thay vì làm phức tạp; tâm lý "Information Snacking" thèm khát thông tin quét nhanh của độc giả vội vã.
+2. **Quy luật sắp xếp logic**: Nhóm và sắp xếp ý thân bài theo: cảm xúc tăng/giảm, phân vùng địa lý (quận), mức độ quan trọng (mồi nhử giữ chân ở ý quan trọng nhất).
+3. **Framework Listicle Conversion Model**: Dẫn nhập (nêu nỗi đau + con số giải pháp) → Liệt kê logic (có mồi nhử) → Cầu nối giá trị (tóm tắt giá trị) → CTA kêu gọi/bẻ lái bán hàng tự nhiên.
+4. **3 Kỹ năng cốt lõi**: Headline chứa số (Number-hook), Gom nhóm logic (Logical Grouping), Lồng ghép CTA chuyển mượt (Seamless CTA Integration).
+5. **Ví dụ thực chiến**: Bố cục 5 bước dọn rác máy tính bẻ lái sang bán khóa học Marketing.
+6. **Vector-Ready Metadata**: Thiết lập block JSON Metadata lưu trữ tag marketing, relevance score và timestamp.
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `02-frameworks/content-layout-systems/01-core-layouts/liet-ke-layout.md` (Cập nhật toàn diện lý thuyết, framework, kỹ năng, ví dụ dọn máy tính, checklist, và metadata).
+- `00-course-knowledge/source-map.md` (Cập nhật trạng thái nạp của C1-3A).
+- `00-course-knowledge/course-index.md` (Append section Batch 3A-3I-1B).
+- `INGESTION_LOG.md` (Ghi nhận batch này).
+
+### Không Làm Trong Batch Này
+
+- Không tạo layout mới.
+- Không tạo `dong-tam-layout.md`.
+- Không tạo file đối xứng/song hành.
+- Không sửa `docs/`.
+- Không thực hiện commit hay push (sẽ thực hiện ở bước verify/commit riêng).
+
+### Next Recommended Action
+
+PROMPT 3A-3I-1B-V — VERIFY C1-3A LISTICLE LAYOUT INGESTION (Xác thực toàn bộ nội dung nạp của Batch 3A-3I-1B trước khi commit).

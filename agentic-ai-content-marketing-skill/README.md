@@ -26,13 +26,20 @@
 
 ### Nếu bạn muốn nạp kiến thức mới (ingestion)
 Dừng lại. Đọc trước:
-1. 10-system/safety/DATA_INGESTION_SAFETY.md
-2. 10-system/safety/INGESTION_SOP.md
-3. 00-course-knowledge/source-map.md
-4. 00-course-knowledge/course-index.md
-5. INGESTION_LOG.md
+1. [DATA_INGESTION_SAFETY.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/10-system/safety/DATA_INGESTION_SAFETY.md)
+2. [INGESTION_SOP.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/10-system/safety/INGESTION_SOP.md)
+3. [source-map.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/00-course-knowledge/source-map.md)
+4. [course-index.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/00-course-knowledge/course-index.md)
+5. [INGESTION_LOG.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/INGESTION_LOG.md)
 
-Sau đó, yêu cầu người dùng xác nhận exact source files trước khi nạp.
+Lệnh gọi Agent nạp dữ liệu:
+```txt
+@Data_Ingestion_Agent
+File: docs/[exact_filename].docx
+Mode: plan
+```
+Chi tiết xem tại [Data_Ingestion_Agent.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/04-commands/Data_Ingestion_Agent.md).
+Yêu cầu người dùng xác nhận exact source files trước khi tiến hành nạp.
 
 ## Phân định vai trò các file
 - README.md = trung tâm điều hướng cho người dùng và maintainer.
@@ -52,6 +59,29 @@ Không đọc toàn bộ hệ thống nếu task nhỏ.
 - QA content → đọc /qa + quality gates.
 - Chấm điểm content → đọc /content-score + quality gates.
 - Ingest knowledge → dừng lại và đọc safety files trước.
+
+## Lệnh và Agent Vận hành
+
+Bộ SKILL cung cấp các câu lệnh tương tác và các Agent chuyên biệt để thực hiện các tác vụ content marketing hoặc nạp dữ liệu:
+
+### 1. Data Ingestion Agent (`@Data_Ingestion_Agent`)
+- **Vai trò**: Nạp an toàn và thông minh các tài nguyên, tài liệu, học liệu khóa học mới (PDF, DOCX...) từ thư mục `docs/` vào bộ SKILL theo quy trình chuẩn SOP-02.
+- **Cách gọi lệnh (Invocation Format)**:
+  ```txt
+  @Data_Ingestion_Agent
+  File: docs/[exact_filename].docx
+  Mode: plan
+  ```
+- **Các chế độ (`Mode`)**:
+  - `plan` (hoặc `dry-run`): Chạy kiểm tra, đánh giá độ liên quan, phát hiện trùng lặp/xung đột và lên kế hoạch ánh xạ tệp tin đích. Không sửa đổi mã nguồn.
+  - `execute` (hoặc `ingest`): Thực thi nạp dữ liệu thật sự sau khi bản kế hoạch lập ở chế độ `plan` được phê duyệt.
+- **Tài liệu hướng dẫn chi tiết**: [Data_Ingestion_Agent.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/04-commands/Data_Ingestion_Agent.md)
+
+### 2. Các câu lệnh Content khác (Xem chi tiết tại 04-commands/)
+- `/outline`: Lập dàn ý bài viết marketing.
+- `/post`: Viết bài post hoàn chỉnh dựa trên dàn ý.
+- `/qa`: Kiểm định chất lượng bài viết theo quality gates.
+- `/content-score`: Chấm điểm chất lượng nội dung.
 
 ## Bộ Skill này hỗ trợ gì
 - Phân tích brief content marketing.

@@ -976,3 +976,67 @@ PROMPT 3A-SOP-02-V — VERIFY ADVANCED INGESTION SOP UPGRADES (Cần xác thực
 ### Next Recommended Action
 
 PROMPT 3A-3I-1B-V — VERIFY C1-3A LISTICLE LAYOUT INGESTION (Xác thực toàn bộ nội dung nạp của Batch 3A-3I-1B trước khi commit).
+
+## Batch 3A-AGENT-INGESTION-01-F — Update Data Ingestion Agent Command Name
+
+### Ngày Thực Hiện
+
+2026-05-21
+
+### Mục Tiêu
+
+Cập nhật tên lệnh gọi chính thức của Data Ingestion Agent từ `@AGENT Nạp & Xử lý dữ liệu` sang `@Data_Ingestion_Agent` (sử dụng tên chuẩn, đúng chính tả, giữ alias phụ tiếng Việt nếu cần) và định dạng gọi lệnh mẫu.
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `agentic-ai-content-marketing-skill/04-commands/data-ingestion.md` (Cập nhật command name và mẫu format invocation).
+- `INGESTION_LOG.md` (Ghi nhận batch này).
+
+### Không Làm Trong Batch Này
+
+- Không nạp kiến thức content marketing mới.
+- Không sửa đổi thư mục `docs/`.
+- Không thực hiện commit hay push hoặc `git add`.
+
+## Batch 3A-AGENT-INGESTION-02 — Update README for Data Ingestion Agent Usage
+
+### Ngày Thực Hiện
+
+2026-05-21
+
+### Mục Tiêu
+
+Bổ sung tài liệu hướng dẫn gọi lệnh `@Data_Ingestion_Agent` vào tệp tin README.md chính của bộ SKILL, giúp các thành viên/operator hiểu rõ vai trò và định dạng gọi lệnh của Agent.
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `agentic-ai-content-marketing-skill/README.md` (Bổ sung phần giới thiệu lệnh/Agent và cập nhật đường dẫn an toàn/SOP).
+- `INGESTION_LOG.md` (Ghi nhận batch này).
+
+### Không Làm Trong Batch Này
+
+- Không nạp kiến thức content marketing mới.
+- Không sửa đổi thư mục `docs/`.
+- Không thực hiện commit hay push hoặc `git add`.
+
+## Batch 3A-AGENT-INGESTION-02-F — Align Data Ingestion Agent File Name with @ Command
+
+### Ngày Thực Hiện
+
+2026-05-21
+
+### Mục Tiêu
+
+Đổi tên tệp tin định nghĩa câu lệnh của Data Ingestion Agent từ `data-ingestion.md` thành `Data_Ingestion_Agent.md` để khớp hoàn toàn với câu lệnh `@Data_Ingestion_Agent`, hỗ trợ gọi nhanh bằng cú pháp `@` trong các IDE hiện đại.
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `agentic-ai-content-marketing-skill/04-commands/Data_Ingestion_Agent.md` (Được đổi tên từ `data-ingestion.md`).
+- `agentic-ai-content-marketing-skill/README.md` (Cập nhật các đường dẫn liên kết).
+- `INGESTION_LOG.md` (Ghi nhận batch này).
+
+### Không Làm Trong Batch Này
+
+- Không nạp kiến thức content marketing mới.
+- Không sửa đổi thư mục `docs/`.
+- Không thực hiện commit hay push hoặc `git add`.

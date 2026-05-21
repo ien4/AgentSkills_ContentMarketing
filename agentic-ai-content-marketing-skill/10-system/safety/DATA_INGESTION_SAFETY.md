@@ -9,9 +9,12 @@
 - **Never Create New Layout Without Detailed Source**: Không tự ý tạo file bố cục mới khi tài liệu nguồn chưa cung cấp cấu trúc và thông tin chi tiết đầy đủ của bố cục đó.
 - **Never Mark Source as Ingested Prematurely**: Chỉ đánh dấu nguồn tài liệu đã được nạp (`Ingested` hoặc `Read / Ingested`) trong `source-map.md` khi toàn bộ nội dung cốt lõi của nó đã thực sự được tích hợp vào các file kiến thức tương ứng.
 - **Never Mark Supporting/Cross-check Source as Independent Ingestion**: Nếu một file đóng vai trò đối chiếu/hỗ trợ cho file chính, nó phải được hợp nhất xử lý chung trong cùng một batch và không được tính là một lượt nạp độc lập riêng lẻ.
-- **Never Continue After Failed Verification**: Khi bước Verification phát hiện ra lỗi (font, mâu thuẫn, sai lệch thư mục, v.v.), Agent phải dừng lại để fix triệt để, không được phép tiếp tục sang bước sau.
+- **Never Continue After Failed Verification**: Khi bước Verification phát hiện ra lỗi, Agent phải dừng lại để fix triệt để, không được phép tiếp tục sang bước sau.
 - **Never Auto-commit**: Quy trình commit phải được thực thi thủ công/riêng biệt theo đúng bước quy định trong pipeline, không tích hợp tự động commit chung vào bước sửa file.
 - **Never Proceed Before Post-commit Audit PASS**: Không chuyển sang batch tiếp theo hoặc đề xuất bước tiếp theo cho đến khi bước kiểm toán sau commit (Post-commit Audit) đạt trạng thái PASS hoàn toàn.
+- **Never Ingest Low Relevance Source**: Tuyệt đối không nạp tài liệu nếu điểm độ liên quan (Relevance Score) dưới 40% (Mục 9).
+- **Never Auto-overwrite On Conflict**: Tuyệt đối không tự động ghi đè kiến thức cũ khi xảy ra mâu thuẫn/xung đột mà không có bằng chứng timestamp rõ ràng (Mục 10).
+- **Never Break Semantic Chunk Integrity**: Tuyệt đối không cắt chia nhỏ khối văn bản (chunks) làm vỡ ý nghĩa câu hoặc mất đi chủ ngữ/vị ngữ (Mục 11).
 
 ## 2. Source Safety (An toàn nguồn tài liệu)
 
@@ -35,11 +38,11 @@
   - **ACP (Architectural Content Process)** là quy trình hỗ trợ xây dựng nội dung, không phải là một root layout.
   - **AIDA / PAS** là các công thức viết bài ứng dụng (Formulas), không phải là root layouts.
 - **Pending Layout Status**: Các bố cục chưa được nạp tài liệu chi tiết (như bố cục Đồng tâm, Song hành) phải được giữ ở trạng thái `Pending` trong `layout-taxonomy.md`, không được đánh dấu hoàn thành.
-- **No Premature File Creation**: Không tạo bất kỳ file bố cục trống hoặc file bố cục tạm thời nào (như `dong-tam-layout.md` hay `song-hanh-layout.md`) khi chưa nạp tài liệu nguồn chi tiết cho chúng.
+- **No Premature File Creation**: Không tạo bất kỳ file bố cục trống hoặc file bố cục tạm thời nào khi chưa nạp tài liệu nguồn chi tiết cho chúng.
 
 ## 5. Git Safety (An toàn kiểm soát mã nguồn)
 
-- **Exact Staging**: Chỉ stage các file thực sự thay đổi trong scope của batch bằng lệnh chỉ định chính xác tên file (ví dụ: `git add path/to/file.md`).
+- **Exact Staging**: Chỉ stage các file thực sự thay đổi trong scope của batch bằng lệnh chỉ định chính xác tên file.
 - **No Git Wildcards**: Tuyệt đối cấm sử dụng `git add .`, `git add *`, `git add -u`.
 - **No Unauthorized Git Destructive Commands**: Tuyệt đối không dùng các lệnh `git reset`, `git restore`, `git rebase`, `git merge`, `git commit --amend` trừ khi được người dùng yêu cầu trực tiếp bằng văn bản.
 - **Verify-First Commits**: Chỉ commit sau khi đã chạy verification và đạt kết quả PASS.
@@ -73,3 +76,33 @@
 - **History Integrity**: Không bao giờ được phép chỉnh sửa, xóa hoặc thay đổi lịch sử của các batch trước trong `INGESTION_LOG.md` ngoại trừ việc sửa lỗi chính tả hoặc cập nhật link file bị hỏng. Nhật ký batch cũ là bất di bất dịch.
 - **No Assumption of History**: Không bao giờ giả định một tài liệu đã được nạp nếu nó chưa có mặt trong cả 3 vị trí đối chiếu chéo (`source-map.md`, `course-index.md`, `INGESTION_LOG.md`).
 - **Conflict Stop**: Nếu có sự bất nhất giữa lịch sử ghi nhận trong log và nội dung thực tế ở các file đích, Agent phải coi đây là một Stop Condition (điều kiện dừng) để báo cáo.
+
+---
+
+## 9. Relevance Scoring Safety Rules (Quy tắc an toàn tính điểm liên quan)
+
+- **Mandatory Score Calculation**: Bắt buộc phải tính Relevance Score cho mọi tài liệu nguồn chính (Primary Source) trước khi nạp dữ liệu.
+- **Enforce Threshold Gate**: Nếu score đánh giá dưới 40%, bắt buộc phải dừng quy trình nạp, đưa ra cảnh báo lạc đề và ghi nhận vào log/báo cáo. Cấm mọi hành vi bỏ qua bước kiểm tra điểm này.
+
+---
+
+## 10. Conflict Resolution Safety Rules (Quy tắc an toàn giải quyết xung đột)
+
+- **Strict Date Comparison**: Khi phát hiện mâu thuẫn lý thuyết, bắt buộc phải đối chiếu chéo thuộc tính Timestamp của hai nguồn dữ liệu.
+- **Isolation of Conflict**: Nếu không có thông tin Timestamp tin cậy hoặc ngày cập nhật bằng nhau, cấm tự ý chọn một bên để ghi đè. Bắt buộc phải đóng gói vùng mâu thuẫn vào thẻ `#Pending_Review` kèm theo giải thích lý do và nguồn gốc của cả hai bên.
+
+---
+
+## 11. Semantic Chunking Safety Rules (Quy tắc an toàn phân khối ngữ nghĩa)
+
+- **Grammar & Sentence Integrity**: Khi chia khối tài liệu (chunking), cấm việc chia cắt nửa chừng câu làm mất liên kết ngữ pháp cơ bản (chủ ngữ - vị ngữ).
+- **Structure-Preserved Tables**: Cấm trích xuất bảng biểu thô sơ thành các dòng chữ rời rạc. Phải cấu trúc hóa bảng biểu thành dạng Markdown Table hoặc JSON format để bảo toàn mối tương quan cột/hàng.
+- **Hyperlink Preservation**: Hyperlink trong tài liệu nguồn phải được bảo toàn đúng cú pháp liên kết Markdown, không được làm hỏng đường dẫn URL hoặc bỏ qua liên kết.
+- **Context Attachment**: Mỗi chunk kiến thức phải đi kèm Heading Path để đảm bảo khi đọc rời rạc, AI Agent vẫn hiểu rõ ngữ cảnh của phần kiến thức đó.
+
+---
+
+## 12. Enrichment & Tagging Safety Rules (Quy tắc an toàn gắn thẻ dữ liệu)
+
+- **No Over-Tagging / Fabrication**: Chỉ gắn các thẻ marketing (#Target_Audience, #Pain_Point, #Angle, #Brand_Voice, #Use_Case, #Content_Format) dựa trên thông tin thực tế được đề cập trực tiếp hoặc suy luận logic mạnh từ nội dung bài học. Cấm tự chế các tag không liên quan để tránh làm nhiễu công cụ tìm kiếm ngữ nghĩa.
+- **Standard Tag Format**: Các marketing tag phải tuân theo đúng định dạng chữ thường, ngăn cách bằng dấu gạch dưới (ví dụ: `#audience_b2b`, `#painpoint_bi_y_tuong`).

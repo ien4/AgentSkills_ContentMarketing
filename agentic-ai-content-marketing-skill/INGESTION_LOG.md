@@ -910,3 +910,31 @@ PROMPT 3A-3I-1A-V — VERIFY C1-3 LAYOUT ARCHITECTURE INGESTION
 ### Next Recommended Action
 
 PROMPT 3A-SOP-01-V — VERIFY PACKAGED INGESTION WORKFLOW SOP (Cần chạy xác thực, sau đó thực hiện Commit và Post-commit Audit gói SOP trước khi lập kế hoạch nạp C1 - 3A).
+
+## Batch 3A-SOP-02-A — Advanced Data Ingestion SOP Upgrades
+
+### Ngày Thực Hiện
+
+2026-05-21
+
+### Mục Tiêu
+
+Nâng cấp bộ quy trình nạp dữ liệu (SOP) và quy tắc an toàn (Safety Rules) từ Baseline lên phiên bản nâng cao (Advanced Upgrades). Tích hợp các tính năng: Content Relevance Scoring, Conflict Resolution Policy, Semantic Chunking, Marketing Tagging, Vector-Ready Metadata, và tái cấu trúc thành quy trình 15 bước bắt buộc (Step 0 - Step 14).
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `10-system/safety/INGESTION_SOP.md` (Nâng cấp quy trình lên 15 bước từ Step 0 đến Step 14, tích hợp quy tắc chấm điểm relevance, giải quyết xung đột, phân khối ngữ nghĩa semantic chunking, gắn tag marketing, định nghĩa định dạng Vector-Ready Metadata).
+- `10-system/safety/DATA_INGESTION_SAFETY.md` (Bổ sung quy tắc an toàn tính điểm liên quan, giải quyết xung đột, an toàn phân khối chunking ngữ nghĩa, an toàn làm giàu tagging marketing).
+- `INGESTION_LOG.md` (Ghi nhận batch nâng cấp này).
+
+### Không Làm Trong Batch Này
+
+- Không nạp kiến thức content marketing mới.
+- Không nạp hoặc đọc nguồn C1 - 3A.
+- Không sửa đổi thư mục `docs/`.
+- Không cập nhật `source-map.md` hay `course-index.md`.
+- Không thực hiện commit hay push (sẽ thực hiện ở bước verify/commit riêng).
+
+### Next Recommended Action
+
+PROMPT 3A-SOP-02-V — VERIFY ADVANCED INGESTION SOP UPGRADES (Cần xác thực toàn bộ gói nâng cấp advanced trước khi commit).

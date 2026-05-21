@@ -56,6 +56,15 @@ Dùng khi cần nạp thêm kiến thức hoặc tài liệu khóa học mới (
 11. **Step 10 — Sửa lỗi & Tái thẩm định**: Thực hiện sửa lỗi ngay nếu phát hiện vấn đề trong lúc QA.
 12. **Step 11 — Hướng dẫn Commit**: Hướng dẫn người dùng các lệnh commit cụ thể cho 4 file đã cập nhật (Tuyệt đối không tự động commit/push hoặc dùng `git add .`).
 
+## Quy Tắc Dẫn Nguồn & Tránh Raw Source Markers (Source Traceability & Cleanliness Rules)
+
+Để đảm bảo các tệp tin lý thuyết/bố cục (layout/framework files) trong SKILL luôn sạch đẹp, có tính chuyên nghiệp và sẵn sàng cho việc huấn luyện/sử dụng AI, Agent phải tuyệt đối tuân thủ quy tắc quản lý dẫn nguồn sau:
+
+1. **Tuyệt đối KHÔNG giữ các ký hiệu/số dẫn nguồn thô** dạng chữ số trần (như `1`, `3`, `5-7`, `[1]`, `[3]`) trực tiếp trong phần văn bản chính (main body) của tệp tin layout/framework.
+2. **Quản lý Traceability tập trung**:
+   - Nếu cần đối chiếu hoặc truy xuất nguồn gốc dòng văn bản/đoạn trích xuất học liệu, Agent phải gom toàn bộ thông tin này xuống bảng **Source Mapping Table** ở cuối tệp tin đích hoặc lưu trong `source-map.md`, `INGESTION_LOG.md`, hoặc metadata block.
+   - Bảng **Source Mapping Table** ở cuối mỗi tệp tin layout/framework phải được thiết kế rõ ràng với các trường: `Section` (Phân đoạn), `Key Knowledge / Statement` (Kiến thức cốt lõi), `Source File` (Tên file nguồn), `Source Marker / Paragraph` (Ký hiệu nguồn/Số đoạn §), và `Confidence` (Độ tin cậy).
+
 ## Checklist An Toàn (Safety Rules)
 
 - [ ] Tài liệu nguồn có Relevance Score >= 40% không?
@@ -66,3 +75,5 @@ Dùng khi cần nạp thêm kiến thức hoặc tài liệu khóa học mới (
 - [ ] Toàn bộ hiển thị tiếng Việt có chuẩn mã hóa UTF-8, không bị lỗi font không?
 - [ ] Có tuân thủ nguyên tắc Human Approval trước khi thực hiện viết thật sự không?
 - [ ] Có tránh việc tự động dùng lệnh git add hàng loạt không?
+- [ ] Đã loại bỏ hoàn toàn các số dẫn nguồn thô (raw source markers) khỏi phần văn bản chính và gom vào bảng Source Mapping ở cuối trang chưa?
+

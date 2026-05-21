@@ -75,11 +75,11 @@ Batch 2B chỉ nên nạp từng bố cục vào khu `02-frameworks/content-layo
 - `tong-phan-hop-layout.md`
 - `quy-nap-layout.md`
 - `liet-ke-layout.md`
+- `dien-dich-layout.md`
 - `detailed-content-process-layout.md`
 
 ### Bố Cục Cần Review
 
-- `dien-dich-layout.md`: chỉ có nguồn so sánh/overview, chưa có tài liệu riêng.
 - `dan-dat-thuyet-phuc-layout.md`: nguồn rõ về ứng dụng thuyết phục của quy nạp, nhưng chưa tách thành bố cục độc lập.
 - `professional-content-marketing-layout.md`: nguồn rõ về meta-framework, không phải bố cục gốc đơn lẻ.
 
@@ -160,5 +160,26 @@ Batch 2B chỉ nên nạp từng bố cục vào khu `02-frameworks/content-layo
 - `00-course-knowledge/source-map.md` (Cập nhật trạng thái nạp của C1-3A)
 - `00-course-knowledge/course-index.md` (Section này)
 - `INGESTION_LOG.md` (Append log)
+
+## Batch 3A-3I-1C — Deductive Layout Ingestion
+
+### Tài Liệu Nguồn Đã Đọc
+- `docs/Làm Chủ Bố Cục Diễn Dịch Trong Content Marketing C1 - 3B.docx` (Primary — Ingested)
+
+### Kiến Thức Đã Nạp
+- **Tư duy cốt lõi**: "Đánh phủ đầu" - Đưa thông điệp quan trọng nhất trực diện đến khách hàng ngay từ những giây đầu tiên. Tối ưu cho sự thiếu kiên nhẫn và thói quen lướt thông tin nhanh (scanning) của độc giả hiện đại.
+- **3 Đặc điểm nhận diện**: Ý chính rõ ràng (nắm bắt cốt lõi ngay lập tức), Hỗ trợ thuyết phục mạnh mẽ (xoáy sâu tâm trí bằng dẫn chứng), Logic chặt chẽ (từ tổng quát đến chi tiết).
+- **Framework Deductive Persuasion Content (DPC)**: Luận điểm cốt lõi (Main Idea) → Dẫn nhập (Lead-in) → Thân bài logic (Arguments & Evidence - ít nhất 3 luận cứ đi kèm số liệu/ví dụ) → Tóm tắt (Summary) → Kêu gọi hành động (CTA).
+- **4 Kỹ năng cốt lõi**: Lập dàn ý logic (Logical Structuring), Tìm kiếm dẫn chứng (Evidence Gathering), Cô đọng & Tóm tắt (Summarization), Viết Lead-in (Dẫn nhập chuyển tiếp mượt).
+- **Case Study Highland Coffee**: Sự kết hợp giữa 5W1H và Bố cục diễn dịch (Main Idea: bá chủ cafe Việt; Lead-in: đối thủ Starbucks/The Coffee House; 4 luận cứ: giá 29k, vị trí ngã tư, ghế gỗ không đệm, bánh mì 19k bản địa).
+
+### File Đã Cập Nhật
+- `02-frameworks/content-layout-systems/01-core-layouts/dien-dich-layout.md` (Cập nhật toàn diện lý thuyết, framework DPC, kỹ năng, case study Highland Coffee, checklist, và metadata)
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` (Cập nhật trạng thái Ingested và độ tin cậy High cho Diễn dịch)
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` (Nâng cấp thông tin Diễn dịch lên Validated root layout và High confidence)
+- `00-course-knowledge/source-map.md` (Cập nhật trạng thái nạp của C1-3B)
+- `00-course-knowledge/course-index.md` (Section này)
+- `INGESTION_LOG.md` (Append log)
+
 
 

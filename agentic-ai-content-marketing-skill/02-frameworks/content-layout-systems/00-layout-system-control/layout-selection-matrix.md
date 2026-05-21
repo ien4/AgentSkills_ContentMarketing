@@ -21,7 +21,7 @@ Help the Agent choose a layout based on content goal, then validate the choice w
 | Present many ideas clearly | Liet ke | Validated root layout | Separates independent points while keeping one shared topic. | Moc xich if ideas do not need continuity. | Forces unrelated items into a chain. | High | Liet Ke PDF | Keep one idea per item. |
 | Create continuous idea-to-idea flow | Moc xich | Validated root layout | Each idea bridges to the next. | Liet ke. | Content feels disconnected. | High | Moc Xich PDF | Bridge every section. |
 | Start with evidence then conclude | Quy nap | Validated root layout | Evidence comes before final point. | Dien dich. | Spoils curiosity and weakens the lead. | High | Quy Nap PDF | Conclusion must synthesize all evidence. |
-| Start with conclusion then explain | Dien dich | Comparison/reference layout | Available comparison sources describe this pattern. | Quy nap if the conclusion should be delayed. | Misused when stronger source-backed layouts are required. | Medium | Tong Phan Hop PDF comparison | Needs review; use only when source confidence is acceptable. |
+| Start with conclusion then explain | Dien dich | Validated root layout | Put main idea/conclusion first to capture immediate attention, then defend with logical arguments. | Quy nap if conclusion must be delayed. | Reader loses interest or scrolls past before seeing main message. | High | docs/Làm Chủ Bố Cục Diễn Dịch Trong Content Marketing C1 - 3B.docx | Ensure arguments are backed by strong evidence (numbers/examples). |
 
 ## Matrix Guardrails
 

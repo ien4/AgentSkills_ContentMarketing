@@ -1040,3 +1040,37 @@ Bổ sung tài liệu hướng dẫn gọi lệnh `@Data_Ingestion_Agent` vào t
 - Không nạp kiến thức content marketing mới.
 - Không sửa đổi thư mục `docs/`.
 - Không thực hiện commit hay push hoặc `git add`.
+
+## Batch 3A-3I-1C — Deductive Layout Ingestion
+
+### Ngày Thực Hiện
+
+2026-05-21
+
+### Sources
+
+- `docs/Làm Chủ Bố Cục Diễn Dịch Trong Content Marketing C1 - 3B.docx` (Primary — Ingested)
+
+### Kiến Thức Đã Nạp
+
+1. **Tư duy cốt lõi (Core Mindset)**: "Đánh phủ đầu" - Đưa thông điệp quan trọng nhất trực diện đến khách hàng ngay từ những giây đầu tiên. Tối ưu cho sự thiếu kiên nhẫn và thói quen lướt thông tin nhanh (scanning) của độc giả hiện đại.
+2. **3 Đặc điểm nhận diện**: Ý chính rõ ràng (nắm bắt cốt lõi ngay lập tức), Hỗ trợ thuyết phục mạnh mẽ (xoáy sâu tâm trí bằng dẫn chứng), Logic chặt chẽ (từ tổng quát đến chi tiết).
+3. **Framework Deductive Persuasion Content (DPC)**: Luận điểm cốt lõi (Main Idea) → Dẫn nhập (Lead-in) → Thân bài logic (Arguments & Evidence - ít nhất 3 luận cứ đi kèm số liệu/ví dụ) → Tóm tắt (Summary) → Kêu gọi hành động (CTA).
+4. **4 Kỹ năng cốt lõi**: Lập dàn ý logic (Logical Structuring), Tìm kiếm dẫn chứng (Evidence Gathering), Cô đọng & Tóm tắt (Summarization), Viết Lead-in (Dẫn nhập chuyển tiếp mượt).
+5. **Case Study Highland Coffee**: Sự kết hợp giữa 5W1H và Bố cục diễn dịch (Main Idea: bá chủ cafe Việt; Lead-in: đối thủ Starbucks/The Coffee House; 4 luận cứ: giá 29k, vị trí ngã tư, ghế gỗ không đệm, bánh mì 19k bản địa).
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `02-frameworks/content-layout-systems/01-core-layouts/dien-dich-layout.md` (Cập nhật toàn diện lý thuyết, framework DPC, kỹ năng, case study Highland Coffee, checklist, và metadata)
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` (Cập nhật trạng thái Ingested và độ tin cậy High cho Diễn dịch)
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` (Nâng cấp thông tin Diễn dịch lên Validated root layout và High confidence)
+- `00-course-knowledge/source-map.md` (Cập nhật trạng thái nạp của C1-3B)
+- `00-course-knowledge/course-index.md` (Cập nhật danh lục)
+- `INGESTION_LOG.md` (Ghi nhận batch này)
+
+### Không Làm Trong Batch Này
+
+- Không tạo layout mới.
+- Không tạo `dong-tam-layout.md`.
+- Không sửa `docs/`.
+- Không thực hiện commit hay push (sẽ thực hiện ở bước commit riêng).

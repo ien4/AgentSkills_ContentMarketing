@@ -87,7 +87,7 @@ Bộ SKILL cung cấp các câu lệnh tương tác và các Agent chuyên biệ
   Goal: [Mục tiêu bài viết, ví dụ: viết bài marketing giới thiệu BBO Tech]
   Tone: [Tông giọng mong muốn, ví dụ: rõ ràng, tự nhiên, chuyên gia, không sáo rỗng]
   ```
-- **Tài liệu hướng dẫn chi tiết**: [Content_Marketing_Agent.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/04-commands/Content_Marketing_Agent.md) (được bảo vệ bởi cơ chế *Knowledge Coverage Guard* để kiểm soát phạm vi kiến thức bố cục).
+- **Tài liệu hướng dẫn chi tiết**: [Content_Marketing_Agent.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/04-commands/Content_Marketing_Agent.md) (được bảo vệ bởi cơ chế *Knowledge Coverage Guard* kiểm soát phạm vi kiến thức bố cục và *Input Grounding Guard* phòng chống rò rỉ hoặc tự chế số liệu không căn cứ).
 
 ### 3. Các câu lệnh Content khác (Xem chi tiết tại 04-commands/)
 - `/outline`: Lập dàn ý bài viết marketing.

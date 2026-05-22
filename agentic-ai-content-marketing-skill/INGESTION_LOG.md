@@ -1118,3 +1118,25 @@ Tạo mới câu lệnh cấu hình và hướng dẫn gọi lệnh chính thứ
 - Không nạp kiến thức content marketing mới.
 - Không sửa đổi thư mục `docs/`.
 - Không tự ý thực hiện commit hay push hoặc dùng `git add .`.
+
+## Batch: fix-grounding-unsupported-claims — Fix Input Grounding and Unsupported Claims in @Content_Marketing_Agent
+
+### Ngày Thực Hiện
+
+2026-05-22
+
+### Mục Tiêu
+
+Harden và sửa lỗi thiết kế của `@Content_Marketing_Agent` để phòng chống lỗi lệch đầu vào (Input Grounding Failure) và tự chế số liệu không có căn cứ (Unsupported Claims).
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `agentic-ai-content-marketing-skill/04-commands/Content_Marketing_Agent.md` (Tích hợp quy tắc bám sát dữ liệu đầu vào, quy trình rà soát Grounding & Claim, bổ sung checklist và bằng chứng kiểm duyệt Grounding trong đầu ra).
+- `agentic-ai-content-marketing-skill/README.md` (Cập nhật ghi chú tích hợp Input Grounding Guard bảo vệ tính chân thực của bài viết).
+- `INGESTION_LOG.md` (Ghi nhận batch này).
+
+### Không Làm Trong Batch Này
+
+- Không nạp kiến thức content marketing mới.
+- Không sửa đổi thư mục `docs/`.
+- Không tự ý thực hiện commit hay push hoặc dùng `git add .`.

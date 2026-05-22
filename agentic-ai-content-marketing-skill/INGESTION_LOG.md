@@ -1096,3 +1096,25 @@ Hoàn tất quy trình hardening phòng chống rò rỉ ký hiệu dẫn nguồ
 - Không nạp kiến thức content marketing mới.
 - Không sửa đổi thư mục `docs/`.
 - Không tự ý thực hiện commit hay push hoặc dùng `git add .`.
+
+## Batch: create-content-agent-command — Create Content Marketing Agent Command Entrypoint
+
+### Ngày Thực Hiện
+
+2026-05-21
+
+### Mục Tiêu
+
+Tạo mới câu lệnh cấu hình và hướng dẫn gọi lệnh chính thức của Content Marketing Agent (`@Content_Marketing_Agent`) để tích hợp bộ điều phối (orchestrator) sản xuất nội dung thô thành bài tiếp thị hoàn chỉnh.
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `agentic-ai-content-marketing-skill/04-commands/Content_Marketing_Agent.md` (Tạo mới định nghĩa câu lệnh, quy trình xâu chuỗi 6 bước, định dạng output, quality safety gates, và quy tắc **Knowledge Coverage Guard** kiểm soát phạm vi kiến thức bố cục).
+- `agentic-ai-content-marketing-skill/README.md` (Đăng ký Agent mới vào trung tâm điều hướng, nhóm lệnh vận hành và tích hợp ghi chú bảo vệ phạm vi kiến thức).
+- `INGESTION_LOG.md` (Ghi nhận batch này).
+
+### Không Làm Trong Batch Này
+
+- Không nạp kiến thức content marketing mới.
+- Không sửa đổi thư mục `docs/`.
+- Không tự ý thực hiện commit hay push hoặc dùng `git add .`.

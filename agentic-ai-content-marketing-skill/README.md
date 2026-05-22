@@ -77,7 +77,19 @@ Bộ SKILL cung cấp các câu lệnh tương tác và các Agent chuyên biệ
   - `execute` (hoặc `ingest`): Thực thi nạp dữ liệu thật sự sau khi bản kế hoạch lập ở chế độ `plan` được phê duyệt.
 - **Tài liệu hướng dẫn chi tiết**: [Data_Ingestion_Agent.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/04-commands/Data_Ingestion_Agent.md)
 
-### 2. Các câu lệnh Content khác (Xem chi tiết tại 04-commands/)
+### 2. Content Marketing Agent (`@Content_Marketing_Agent`)
+- **Vai trò**: Tự động chuyển đổi nội dung thô, brief ý tưởng thành bài viết marketing hoàn chỉnh theo đúng các tiêu chuẩn và bố cục gốc của hệ thống.
+- **Cách gọi lệnh (Invocation Format)**:
+  ```txt
+  @Content_Marketing_Agent
+  Platform: [Facebook / Blog / LinkedIn / TikTok / v.v.]
+  Input: [Nội dung thô / Tài liệu / Brief ý tưởng]
+  Goal: [Mục tiêu bài viết, ví dụ: viết bài marketing giới thiệu BBO Tech]
+  Tone: [Tông giọng mong muốn, ví dụ: rõ ràng, tự nhiên, chuyên gia, không sáo rỗng]
+  ```
+- **Tài liệu hướng dẫn chi tiết**: [Content_Marketing_Agent.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/04-commands/Content_Marketing_Agent.md) (được bảo vệ bởi cơ chế *Knowledge Coverage Guard* để kiểm soát phạm vi kiến thức bố cục).
+
+### 3. Các câu lệnh Content khác (Xem chi tiết tại 04-commands/)
 - `/outline`: Lập dàn ý bài viết marketing.
 - `/post`: Viết bài post hoàn chỉnh dựa trên dàn ý.
 - `/qa`: Kiểm định chất lượng bài viết theo quality gates.

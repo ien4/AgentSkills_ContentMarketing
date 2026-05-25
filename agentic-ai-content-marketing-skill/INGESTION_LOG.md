@@ -1268,3 +1268,39 @@ Harden và sửa lỗi thiết kế của `@Content_Marketing_Agent` để phòn
 - Không xóa, di chuyển hay đổi tên bất kỳ file nào.
 - Không để các file nháp (scratch) hay kịch bản trích xuất lọt vào git staging.
 - Không dùng `git add .` hoặc các lệnh git diện rộng.
+
+## Batch: 3A-3I-1G — Dong-Tam Layout Ingestion
+
+### Ngày Thực Hiện
+
+2026-05-25
+
+### Sources
+
+- `docs/Nghệ Thuật Bố Cục Đồng Tâm Trong Content Marketing C1 - 3F.docx` (Primary — Ingested)
+
+### Kiến Thức Đã Nạp
+
+1. **Tư duy cốt lõi (Core Mindset)**: Tổ chức thông tin theo mô hình vòng tròn đồng tâm, bóc tách bối cảnh từ ngoài vào trong (onion peeling) từ vĩ mô đến vi mô để làm dịu bức tường phòng thủ quảng cáo của khách hàng. Sử dụng nguyên lý cấy ghép ý tưởng (Inception) và tự thuyết phục (Self-Persuasion) bằng bối cảnh hướng tâm.
+2. **Quy trình tiêu chuẩn**: Dẫn nhập -> Lớp ngoài (Bối cảnh tổng quan) -> Lớp giữa (Giải thích chi tiết) -> Lớp trong (Lõi/Thông điệp cốt lõi) -> Kết luận/CTA. Minh họa bằng ví dụ lớp học Kỹ năng mềm.
+3. **Nghệ thuật Bán hàng ẩn (Subtle Pitching)**: Bán hàng gián tiếp thông qua việc thiết lập các luận cứ/tiêu chuẩn bao vây xung quanh mà không trực tiếp nhắc tên sản phẩm ở phần thân bài. Độc giả tự nhận thức nhu cầu và tự chốt sale. Minh họa bằng ví dụ đời sống (Mẹ giục con lấy vợ) và kinh doanh (Bán khóa học Marketing).
+4. **Framework Concentric Surround Model**: Core Definition -> Layer 1 Peer Pressure -> Layer 2 Time Limit -> Layer 3 Ultimate Benefit -> The Reveal (CTA/Giải pháp xuất hiện như mảnh ghép cuối cùng giải quyết trọn vẹn 3 lớp bối cảnh).
+5. **3 Kỹ năng cốt lõi**: Information Layering (Phân lớp thông tin), Subtle Pitching (Bán hàng gián tiếp), Deep Customer Insight (Thấu hiểu mong muốn ngầm).
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `agentic-ai-content-marketing-skill/02-frameworks/content-layout-systems/01-core-layouts/dong-tam-layout.md` (Tạo mới, viết chi tiết định nghĩa, đặc điểm, quy trình tiêu chuẩn/nâng cao, framework, so sánh Quy nạp, 3 kỹ năng cốt lõi, sai lầm và checklist).
+- `agentic-ai-content-marketing-skill/02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` (Cập nhật dòng Dong tam sang Ingested / High với nguồn DOCX chính thức và thêm dòng alias).
+- `agentic-ai-content-marketing-skill/02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` (Bổ sung 2 dòng lựa chọn cho Dong-tam dựa trên mục tiêu Subtle pitching và Self-persuasion).
+- `agentic-ai-content-marketing-skill/00-course-knowledge/source-map.md` (Cập nhật ánh xạ nguồn C1-3F).
+- `agentic-ai-content-marketing-skill/00-course-knowledge/course-index.md` (Cập nhật danh lục).
+- `INGESTION_LOG.md` (Ghi nhận batch này).
+
+### Không Làm Trong Batch Này
+
+- Không sửa đổi hay bổ sung tài liệu trong `docs/`.
+- Không chỉnh sửa file `README.md` hay `Content_Marketing_Agent.md`.
+- Không tạo các file báo cáo, kiểm duyệt mới ngoài scope.
+- Không xóa, di chuyển hay đổi tên bất kỳ file nào.
+- Không để các file nháp (scratch) hay kịch bản trích xuất lọt vào git staging.
+- Không dùng `git add .` hoặc các lệnh git diện rộng.

@@ -22,6 +22,9 @@ Help the Agent choose a layout based on content goal, then validate the choice w
 | Create continuous idea-to-idea flow | Moc xich | Validated root layout | Each idea bridges to the next. | Liet ke. | Content feels disconnected. | High | docs/Bố cục Móc xích_ Nghệ thuật Thôi miên và Dẫn dắt Logic C1 - 3E.docx | Bridge every section. |
 | Start with evidence then conclude | Quy nap | Validated root layout | Evidence comes before final point. | Dien dich. | Spoils curiosity and weakens the lead. | High | docs/Làm Chủ Bố Cục Quy Nạp_ Nghệ Thuật Dẫn Dắt Chuyển Đổi C1 -3C.docx | Conclusion must synthesize all evidence. |
 | Start with conclusion then explain | Dien dich | Validated root layout | Put main idea/conclusion first to capture immediate attention, then defend with logical arguments. | Quy nap if conclusion must be delayed. | Reader loses interest or scrolls past before seeing main message. | High | docs/Làm Chủ Bố Cục Diễn Dịch Trong Content Marketing C1 - 3B.docx | Ensure arguments are backed by strong evidence (numbers/examples). |
+| Sell indirectly (Subtle pitching) | Dong tam | Validated root layout | Surrounds a central core message with arguments to trigger self-persuasion without direct hard-sell. | Dien dich if the audience is highly defensive. | High bounce rate if context is too broad or message is missed. | High | docs/Nghệ Thuật Bố Cục Đồng Tâm Trong Content Marketing C1 - 3F.docx | Do not mention the core product/service in the body until the reveal. |
+| Trigger self-persuasion | Dong tam | Validated root layout | Provides concentric arguments so the reader draws their own conclusion and buys willingly. | Hard-sell or direct pitch before the reveal. | Reader feels manipulated if arguments are not aligned. | High | docs/Nghệ Thuật Bố Cục Đồng Tâm Trong Content Marketing C1 - 3F.docx | Ensure all concentric arguments point exactly to the core message. |
+
 
 ## Matrix Guardrails
 

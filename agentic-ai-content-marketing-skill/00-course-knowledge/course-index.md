@@ -240,5 +240,25 @@ Batch 2B chỉ nên nạp từng bố cục vào khu `02-frameworks/content-layo
 - `00-course-knowledge/course-index.md` (Section này).
 - `INGESTION_LOG.md` (Append log).
 
+## Batch 3A-3I-1G — Dong-Tam Layout Ingestion
+
+### Tài Liệu Nguồn Đã Đọc
+- `docs/Nghệ Thuật Bố Cục Đồng Tâm Trong Content Marketing C1 - 3F.docx` (Primary — Ingested)
+
+### Kiến Thức Đã Nạp
+- **Tư duy cốt lõi**: Bố cục Đồng tâm (Concentric Structure) tổ chức nội dung theo mô hình các vòng tròn bối cảnh bao quanh một tâm điểm cốt lõi, hạ gục sự phòng vệ quảng cáo bằng cách bóc tách từng lớp bối cảnh (onion peeling) từ vĩ mô đến vi mô và cấy ghép ý tưởng tự thuyết phục (Self-Persuasion/Inception).
+- **Quy trình tiêu chuẩn**: Dẫn nhập -> Lớp ngoài (Bối cảnh tổng quan) -> Lớp giữa (Giải thích chi tiết) -> Lớp trong (Lõi/Thông điệp cốt lõi) -> Kết luận/CTA.
+- **Nghệ thuật Bán hàng ẩn (Subtle Pitching)**: Ở dạng nâng cao, bài viết không trực tiếp nhắc đến sản phẩm ở thân bài, thay vào đó thiết lập các luận cứ/tiêu chuẩn bao vây xung quanh để khách hàng đối chiếu và tự động chốt sale.
+- **Framework Concentric Surround Model**: Core Definition -> Layer 1 (Peer Pressure) -> Layer 2 (Time Limit) -> Layer 3 (Ultimate Benefit) -> The Reveal.
+- **3 Kỹ năng cốt lõi**: Information Layering (Phân lớp thông tin), Subtle Pitching (Bán hàng gián tiếp), Deep Customer Insight (Thấu hiểu mong muốn ngầm).
+
+### File Đã Cập Nhật
+- `02-frameworks/content-layout-systems/01-core-layouts/dong-tam-layout.md` (Tạo mới, viết chi tiết định nghĩa, đặc điểm, quy trình tiêu chuẩn/nâng cao, framework, so sánh Quy nạp, 3 kỹ năng cốt lõi, sai lầm và checklist).
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` (Cập nhật dòng Dong tam sang Ingested / High với nguồn DOCX chính thức và thêm dòng alias).
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` (Bổ sung 2 dòng lựa chọn cho Dong-tam dựa trên mục tiêu Subtle pitching và Self-persuasion).
+- `00-course-knowledge/source-map.md` (Cập nhật ánh xạ nguồn C1-3F).
+- `00-course-knowledge/course-index.md` (Section này).
+- `INGESTION_LOG.md` (Append log).
+
 
 

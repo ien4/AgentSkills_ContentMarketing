@@ -1140,3 +1140,26 @@ Harden và sửa lỗi thiết kế của `@Content_Marketing_Agent` để phòn
 - Không nạp kiến thức content marketing mới.
 - Không sửa đổi thư mục `docs/`.
 - Không tự ý thực hiện commit hay push hoặc dùng `git add .`.
+
+## Batch: stabilize-active-folders — Wire Active Folders into Agentic Content Workflow
+
+### Ngày Thực Hiện
+
+2026-05-25
+
+### Mục Tiêu
+
+Ổn định cấu trúc bộ Skill bằng cách kết nối và định vị vai trò hoạt động của tất cả các thư mục hoạt động (workflows, templates, reference banks, examples, reports) vào quy trình xử lý tự động của `@Content_Marketing_Agent`, đồng thời cập nhật bản đồ sử dụng kiến trúc vào `README.md`.
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `agentic-ai-content-marketing-skill/04-commands/Content_Marketing_Agent.md` (Tích hợp chỉ dẫn và liên kết tương đối đến workflows, templates, reference banks, examples, reports cho 6 giai đoạn).
+- `agentic-ai-content-marketing-skill/README.md` (Bổ sung Bản đồ sử dụng kiến trúc và dọn dẹp các liên kết tuyệt đối file:/// thành liên kết tương đối).
+- `INGESTION_LOG.md` (Ghi nhận batch này).
+
+### Không Làm Trong Batch Này
+
+- Không nạp kiến thức content marketing mới.
+- Không sửa đổi thư mục `docs/`.
+- Không xóa, di chuyển hay đổi tên bất kỳ file nào trong hệ thống.
+- Không tự ý thực hiện commit hay push hoặc dùng `git add .`.

@@ -26,11 +26,11 @@
 
 ### Nếu bạn muốn nạp kiến thức mới (ingestion)
 Dừng lại. Đọc trước:
-1. [DATA_INGESTION_SAFETY.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/10-system/safety/DATA_INGESTION_SAFETY.md)
-2. [INGESTION_SOP.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/10-system/safety/INGESTION_SOP.md)
-3. [source-map.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/00-course-knowledge/source-map.md)
-4. [course-index.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/00-course-knowledge/course-index.md)
-5. [INGESTION_LOG.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/INGESTION_LOG.md)
+1. [DATA_INGESTION_SAFETY.md](10-system/safety/DATA_INGESTION_SAFETY.md)
+2. [INGESTION_SOP.md](10-system/safety/INGESTION_SOP.md)
+3. [source-map.md](00-course-knowledge/source-map.md)
+4. [course-index.md](00-course-knowledge/course-index.md)
+5. [INGESTION_LOG.md](INGESTION_LOG.md)
 
 Lệnh gọi Agent nạp dữ liệu:
 ```txt
@@ -38,7 +38,7 @@ Lệnh gọi Agent nạp dữ liệu:
 File: docs/[exact_filename].docx
 Mode: plan
 ```
-Chi tiết xem tại [Data_Ingestion_Agent.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/04-commands/Data_Ingestion_Agent.md).
+Chi tiết xem tại [Data_Ingestion_Agent.md](04-commands/Data_Ingestion_Agent.md).
 Yêu cầu người dùng xác nhận exact source files trước khi tiến hành nạp.
 
 ## Phân định vai trò các file
@@ -75,7 +75,7 @@ Bộ SKILL cung cấp các câu lệnh tương tác và các Agent chuyên biệ
 - **Các chế độ (`Mode`)**:
   - `plan` (hoặc `dry-run`): Chạy kiểm tra, đánh giá độ liên quan, phát hiện trùng lặp/xung đột và lên kế hoạch ánh xạ tệp tin đích. Không sửa đổi mã nguồn.
   - `execute` (hoặc `ingest`): Thực thi nạp dữ liệu thật sự sau khi bản kế hoạch lập ở chế độ `plan` được phê duyệt.
-- **Tài liệu hướng dẫn chi tiết**: [Data_Ingestion_Agent.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/04-commands/Data_Ingestion_Agent.md)
+- **Tài liệu hướng dẫn chi tiết**: [Data_Ingestion_Agent.md](04-commands/Data_Ingestion_Agent.md)
 
 ### 2. Content Marketing Agent (`@Content_Marketing_Agent`)
 - **Vai trò**: Tự động chuyển đổi nội dung thô, brief ý tưởng thành bài viết marketing hoàn chỉnh theo đúng các tiêu chuẩn và bố cục gốc của hệ thống.
@@ -87,7 +87,7 @@ Bộ SKILL cung cấp các câu lệnh tương tác và các Agent chuyên biệ
   Goal: [Mục tiêu bài viết, ví dụ: viết bài marketing giới thiệu BBO Tech]
   Tone: [Tông giọng mong muốn, ví dụ: rõ ràng, tự nhiên, chuyên gia, không sáo rỗng]
   ```
-- **Tài liệu hướng dẫn chi tiết**: [Content_Marketing_Agent.md](file:///D:/bbo_team/Ct_Mr/agentic-ai-content-marketing-skill/04-commands/Content_Marketing_Agent.md) (được bảo vệ bởi cơ chế *Knowledge Coverage Guard* kiểm soát phạm vi kiến thức bố cục và *Input Grounding Guard* phòng chống rò rỉ hoặc tự chế số liệu không căn cứ).
+- **Tài liệu hướng dẫn chi tiết**: [Content_Marketing_Agent.md](04-commands/Content_Marketing_Agent.md) (được bảo vệ bởi cơ chế *Knowledge Coverage Guard* kiểm soát phạm vi kiến thức bố cục và *Input Grounding Guard* phòng chống rò rỉ hoặc tự chế số liệu không căn cứ).
 
 ### 3. Các câu lệnh Content khác (Xem chi tiết tại 04-commands/)
 - `/outline`: Lập dàn ý bài viết marketing.
@@ -116,22 +116,48 @@ Bộ SKILL cung cấp các câu lệnh tương tác và các Agent chuyên biệ
 ## Cấu trúc thư mục hiện tại
 ```text
 agentic-ai-content-marketing-skill/
-├── 00-course-knowledge/
-├── 01-core-principles/
-├── 02-frameworks/
-├── 03-workflows/
-├── 04-commands/
-├── 05-templates/
-├── 06-reference-banks/
-├── 07-quality-gates/
-├── 08-examples/
-├── 09-reports/
-├── 10-system/
-├── 10-system/reference/Agent_Skills.md
-├── INGESTION_LOG.md
-├── README.md
-└── SKILL.md
+├── 00-course-knowledge/   # Bản đồ nguồn & registry kiểm soát học liệu
+├── 01-core-principles/     # Các nguyên lý nội dung nền tảng
+├── 02-frameworks/          # Khung tư duy và Hệ thống bố cục gốc (C1-3A/C1-3B)
+├── 03-workflows/           # Hướng dẫn quy trình thực hiện từng bước chi tiết
+├── 04-commands/            # File câu lệnh và định nghĩa của các Agent vận hành
+├── 05-templates/           # Các mẫu cấu trúc outline, bài post, script
+├── 06-reference-banks/     # Thư viện câu, hooks, CTA, pain points viết sẵn
+├── 07-quality-gates/       # Checklists kiểm duyệt chất lượng từng giai đoạn
+├── 08-examples/            # Các ví dụ đối chiếu Good vs. Bad thực tế
+├── 09-reports/             # Báo cáo lịch sử kiểm tra và thử nghiệm các Batch
+├── 10-system/              # SOPs nạp dữ liệu, guides vận hành và an toàn
+├── INGESTION_LOG.md        # Nhật ký các đợt cập nhật và nạp kiến thức
+├── README.md               # Trung tâm điều hướng hệ thống
+└── SKILL.md                # Điểm khởi chạy runtime của AI Agent
 ```
+
+## Bản Đồ Sử Dụng Kiến Trúc (Architecture Usage Map)
+
+Trong quá trình vận hành, các thư mục kiến thức tương tác chặt chẽ với nhau thông qua quy trình tự động của `@Content_Marketing_Agent`:
+
+```mermaid
+graph TD
+    A[04-commands] -->|1. Trích xuất brief & pain points| B[06-reference-banks]
+    A -->|2. Quy chuẩn cấu trúc brief| C[05-templates]
+    A -->|3. Phân tích 5W-1H theo quy trình| D[03-workflows]
+    D -->|Đối chiếu định dạng chuẩn| E[08-examples]
+    A -->|4. Chọn & Thẩm định Bố cục gốc| F[02-frameworks]
+    A -->|5. Thiết lập outline & viết nháp bài| G[05-templates]
+    G -->|Tối ưu hook & từ nối & CTA| B
+    G -->|Tránh lỗi hành văn hời hợt| E
+    A -->|6. Kiểm duyệt chất lượng tự động| H[07-quality-gates]
+    H -->|Rà soát lỗi lịch sử| I[09-reports]
+    H -->|Kiểm tra nguyên lý cơ bản| J[01-core-principles]
+```
+
+- **Quy trình kết nối**:
+  1. **Nhập brief & Phân tích**: `04-commands/` gọi `05-templates/content-brief-template.md` và `06-reference-banks/pain-point-bank.md`.
+  2. **Brainstorming**: Sử dụng quy trình `03-workflows/5w1h-brainstorming-workflow.md`, template `05-templates/5w1h-analysis-template.md`, đối chiếu `08-examples/example-5w1h-analysis.md`.
+  3. **Xác thực Bố cục**: Dựa vào matrix/taxonomy tại `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md`, đối chiếu `08-examples/example-content-layout.md`.
+  4. **Lập Outline**: Theo form của `05-templates/content-outline-template.md` phối hợp thư viện `06-reference-banks/hook-bank.md` và đối chiếu mẫu `08-examples/good-vs-bad-outline.md`.
+  5. **Drafting (Chấp bút)**: Tuân thủ quy trình chuyển thể tại `03-workflows/outline-to-content-workflow.md`, áp dụng template `05-templates/facebook-post-template.md`, bổ sung từ nối/dẫn nhập/CTA từ `06-reference-banks/`, đối chiếu ví dụ tốt/xấu tại `08-examples/good-vs-bad-facebook-post.md` và bài viết mẫu tại `08-examples/example-final-output.md`.
+  6. **QA & Scoring**: Chạy quy trình `03-workflows/content-qa-workflow.md` & `03-workflows/content-rewrite-workflow.md`, tra cứu checklist tại `07-quality-gates/` và kiểm tra lỗi lịch sử đã ghi nhận trong `09-reports/` (ví dụ: `09-reports/BATCH_002I_FIRST_CONTROLLED_WORKFLOW_TEST_REPORT.md` và `09-reports/BATCH_002K_RETEST_FIXED_WORKFLOW_ISSUES_REPORT.md`).
 
 ## Bước sử dụng tiếp theo
 Sử dụng skill này cho công việc content thực tế.

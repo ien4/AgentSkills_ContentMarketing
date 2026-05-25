@@ -181,5 +181,24 @@ Batch 2B chỉ nên nạp từng bố cục vào khu `02-frameworks/content-layo
 - `00-course-knowledge/course-index.md` (Section này)
 - `INGESTION_LOG.md` (Append log)
 
+## Batch 3A-3I-1D — Inductive Layout Ingestion
+
+### Tài Liệu Nguồn Đã Đọc
+- `docs/Làm Chủ Bố Cục Quy Nạp_ Nghệ Thuật Dẫn Dắt Chuyển Đổi C1 -3C.docx` (Primary — Ingested)
+
+### Kiến Thức Đã Nạp
+- **Tư duy cốt lõi**: Bố cục quy nạp là nghệ thuật trì hoãn thông điệp, giấu đi mục đích bán hàng ban đầu để độc giả tự nguyện đi đến kết luận logic.
+- **Quy luật sắp xếp logic**: Nhóm và sắp xếp các luận cứ thân bài theo trật tự logic leo thang (từ nhỏ đến lớn) hoặc theo đường cong cảm xúc để dẫn dắt độc giả.
+- **Framework Inductive Discovery Model**: Mở bài gợi mở tò mò (Mystery Lead) → Chuỗi luận cứ (Logic Chain) → Cầu nối nỗi đau/nhu cầu ngầm (Pain-point Bridge) → Kết luận bùng nổ (Big Reveal) → CTA tự nhiên (Natural CTA).
+- **4 Kỹ năng cốt lõi**: Viết mở bài úp mở (Curiosity Hooking), Sắp xếp logic (Logical Sequencing), Lồng ghép bán hàng tinh tế (Subtle Pitching), Tóm tắt & Chốt hạ đanh thép (Strong Concluding).
+
+### File Đã Cập Nhật
+- `02-frameworks/content-layout-systems/01-core-layouts/quy-nap-layout.md` (Cấu trúc lại toàn diện lý thuyết, framework, ví dụ, sai lầm thường gặp và checklist).
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` (Cập nhật trạng thái Ingested và độ tin cậy High cho Quy nạp).
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` (Cập nhật Source basis sang tệp DOCX chính thức và nâng độ tin cậy lên High).
+- `00-course-knowledge/source-map.md` (Cập nhật trạng thái nạp của C1-3C).
+- `00-course-knowledge/course-index.md` (Section này).
+- `INGESTION_LOG.md` (Append log).
+
 
 

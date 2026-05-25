@@ -1163,3 +1163,36 @@ Harden và sửa lỗi thiết kế của `@Content_Marketing_Agent` để phòn
 - Không sửa đổi thư mục `docs/`.
 - Không xóa, di chuyển hay đổi tên bất kỳ file nào trong hệ thống.
 - Không tự ý thực hiện commit hay push hoặc dùng `git add .`.
+
+## Batch: 3A-3I-1D — Inductive Layout Ingestion
+
+### Ngày Thực Hiện
+
+2026-05-25
+
+### Sources
+
+- `docs/Làm Chủ Bố Cục Quy Nạp_ Nghệ Thuật Dẫn Dắt Chuyển Đổi C1 -3C.docx` (Primary — Ingested)
+
+### Kiến Thức Đã Nạp
+
+1. **Tư duy cốt lõi (Core Mindset)**: Quy nạp là nghệ thuật trì hoãn ý chính/offers để độc giả hạ thấp rào cản phòng thủ, dẫn dắt họ đi qua các mảnh ghép luận cứ rồi tự nguyện đồng ý với kết luận ở cuối bài viết.
+2. **Quy luật sắp xếp logic**: Trình bày luận cứ, dẫn chứng leo thang (trình tự logic tăng dần) hoặc theo cảm xúc để tạo dòng chảy hấp dẫn.
+3. **Framework Inductive Discovery Model (Bố cục Quy Nạp Dẫn Dắt Khám Phá)**: Khung cấu trúc 5 bước chuẩn hóa: Mở bài gợi mở tò mò (Mystery Lead) → Thân bài luận cứ (Logic Chain) → Cầu nối nỗi đau/nhu cầu ngầm (Pain-point Bridge) → Kết luận bùng nổ (Big Reveal) → CTA tự nhiên (Natural CTA).
+4. **4 Kỹ năng cốt lõi**: Curiosity Hooking (Mở bài úp mở), Logical Sequencing (Sắp xếp luận cứ), Subtle Pitching (Lồng ghép bán hàng tự nhiên), Strong Concluding (Tóm tắt và chốt hạ đanh thép).
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `agentic-ai-content-marketing-skill/02-frameworks/content-layout-systems/01-core-layouts/quy-nap-layout.md` (Cấu trúc lại toàn diện lý thuyết, framework, ví dụ, sai lầm thường gặp và checklist).
+- `agentic-ai-content-marketing-skill/02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` (Cập nhật trạng thái Ingested và độ tin cậy High cho Quy nạp).
+- `agentic-ai-content-marketing-skill/02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` (Cập nhật Source basis sang tệp DOCX chính thức và nâng độ tin cậy lên High).
+- `agentic-ai-content-marketing-skill/00-course-knowledge/source-map.md` (Cập nhật trạng thái nạp của C1-3C).
+- `agentic-ai-content-marketing-skill/00-course-knowledge/course-index.md` (Cập nhật danh lục).
+- `INGESTION_LOG.md` (Ghi nhận batch này).
+
+### Không Làm Trong Batch Này
+
+- Không nạp kiến thức content marketing mới.
+- Không sửa đổi thư mục `docs/`.
+- Không xóa, di chuyển hay đổi tên bất kỳ file nào trong hệ thống.
+- Không tự ý thực hiện commit hay push hoặc dùng `git add .`.

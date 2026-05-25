@@ -76,6 +76,8 @@ Batch 2B chỉ nên nạp từng bố cục vào khu `02-frameworks/content-layo
 - `quy-nap-layout.md`
 - `liet-ke-layout.md`
 - `dien-dich-layout.md`
+- `dong-tam-layout.md`
+- `van-de-giai-phap-layout.md`
 - `detailed-content-process-layout.md`
 
 ### Bố Cục Cần Review
@@ -257,6 +259,24 @@ Batch 2B chỉ nên nạp từng bố cục vào khu `02-frameworks/content-layo
 - `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` (Cập nhật dòng Dong tam sang Ingested / High với nguồn DOCX chính thức và thêm dòng alias).
 - `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` (Bổ sung 2 dòng lựa chọn cho Dong-tam dựa trên mục tiêu Subtle pitching và Self-persuasion).
 - `00-course-knowledge/source-map.md` (Cập nhật ánh xạ nguồn C1-3F).
+- `00-course-knowledge/course-index.md` (Section này).
+- `INGESTION_LOG.md` (Append log).
+
+## Batch 3A-3I-1H — Problem-Solution Layout Ingestion
+
+### Tài Liệu Nguồn Đã Đọc
+- `docs/Nghệ Thuật Mix Bố Cục Vấn Đề - Giải Pháp Đa Tầng C1 - 3G.docx` (Primary — Ingested)
+
+### Kiến Thức Đã Nạp
+- **Tư duy cốt lõi (Core Mindset)**: Tư duy "Bắt bệnh - Kê đơn" khơi gợi nỗi đau tại Tiêu đề/Dẫn nhập để thu hút sự chú ý, cung cấp phác đồ giải pháp cụ thể ở thân bài. Kỹ thuật "Inception" lắp ghép đa tầng, biến các bố cục cơ bản khác (Diễn dịch, Móc xích) thành các mô-đun nhúng bên trong giải pháp nhằm tạo độ sâu lý luận và thuyết phục bằng sự chi tiết.
+- **Framework P.A.S Hybrid Model**: Mô hình Vấn đề - Giải pháp kết hợp Diễn dịch/Móc xích ở cấu trúc vi mô (Micro-structuring) của từng giải pháp (nêu lý do, cơ chế hoặc chia nhỏ quy trình theo các bước hành động).
+- **3 Kỹ năng cốt lõi**: Pain-point Discovery (Bắt mạch nỗi đau), Layout Blending (Mix bố cục), Step-by-step Structuring (Hệ thống hóa giải pháp).
+
+### File Đã Cập Nhật
+- `02-frameworks/content-layout-systems/01-core-layouts/van-de-giai-phap-layout.md` (Tạo mới, viết chi tiết định nghĩa, tư duy cốt lõi, quy tắc, sơ đồ vận hành cơ bản/nâng cao, framework P.A.S Hybrid, so sánh các bố cục khác, checklist, và metadata).
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` (Thêm dòng Van de giai phap sang Ingested / High với nguồn DOCX chính thức và dòng alias).
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` (Bổ sung 2 dòng lựa chọn cho Van de giai phap dựa trên mục tiêu khai thác nỗi đau và viết content how-to đa tầng).
+- `00-course-knowledge/source-map.md` (Cập nhật mapping nguồn C1-3G).
 - `00-course-knowledge/course-index.md` (Section này).
 - `INGESTION_LOG.md` (Append log).
 

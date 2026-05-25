@@ -1304,3 +1304,40 @@ Harden và sửa lỗi thiết kế của `@Content_Marketing_Agent` để phòn
 - Không xóa, di chuyển hay đổi tên bất kỳ file nào.
 - Không để các file nháp (scratch) hay kịch bản trích xuất lọt vào git staging.
 - Không dùng `git add .` hoặc các lệnh git diện rộng.
+
+## Batch: 3A-3I-1H — Problem-Solution Layout Ingestion
+
+### Ngày Thực Hiện
+
+2026-05-25
+
+### Sources
+
+- `docs/Nghệ Thuật Mix Bố Cục Vấn Đề - Giải Pháp Đa Tầng C1 - 3G.docx` (Primary — Ingested)
+
+### Kiến Thức Đã Nạp
+
+1. **Tư duy cốt lõi (Core Mindset)**: Tư duy "Bắt bệnh - Kê đơn" khơi gợi nỗi đau tại Tiêu đề/Dẫn nhập để thu hút sự chú ý, cung cấp phác đồ giải pháp cụ thể ở thân bài. Kỹ thuật "Inception" lắp ghép đa tầng, biến các bố cục cơ bản khác (Diễn dịch, Móc xích) thành các mô-đun nhúng bên trong giải pháp nhằm tạo độ sâu lý luận và thuyết phục bằng sự chi tiết.
+2. **Sơ đồ vận hành**:
+   - Dạng cơ bản (Vấn đề - Giải pháp + Diễn dịch): Khơi gợi nỗi đau $\rightarrow$ Đưa ra danh sách giải pháp $\rightarrow$ Lồng ghép Diễn dịch (giải thích lý do/ví dụ) vào từng giải pháp $\rightarrow$ CTA.
+   - Dạng nâng cao (Vấn đề - Giải pháp + Móc xích + Diễn dịch): Khơi gợi nỗi đau $\rightarrow$ Đưa ra giải pháp lớn $\rightarrow$ Chia nhỏ thành các bước móc xích $\rightarrow$ Diễn dịch chi tiết từng bước $\rightarrow$ CTA.
+3. **Framework P.A.S Hybrid Model**: Khung Vấn đề - Giải pháp kết hợp Diễn dịch/Móc xích ở cấu trúc vi mô (Micro-structuring) của từng giải pháp (nêu lý do, cơ chế hoặc chia nhỏ quy trình theo các bước hành động).
+4. **3 Kỹ năng cốt lõi**: Pain-point Discovery (Bắt mạch nỗi đau), Layout Blending (Mix bố cục), Step-by-step Structuring (Hệ thống hóa giải pháp).
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `agentic-ai-content-marketing-skill/02-frameworks/content-layout-systems/01-core-layouts/van-de-giai-phap-layout.md` (Tạo mới, viết chi tiết định nghĩa, tư duy cốt lõi, quy tắc, sơ đồ vận hành cơ bản/nâng cao, framework P.A.S Hybrid, so sánh các bố cục khác, checklist, và metadata).
+- `agentic-ai-content-marketing-skill/02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` (Cập nhật dòng Van de giai phap sang Ingested / High với nguồn DOCX chính thức và thêm dòng alias).
+- `agentic-ai-content-marketing-skill/02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` (Bổ sung 2 dòng lựa chọn cho Van de giai phap dựa trên mục tiêu khai thác nỗi đau và viết content how-to đa tầng).
+- `agentic-ai-content-marketing-skill/00-course-knowledge/source-map.md` (Cập nhật ánh xạ nguồn C1-3G).
+- `agentic-ai-content-marketing-skill/00-course-knowledge/course-index.md` (Cập nhật danh lục).
+- `INGESTION_LOG.md` (Ghi nhận batch này).
+
+### Không Làm Trong Batch Này
+
+- Không sửa đổi hay bổ sung tài liệu trong `docs/`.
+- Không chỉnh sửa file `README.md` hay `Content_Marketing_Agent.md`.
+- Không tạo các file báo cáo, kiểm duyệt mới ngoài scope.
+- Không xóa, di chuyển hay đổi tên bất kỳ file nào.
+- Không để các file nháp (scratch) hay kịch bản trích xuất lọt vào git staging.
+- Không dùng `git add .` hoặc các lệnh git diện rộng.

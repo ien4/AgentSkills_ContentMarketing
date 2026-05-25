@@ -51,9 +51,9 @@ Khi nhận lệnh, Agent tự động đóng vai trò là **Bộ điều phối 
 - Tra cứu bảng ma trận bố cục (`02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md`) để chọn bố cục gốc phù hợp nhất (ví dụ: *Diễn dịch* cho bài quét nhanh/phủ đầu, *Quy nạp* cho bài lập luận sâu sắc, *Liệt kê* cho danh sách lợi ích/tính năng).
 - Thực hiện xác thực (validate) tính hợp lý dựa trên `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md`.
 - **Kiểm soát Phạm vi Kiến thức (Knowledge Coverage Guard)**:
-  - Nhóm bố cục **được hỗ trợ đầy đủ**: *Liệt kê* (C1-3A) và *Diễn dịch* (C1-3B) có đầy đủ tài liệu chi tiết chính thức trong bộ SKILL, được khuyến nghị ưu tiên sử dụng.
-  - Nhóm bố cục **chưa nạp đầy đủ (bị giới hạn)**: *Quy nạp* (C1-3C), *Tổng Phân Hợp* (C1-3D), *Móc xích* (C1-3E), *Đồng tâm* (C1-3F), *Vấn đề - Giải pháp* (C1-3G), *Song hành / Đối xứng*. Các bố cục này chưa được nạp tài liệu chi tiết chính thức.
-  - Nếu bài viết bắt buộc phải chọn nhóm bố cục chưa nạp đầy đủ này, Agent phải hiển thị một cảnh báo giới hạn kiến thức (**Knowledge Coverage Warning**) rõ ràng: *"Bố cục [Tên Layout] chưa được nạp tài liệu chi tiết chính thức (chưa chạy Batch C1-3C đến C1-3G). Các quy tắc cấu trúc chi tiết được áp dụng dựa trên kiến thức khái quát và có thể thiếu các hướng dẫn thực chiến nâng cao."*
+  - Nhóm bố cục **được hỗ trợ đầy đủ**: *Liệt kê* (C1-3A), *Diễn dịch* (C1-3B), *Quy nạp* (C1-3C), *Tổng Phân Hợp* (C1-3D), *Móc xích* (C1-3E), *Đồng tâm* (C1-3F), *Vấn đề - Giải pháp* (C1-3G) có đầy đủ tài liệu chi tiết chính thức trong bộ SKILL, được khuyến nghị ưu tiên sử dụng.
+  - Nhóm bố cục **chưa nạp đầy đủ (bị giới hạn)**: *Song hành / Đối xứng*. Các bố cục này chưa được nạp tài liệu chi tiết chính thức.
+  - Nếu bài viết bắt buộc phải chọn nhóm bố cục chưa nạp đầy đủ này, Agent phải hiển thị một cảnh báo giới hạn kiến thức (**Knowledge Coverage Warning**) rõ ràng: *"Bố cục [Tên Layout] chưa được nạp tài liệu chi tiết chính thức. Các quy tắc cấu trúc chi tiết được áp dụng dựa trên kiến thức khái quát và có thể thiếu các hướng dẫn thực chiến nâng cao."*
 - Trình bày bằng chứng **Taxonomy Validation Evidence** chứa các thông tin:
   - *Selected layout*: Tên bố cục gốc.
   - *Layout type*: Loại bố cục.
@@ -62,7 +62,7 @@ Khi nhận lệnh, Agent tự động đóng vai trò là **Bộ điều phối 
   - *Source basis*: Nguồn gốc học liệu trong SKILL.
   - *Why this layout fits the content goal*: Giải thích sự phù hợp.
   - *Why this is not a meta-framework misuse*: Đảm bảo không lạm dụng meta-framework (như ACP hay Professional layout) làm khung bài viết chính.
-  - *Knowledge Coverage Warning (nếu áp dụng)*: Ghi nhận cảnh báo giới hạn kiến thức nếu chọn bố cục chưa nạp đầy đủ, hoặc ghi "N/A - Layout fully ingested" nếu chọn Diễn dịch hoặc Liệt kê.
+  - *Knowledge Coverage Warning (nếu áp dụng)*: Ghi nhận cảnh báo giới hạn kiến thức nếu chọn bố cục chưa nạp đầy đủ, hoặc ghi "N/A - Layout fully ingested" nếu chọn bố cục đã được nạp đầy đủ (C1-3A đến C1-3G).
 - **Tài nguyên kết nối**:
   - Đối chiếu ví dụ lựa chọn bố cục tại `08-examples/example-content-layout.md`.
 
@@ -154,7 +154,7 @@ Khi trả về kết quả cho người dùng, Agent phải trình bày theo đ�
 - **Source basis**: ...
 - **Why this layout fits the content goal**: ...
 - **Why this is not a meta-framework misuse**: ...
-- **Knowledge Coverage Warning (nếu áp dụng)**: [Chỉ bắt buộc nếu chọn layout chưa nạp đầy đủ bao gồm Quy nạp C1-3C, Tổng Phân Hợp C1-3D, Móc xích C1-3E, Đồng tâm C1-3F, Vấn đề - Giải pháp C1-3G, Song hành / Đối xứng. Ghi rõ cảnh báo giới hạn kiến thức chi tiết và khuyến nghị fallback nếu cần thiết. Nếu chọn Diễn dịch hoặc Liệt kê thì ghi "N/A - Layout fully ingested"]
+- **Knowledge Coverage Warning (nếu áp dụng)**: [Chỉ bắt buộc nếu chọn layout chưa nạp đầy đủ như Song hành / Đối xứng. Ghi rõ cảnh báo giới hạn kiến thức chi tiết và khuyến nghị fallback nếu cần thiết. Nếu chọn các layout từ C1-3A đến C1-3G thì ghi "N/A - Layout fully ingested"]
 
 ## 4. Dàn Ý Tiếp Thị 5 Phần (Marketing Outline)
 - **Tiêu đề**: ...
@@ -227,6 +227,6 @@ Khi trả về kết quả cho người dùng, Agent phải trình bày theo đ�
 - [ ] Có xuất đầy đủ block bằng chứng **Taxonomy Validation Evidence** và **Content Logic Evidence** không?
 - [ ] Điểm tự đánh giá tổng hợp có đạt từ 80/100 trở lên để đủ điều kiện xuất bản không?
 - [ ] Điểm `Layout Fit` có đạt tối thiểu từ 7/10 trở lên không?
-- [ ] Nếu chọn các bố cục chưa nạp đầy đủ (Quy nạp, Tổng Phân Hợp, Móc xích, Đồng tâm, Vấn đề - Giải pháp, Song hành / Đối xứng), đã bổ sung cảnh báo giới hạn kiến thức (Knowledge Coverage Warning) và lý do sử dụng thay vì fallback sang Diễn dịch/Liệt kê chưa?
+- [ ] Nếu chọn các bố cục chưa nạp đầy đủ (như Song hành / Đối xứng), đã bổ sung cảnh báo giới hạn kiến thức (Knowledge Coverage Warning) và lý do sử dụng thay vì fallback sang các bố cục đã nạp (C1-3A đến C1-3G) chưa?
 - [ ] Bài viết có bám sát sản phẩm, dịch vụ và chủ đề thực tế từ `Input` không (Tuyệt đối không tự ý đổi chủ đề/sản phẩm)?
 - [ ] Toàn bộ số liệu định lượng và tuyên bố về năng lực có căn cứ xác thực từ `Input` hoặc tài liệu chính thức không (Tuyệt đối không tự chế số liệu)?

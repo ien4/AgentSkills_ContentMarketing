@@ -1231,3 +1231,40 @@ Harden và sửa lỗi thiết kế của `@Content_Marketing_Agent` để phòn
 - Không xóa, di chuyển hay đổi tên bất kỳ file nào.
 - Không để các file nháp (scratch) hay kịch bản trích xuất lọt vào git staging.
 - Không dùng `git add .` hoặc các lệnh git diện rộng.
+
+## Batch: 3A-3I-1F — Moc-Xich Layout Ingestion
+
+### Ngày Thực Hiện
+
+2026-05-25
+
+### Sources
+
+- `docs/Bố cục Móc xích_ Nghệ thuật Thôi miên và Dẫn dắt Logic C1 - 3E.docx` (Primary — Ingested)
+
+### Kiến Thức Đã Nạp
+
+1. **Tư duy cốt lõi (Core Mindset)**: Dòng chảy nhận thức liên hoàn (Flow State), Cliffhanger (Hiệu ứng Zeigarnik) ở các điểm nối ý để thôi miên người đọc. Thuyết phục bằng cách cho độc giả ngấm sâu lý luận logic (Inbound Marketing), coi nội dung là hệ sinh thái liên thông (Content is an Ecosystem).
+2. **Sơ đồ vận hành**:
+   - Vi mô: Đấu nối nhân quả giữa các đoạn văn (A -> B, B -> C).
+   - Vĩ mô: Liên kết Series/Mùa để giữ chân người xem trung thành lâu dài.
+3. **Framework Chain-Link Logic Framework**: Hook (Dẫn nhập) -> Link A -> Bridge A-B -> Link B -> Bridge B-C -> Anchor (CTA/Mồi series).
+4. **3 Kỹ năng cốt lõi**: Transitional Writing (Chuyển ý tự nhiên), Content Series Planning (Quy hoạch Series), Educational Storytelling (Kể chuyện giáo dục).
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `agentic-ai-content-marketing-skill/02-frameworks/content-layout-systems/01-core-layouts/moc-xich-layout.md` (Tái cấu trúc toàn diện lý thuyết, sơ đồ vi mô/vĩ mô, framework, case study kỹ năng mềm, sai lầm và checklist).
+- `agentic-ai-content-marketing-skill/02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` (Cập nhật Source File sang tệp DOCX chính thức và duy trì trạng thái Ingested / High).
+- `agentic-ai-content-marketing-skill/02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` (Cập nhật Source basis sang tệp DOCX chính thức và nâng độ tin cậy lên High).
+- `agentic-ai-content-marketing-skill/00-course-knowledge/source-map.md` (Cập nhật trạng thái nạp của C1-3E).
+- `agentic-ai-content-marketing-skill/00-course-knowledge/course-index.md` (Cập nhật danh lục).
+- `INGESTION_LOG.md` (Ghi nhận batch này).
+
+### Không Làm Trong Batch Này
+
+- Không sửa đổi hay bổ sung tài liệu trong `docs/`.
+- Không chỉnh sửa file `README.md` hay `Content_Marketing_Agent.md`.
+- Không tạo các file báo cáo, kiểm duyệt mới ngoài scope.
+- Không xóa, di chuyển hay đổi tên bất kỳ file nào.
+- Không để các file nháp (scratch) hay kịch bản trích xuất lọt vào git staging.
+- Không dùng `git add .` hoặc các lệnh git diện rộng.

@@ -1196,3 +1196,38 @@ Harden và sửa lỗi thiết kế của `@Content_Marketing_Agent` để phòn
 - Không sửa đổi thư mục `docs/`.
 - Không xóa, di chuyển hay đổi tên bất kỳ file nào trong hệ thống.
 - Không tự ý thực hiện commit hay push hoặc dùng `git add .`.
+
+## Batch: 3A-3I-1E — Tong-Phan-Hop Layout Ingestion
+
+### Ngày Thực Hiện
+
+2026-05-25
+
+### Sources
+
+- `docs/Nghệ Thuật Bố Cục Tổng Phân Hợp Trong Content Marketing C1 - 3D.docx` (Primary — Ingested)
+
+### Kiến Thức Đã Nạp
+
+1. **Tư duy cốt lõi (Core Mindset)**: "Khẳng định kép" (Double Affirmation) — Thiết lập bản đồ tư duy ngay từ đầu (Tổng), chẻ nhỏ và củng cố bằng các luận điểm logic lý trí ở thân bài (Phân), và đúc kết vững chắc ở kết bài (Hợp) để giảm quá tải nhận thức cho độc giả đối với bài viết dài.
+2. **Quy luật sắp xếp logic**: Thân bài phân rã luận cứ phụ độc lập cùng hỗ trợ cho thông điệp trung tâm, bắt buộc có số liệu và ví dụ minh họa đi kèm.
+3. **Framework T.P.H Comprehensive Persuasion**: Anchor (Tổng - neo giữ luận điểm) → Breakdown (Phân - chia nhỏ luận cứ & dẫn chứng) → Synthesis (Hợp - tóm lược và paraphrase tái khẳng định đanh thép & CTA).
+4. **3 Kỹ năng cốt lõi**: Outlining/Structuring (Tổ chức dàn bài), Synthesizing (Tóm tắt và đúc kết), Paraphrase (Viết lại câu ở phần kết bài để tránh lặp từ thô thiển).
+
+### Files Đã Cập Nhật / Tạo Mới
+
+- `agentic-ai-content-marketing-skill/02-frameworks/content-layout-systems/01-core-layouts/tong-phan-hop-layout.md` (Tái cấu trúc toàn diện lý thuyết, framework, ví dụ doanh nghiệp, sai lầm paraphrase và checklist).
+- `agentic-ai-content-marketing-skill/02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` (Cập nhật Source File sang tệp DOCX chính thức và duy trì trạng thái Ingested / High).
+- `agentic-ai-content-marketing-skill/02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` (Cập nhật Source basis sang tệp DOCX chính thức và nâng độ tin cậy lên High).
+- `agentic-ai-content-marketing-skill/00-course-knowledge/source-map.md` (Cập nhật trạng thái nạp của C1-3D).
+- `agentic-ai-content-marketing-skill/00-course-knowledge/course-index.md` (Cập nhật danh lục).
+- `INGESTION_LOG.md` (Ghi nhận batch này).
+
+### Không Làm Trong Batch Này
+
+- Không sửa đổi hay bổ sung tài liệu trong `docs/`.
+- Không chỉnh sửa file `README.md` hay `Content_Marketing_Agent.md`.
+- Không tạo các file báo cáo, kiểm duyệt mới ngoài scope.
+- Không xóa, di chuyển hay đổi tên bất kỳ file nào.
+- Không để các file nháp (scratch) hay kịch bản trích xuất lọt vào git staging.
+- Không dùng `git add .` hoặc các lệnh git diện rộng.

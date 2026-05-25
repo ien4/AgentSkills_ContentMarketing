@@ -200,5 +200,24 @@ Batch 2B chỉ nên nạp từng bố cục vào khu `02-frameworks/content-layo
 - `00-course-knowledge/course-index.md` (Section này).
 - `INGESTION_LOG.md` (Append log).
 
+## Batch 3A-3I-1E — Tong-Phan-Hop Layout Ingestion
+
+### Tài Liệu Nguồn Đã Đọc
+- `docs/Nghệ Thuật Bố Cục Tổng Phân Hợp Trong Content Marketing C1 - 3D.docx` (Primary — Ingested)
+
+### Kiến Thức Đã Nạp
+- **Tư duy cốt lõi**: Bố cục Tổng Phân Hợp sử dụng "khẳng định kép" (Double Affirmation) giúp độc giả nắm bắt toàn diện ý chính từ đầu (Tổng) và chốt hạ mạnh mẽ ở cuối (Hợp), tránh quá tải nhận thức khi triển khai bài dài.
+- **Quy luật sắp xếp logic**: Thân bài (Phân) chẻ nhỏ ý chính thành các luận cứ độc lập đồng hướng, bổ trợ bằng số liệu, dẫn chứng thực tế.
+- **Framework T.P.H Comprehensive Persuasion**: The Anchor (Tổng - neo tư duy) → The Breakdown (Phân - phân rã luận cứ kèm data) → The Synthesis (Hợp - tóm lược giá trị, paraphrase khẳng định chính & CTA).
+- **3 Kỹ năng cốt lõi**: Tổ chức dàn ý (Outlining & Structuring), Tóm tắt & Khái quát (Synthesizing), Viết lại câu (Paraphrase tránh lặp nguyên văn).
+
+### File Đã Cập Nhật
+- `02-frameworks/content-layout-systems/01-core-layouts/tong-phan-hop-layout.md` (Tái cấu trúc và hoàn thiện nội dung lý thuyết, framework, ví dụ, sai lầm và checklist).
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md` (Cập nhật Source File sang tệp DOCX chính thức và duy trì trạng thái Ingested / High).
+- `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md` (Cập nhật Source basis sang tệp DOCX chính thức và nâng độ tin cậy lên High).
+- `00-course-knowledge/source-map.md` (Cập nhật trạng thái nạp của C1-3D).
+- `00-course-knowledge/course-index.md` (Section này).
+- `INGESTION_LOG.md` (Append log).
+
 
 

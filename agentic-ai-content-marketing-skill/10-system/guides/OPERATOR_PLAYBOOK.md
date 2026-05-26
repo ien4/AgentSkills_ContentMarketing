@@ -1,330 +1,85 @@
 # Practical Operator Playbook — Agentic AI Content Marketing Skill
 
 ## 1. Mục Đích
-Playbook này giúp operator/đồng nghiệp dùng bộ **agentic-ai-content-marketing-skill** đúng quy trình thực chiến, không cần hiểu toàn bộ cấu trúc bên trong ngay từ đầu.
+Playbook này là tài liệu hướng dẫn vận hành thực chiến dành cho Operator khi sử dụng bộ skill **agentic-ai-content-marketing-skill**.
+Hệ thống hiện tại hoạt động dựa trên 2 Agent chính:
+1. **@Data_Ingestion_Agent**: Chuyên xử lý việc nạp, phân tích và trích xuất dữ liệu gốc một cách an toàn.
+2. **@Content_Marketing_Agent**: Chuyên định hướng chiến lược, lựa chọn cấu trúc (layout) và sáng tạo nội dung dựa trên nền tảng kiến thức đã nạp.
 
-Mục tiêu vận hành:
-- Chọn đúng command theo nhu cầu (post/outline/qa/content-score/ingestion).
-- Đọc đúng “resource map” cần thiết.
-- Bảo vệ output bằng checklist & quality gates.
-- Thực thi **progressive disclosure**: chỉ ingest khi user xác nhận **exact source files**.
+## 2. Hệ Thống Kiến Thức (Production-Ready Layouts)
+Hệ thống hiện tại đã nạp đầy đủ (Fully Ingested) bộ 7 Bố cục gốc cốt lõi (C1-3 Layout System), sẵn sàng cho vận hành thực tế:
+1. **C1-3A — Liệt kê (Listicle)**: Trình bày nhiều ý rõ ràng, độc lập.
+2. **C1-3B — Diễn dịch (Deductive)**: Đi thẳng vào kết luận trước, giải thích sau.
+3. **C1-3C — Quy nạp (Inductive)**: Dẫn dắt logic, trải nghiệm trước khi chốt kết luận.
+4. **C1-3D — Tổng Phân Hợp (Synthesis)**: Mở bài khái quát, phân tích sâu, kết bài đúc kết.
+5. **C1-3E — Móc xích (Chain)**: Luận điểm nhân quả liên hoàn, ý trước móc vào ý sau.
+6. **C1-3F — Đồng tâm (Concentric)**: Bán hàng gián tiếp, đi từ bối cảnh ngoài vào giải pháp lõi ở tâm.
+7. **C1-3G — Vấn đề - Giải pháp (Problem-Solution)**: Khơi gợi nỗi đau và đưa ra giải pháp đa tầng.
 
-## 2. Ai Nên Dùng
-- Content writer / content marketer
-- Social media content creator
-- Content marketing executive
-- Founder/marketer
-- AI operator dùng Blackbox/Kimi/Minimax/Antigravity/Codex
-- Người quản lý muốn kiểm output content trước khi đăng
+*(Lưu ý: Bố cục "Song hành / Đối xứng" vẫn đang ở trạng thái hạn chế, sẽ kích hoạt Knowledge Coverage Warning nếu sử dụng).*
 
-## 3. Nguyên Tắc Vận Hành Cốt Lõi
-Operator vận hành theo nguyên tắc:
-1. **Brief trước** (đọc mục tiêu, audience, platform, CTA).
-2. **Audience trước** (xác định ai, level hiểu biết, nhu cầu).
-3. Dùng **5W-1H** để mở ý (brainstorm), **không dùng làm bố cục chính**.
-4. **Layout để sắp xếp ý** (chọn layout từ matrix, validate taxonomy, kiểm layout-fit).
-5. **Hook để kéo chú ý** (đưa vào mở bài đúng vai trò).
-6. **CTA để điều hướng hành động** (conversion component, không trang trí).
-7. **QA trước khi dùng output** (logic + layout-fit + final-output checklist).
-8. **Ingestion safety**: không ingest docs mới nếu user chưa xác nhận exact source files.
+## 3. Quy Trình Vận Hành Thực Tế
 
-## 4. Bắt Đầu Nhanh Cho Operator Mới
+### Quy trình 1: Nạp Kiến Thức Mới (Ingestion Process)
+**Agent thực thi:** `@Data_Ingestion_Agent`
 
-### Nếu muốn viết Facebook post
-**Đọc:**
-1. `10-system/control/COMMAND_MAPPING.md`
-2. `04-commands/post.md`
-3. `10-system/control/PROMPT_MASTER.md`
-4. `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md`
-5. `07-quality-gates/layout-fit-checklist.md`
-6. `07-quality-gates/final-output-checklist.md`
+1. **Chuẩn bị:** Đọc các quy tắc an toàn trong `10-system/safety/DATA_INGESTION_SAFETY.md` và `10-system/safety/INGESTION_SOP.md`.
+2. **Kích hoạt:** Gọi `@Data_Ingestion_Agent` kèm theo lệnh nạp.
+3. **Khai báo bắt buộc (Progressive Disclosure):**
+   - Không được tự ý nạp nếu chưa xác nhận **Exact Source Files** (File gốc cụ thể).
+   - Khai báo Batch ID.
+   - Định rõ file đích (target file) sẽ lưu trữ kiến thức.
+4. **Cập nhật Mapping:** Agent sẽ tự động cập nhật `course-index.md`, `source-map.md`, và `INGESTION_LOG.md` sau khi trích xuất.
+5. **Nghiệm thu:** Operator kiểm tra raw source markers (đảm bảo không rò rỉ số trích dẫn thô vào output).
 
-**Operator cần yêu cầu user cung cấp (input tối thiểu):**
-- Nội dung thô / chủ đề sản phẩm
-- Mục tiêu bài viết (goal)
-- Đối tượng đọc (audience)
-- Nền tảng đăng (platform: Facebook/LinkedIn…)
-- CTA mong muốn
-- Tone giọng (nếu có)
+### Quy trình 2: Tạo Content Bằng 7 Layout C1-3
+**Agent thực thi:** `@Content_Marketing_Agent`
 
-**Output cần kiểm (must-have):**
-- Audience
-- Pain point
-- Insight
-- **5W-1H table** (nếu prompt cần mở ý)
-- Selected layout + layout type
-- **Taxonomy validation** (taxonomy label + evidence/guardrail)
-- **10 hooks**
-- Marketing outline **5 phần**
-- Final post
-- CTA
-- QA checklist (logic + final output)
+1. **Nhập Brief:** Cung cấp thông tin đầu vào (Input) gồm:
+   - Topic / Nội dung thô.
+   - Goal (Mục tiêu bài viết).
+   - Audience (Đối tượng độc giả).
+   - Platform (Nền tảng: Facebook, Tiktok, Blog...).
+   - CTA (Kêu gọi hành động mong muốn).
+2. **Phân tích:** Agent sẽ trích xuất Pain Point, Insight và lập bảng 5W-1H (Chỉ dùng để brainstorm, không dùng làm bố cục).
+3. **Lựa chọn Layout:** Agent tra cứu `layout-selection-matrix.md` và `layout-taxonomy.md` để chọn ra 1 trong 7 layout C1-3 phù hợp nhất.
+4. **Validation Evidence:** Agent sẽ xuất bảng chứng cứ chứng minh lý do chọn layout, kèm trạng thái `N/A - Layout fully ingested` (vì 7 layout C1-3 đã hoàn thiện).
+5. **Dàn ý & Viết:** Lập dàn ý 5 phần (Marketing Outline), tạo 10 hooks (chọn 1 hook mạnh nhất) và viết bản nháp cuối cùng.
+6. **Grounding Check:** Agent kiểm tra bài viết không bị "drift" (lệch đề) và không chứa các tuyên bố/số liệu bịa đặt (unsupported claims).
 
-**Fail nhanh nếu thiếu:**
-- Thiếu audience/pain/insight hoặc thiếu CTA → dừng và yêu cầu bổ sung trước khi post.
+### Quy trình 3: Kiểm Tra Quality Gate (QA & Scoring)
+**Agent thực thi:** `@Content_Marketing_Agent`
 
----
+- **Lệnh `/qa`:** Operator nạp bài viết và yêu cầu Agent chạy qua các file checklist (`layout-fit-checklist.md`, `content-logic-checklist.md`, `final-output-checklist.md`). Agent trả về PASS/FAIL và gợi ý sửa bám sát nguyên nhân cụ thể.
+- **Lệnh `/content-score`:** Agent chấm điểm tổng hợp (Max 100) cho bài viết dựa trên logic, audience fit, hook, layout fit và nền tảng. Yêu cầu mức điểm >= 80 để xuất bản.
 
-### Nếu muốn lập outline
-**Đọc:**
-1. `04-commands/outline.md`
-2. `02-frameworks/content-layout-systems/00-layout-system-control/layout-selection-matrix.md`
-3. `02-frameworks/content-layout-systems/00-layout-system-control/layout-taxonomy.md`
-4. `07-quality-gates/layout-fit-checklist.md`
+### Quy trình 4: Xử Lý Lỗi Thường Gặp (Common Issues)
+1. **Dùng 5W-1H làm bố cục chính:**
+   - *Cách xử lý:* Nhắc Agent chỉ dùng 5W-1H để mở ý. Bố cục chính phải lấy từ 7 layout C1-3.
+2. **Kích hoạt sai Knowledge Coverage Warning:**
+   - *Cách xử lý:* Nếu Agent báo thiếu tài liệu cho C1-3A đến C1-3G, nhắc Agent kiểm tra lại dòng 54 của `Content_Marketing_Agent.md`. Hệ thống đã nạp đủ bộ C1-3.
+3. **Bịa đặt số liệu (Hallucinated Claims):**
+   - *Cách xử lý:* Sử dụng QA Gate để bắt lỗi. Bắt buộc mọi số liệu % hay cam kết năng lực phải có trong Input.
+4. **Lạm dụng "Dẫn dắt thuyết phục" hoặc "Professional Planning" như Root Layout:**
+   - *Cách xử lý:* Nhắc Agent chọn 1 root layout thật sự (ví dụ Quy nạp, Tổng Phân Hợp) và dùng các khung kia như là meta-framework kiểm tra.
+5. **Nạp file mới gây rò rỉ raw marker:**
+   - *Cách xử lý:* Yêu cầu `@Data_Ingestion_Agent` dọn dẹp số trích dẫn thô ([1], [2]) khỏi văn bản chính, dồn xuống bảng Source Map.
 
-**Output cần kiểm:**
-- Content goal
-- Audience
-- Selected layout + layout type
-- **Taxonomy Validation Evidence** (nhãn/bằng chứng theo taxonomy)
-- Marketing outline 5 phần
-- CTA direction
+## 4. Prompt Mẫu Sẵn Sàng (Template Prompts)
 
-**Luật bắt buộc:**
-- Chọn layout từ matrix → validate taxonomy → kiểm layout-fit.
-- Không dùng meta-framework như root layout.
+**Nạp kiến thức (Ingestion):**
+```text
+@Data_Ingestion_Agent, bắt đầu Batch mới. Các file nguồn cần nạp là [danh sách file]. Hãy đọc file theo SOP, trích xuất cấu trúc và cập nhật vào [file đích]. Nhớ update INGESTION_LOG.md và source-map.md. Chú ý dọn sạch raw markers.
+```
 
----
+**Tạo bài đăng (Content Creation):**
+```text
+@Content_Marketing_Agent, sử dụng lệnh /post.
+Input: Topic=[...], Goal=[...], Audience=[...], Pain point=[...], Platform=[...], CTA=[...].
+Yêu cầu bắt buộc: Chọn 1 trong 7 layout C1-3. Lập bảng 5W-1H, xuất Taxonomy Validation Evidence, Outline 5 phần, 10 Hooks và bài viết hoàn chỉnh. Không bịa số liệu.
+```
 
-### Nếu muốn QA bài viết
-**Đọc:**
-1. `04-commands/qa.md`
-2. `07-quality-gates/content-logic-checklist.md`
-3. `07-quality-gates/layout-fit-checklist.md`
-4. `07-quality-gates/final-output-checklist.md`
-
-**Output cần kiểm:**
-- PASS/FAIL rõ
-- Lỗi audience/pain/insight (nếu có)
-- Lỗi layout-fit (nếu có)
-- Lỗi CTA (nếu có)
-- Gợi ý sửa cụ thể theo thứ tự ưu tiên
-
-**Nguyên tắc xử lý fail:**
-- Không đoán nguyên nhân; phải bám checklist/lỗi cụ thể.
-
----
-
-### Nếu muốn chấm điểm content
-**Đọc:**
-1. `04-commands/content-score.md`
-2. `07-quality-gates/layout-fit-checklist.md`
-3. `07-quality-gates/final-output-checklist.md`
-
-**Output cần kiểm:**
-- Total score
-- Layout Fit / 10
-- **Content Logic Evidence**
-- CTA score
-- Platform fit
-- Recommendation cụ thể
-
----
-
-### Nếu muốn nạp tài liệu mới (ingestion)
-**Đọc trước (bắt buộc):**
-1. `10-system/safety/DATA_INGESTION_SAFETY.md`
-2. `10-system/safety/INGESTION_SOP.md`
-3. `00-course-knowledge/source-map.md`
-4. `00-course-knowledge/course-index.md`
-5. `INGESTION_LOG.md`
-
-**Bắt buộc hỏi user (không ingest nếu chưa trả lời):**
-- Exact source files nào cần ingest?
-- File nào đã ingest rồi?
-- Batch ID mới là gì?
-- Nạp vào file/folder nào?
-- Có được update kiến thức cũ không?
-- Có được đổi status/confidence không?
-
-**Safety stop:**
-- Nếu user chưa xác nhận exact source files → dừng ingestion và yêu cầu xác nhận.
-
-## 5. Quy Trình Vận Hành Hàng Ngày
-Workflow thực tế cho operator (lặp mỗi task):
-
-1. Nhận yêu cầu từ user.
-2. Xác định loại task:  
-   - `/post` | `/outline` | `/qa` | `/content-score` | ingestion
-3. Tra `10-system/control/COMMAND_MAPPING.md` để biết input/output contract.
-4. Chọn command phù hợp.
-5. Đọc đúng file theo resource map của SKILL (chỉ “đủ dùng”, không audit toàn folder).
-6. Nếu viết content: phân tích audience/pain/insight.
-7. Nếu cần mở ý: dùng **5W-1H** (5W-1H để brainstorm, không làm layout).
-8. Chọn layout từ `layout-selection-matrix.md`.
-9. Validate layout bằng `layout-taxonomy.md`.
-10. Tạo outline 5 phần (hoặc viết post theo outline).
-11. Viết output (hoặc rewrite nếu được yêu cầu).
-12. QA bằng checklist:
-    - content logic
-    - layout fit
-    - final output checklist
-13. Nếu fail: sửa theo checklist, không đoán.
-14. Nếu task là ingestion: dừng và hỏi exact source files theo ingestion safety.
-
-## 6. Cây Quyết Định (Decision Tree)
-- User muốn viết bài hoàn chỉnh?
-  → Dùng `/post`
-- User chỉ muốn dàn ý?
-  → Dùng `/outline`
-- User muốn kiểm/bắt lỗi bài?
-  → Dùng `/qa`
-- User muốn chấm điểm content?
-  → Dùng `/content-score`
-- User yêu cầu nạp tài liệu khóa học mới?
-  → Dừng → đọc `10-system/safety/DATA_INGESTION_SAFETY.md` → hỏi **exact source files** → chỉ tiếp tục khi user xác nhận
-- User yêu cầu dùng “Professional planning” như layout chính?
-  → Không dùng như root layout → dùng như meta-check sau khi đã chọn layout đúng
-
-## 7. Checklist Kiểm Tra Output
-Checklist operator trước khi giao output cho người dùng/đưa lên publish:
-
-- Có đúng command không?
-- Có audience rõ không?
-- Có pain point không?
-- Có insight không?
-- Có 5W-1H nếu cần brainstorm không?
-- Có selected layout không?
-- Có **Taxonomy Validation Evidence** không?
-- Có marketing outline 5 phần không?
-- Có hook đủ (nếu case /post) không?
-- Có CTA không?
-- Có QA notes / PASS-FAIL checklist không?
-- Có cảnh báo nếu user yêu cầu ingestion docs (nhớ rule “exact source files”) không?
-
-## 8. Lỗi Thường Gặp Và Cách Tránh
-1. **Dùng 5W-1H như bố cục chính**  
-   - Vì sao sai: 5W-1H là công cụ mở ý, không thay layout.  
-   - Cách đúng: chọn layout + taxonomy validation, dùng 5W-1H trong brainstorm.
-
-2. **Dùng Professional planning như root layout**  
-   - Vì sao sai: sai vai trò meta-framework.  
-   - Cách đúng: dùng như meta-check; root layout vẫn là layout đã chọn từ matrix.
-
-3. **Bỏ qua taxonomy validation**  
-   - Vì sao sai: layout-fit và guardrail yêu cầu taxonomy evidence.  
-   - Cách đúng: layout-selection-matrix → layout-taxonomy → layout-fit checklist.
-
-4. **Bài có hook nhưng không có CTA**  
-   - Vì sao sai: CTA là conversion component bắt buộc.  
-   - Cách đúng: đảm bảo CTA khớp logic & final-output checklist.
-
-5. **Chấm điểm content nhưng không có evidence**  
-   - Vì sao sai: recommendation không actionable.  
-   - Cách đúng: đảm bảo có Content Logic Evidence, bridge cho recommendation.
-
-6. **QA quá chung chung**  
-   - Vì sao sai: không chỉ rõ lỗi nào thuộc checklist nào.  
-   - Cách đúng: đưa lỗi theo checklist mục (audience/pain/insight/layout-fit/CTA…).
-
-7. **Tự ingest docs khi user chưa xác nhận exact source files**  
-   - Vì sao sai: vi phạm ingestion safety golden rule.  
-   - Cách đúng: dừng ingestion, yêu cầu user xác nhận exact source files + batch controls.
-
-8. **Sửa framework/command/layout khi chỉ cần tạo output**  
-   - Vì sao sai: vượt phạm vi task vận hành.  
-   - Cách đúng: chỉ tạo/QA output theo command contract.
-
-9. **Nâng confidence/status layout khi chưa có source**  
-   - Vì sao sai: layout confidence cần căn cứ.  
-   - Cách đúng: ghi rủi ro trong QA notes, không nâng High nếu nguồn chưa đủ.
-
-10. **Đọc toàn bộ folder cho task nhỏ**  
-   - Vì sao sai: vi phạm progressive disclosure & làm chậm.  
-   - Cách đúng: đọc “đủ dùng” theo resource map.
-
-## 9. Đề Xuất Model Sử Dụng
-Bảng gợi ý chọn model theo vai trò (operator dùng khi cấu hình prompt):
-
-| Task | Recommended model | Reason |
-|---|---|---|
-| Scan/audit nhanh các file .md | Kimi K2.6 | Đọc nhanh, bám cấu trúc checklist |
-| Viết content dài/sáng tạo | Minimax M2.7 | Output sáng tạo và mạch lạc |
-| Scan folder nhanh (nếu cần) | Gemini 3 Flash | Tốc độ cao cho đọc lướt |
-| Review kiến trúc cuối (QA/logic) | Gemini 3.1 Pro Low | Rà logic và consistency |
-| File edit khi có credit | Codex | Tối ưu viết patch theo format |
-| Không dùng model sáng tạo để tự ý ingest docs | — | Luôn enforce ingestion safety |
-
-## 10. Giao Thức Bàn Giao An Toàn (Safe Handoff)
-Khi chuyển việc cho model khác/operator khác, luôn gửi gói handoff tối thiểu:
-
-Template:
-
-Current state:
-Batch:
-Verdict:
-Last report:
-Files created:
-Files updated:
-Not done:
-Next step:
-Safety:
-Do not ingest docs unless user confirms exact source files.
-
-## 11. Khi Nào Cần Dừng Lại Hỏi User
-Operator phải dừng và hỏi user khi:
-- User yêu cầu ingestion docs nhưng chưa nói **file nguồn cụ thể**.
-- File đã từng ingest nhưng user muốn nạp lại/overwrite.
-- User muốn đổi status/confidence layout.
-- Muốn biến meta-framework thành root layout.
-- Thiếu audience/goal/CTA quan trọng.
-- Output có thể làm hỏng cấu trúc skill (ví dụ trộn sai 5W-1H/layout/hook/CTA).
-- Model/agent đề xuất hành động ngoài phạm vi (chỉnh command/framework/layout, chạy test mới, v.v.).
-
-## 12. Prompt Mẫu Sẵn Sàng Copy
-
-### 1) Prompt dùng `/post`
-**Input cần điền:**
-- Topic:
-- Goal:
-- Audience:
-- Pain point:
-- Insight (nếu có):
-- Platform:
-- CTA:
-- Tone:
-
-**Prompt:**
-“Bạn là Agentic AI Content Marketing Skill operator. Hãy dùng command `/post`.  
-Input: Topic=[...], Goal=[...], Audience=[...], Pain point=[...], Insight=[...], Platform=[...], CTA=[...], Tone=[...].  
-Yêu cầu output bắt buộc: Target audience, Pain point, Insight, 5W-1H table, Selected layout + layout type + layout-fit notes, Marketing outline 5 phần, 10 hooks, Hook mạnh nhất, Final post, CTA, QA checklist.  
-Luôn validate layout qua matrix + taxonomy và chạy checklist PASS/FAIL trước khi trả output.”
-
-### 2) Prompt dùng `/outline`
-**Prompt:**
-“Bạn là Agentic AI Content Marketing Skill operator. Hãy dùng command `/outline`.  
-Input: Content goal=[...], Audience=[...], Topic/Idea=[...], Platform=[...].  
-Output bắt buộc: Target audience, Pain point hoặc nhu cầu, Insight sơ bộ, Selected layout + layout type, Layout-fit notes, Taxonomy Validation Evidence, Marketing outline 5 phần, CTA direction.  
-Không dùng 5W-1H làm bố cục chính.”
-
-### 3) Prompt dùng `/qa`
-**Prompt:**
-“Bạn là Agentic AI Content Marketing Skill operator. Hãy dùng command `/qa`.  
-Input: Final content=[dán nội dung], Brief/mục tiêu=[...], Audience=[...], Platform=[...].  
-Output bắt buộc: Checklist PASS/FAIL rõ, lỗi logic/audience/insight/CTA, lỗi layout-fit (nếu có), gợi ý sửa cụ thể bám checklist.”
-
-### 4) Prompt dùng `/content-score`
-**Prompt:**
-“Bạn là Agentic AI Content Marketing Skill operator. Hãy dùng command `/content-score`.  
-Input: Content=[dán nội dung], Goal=[...], Platform=[...], Audience=[...].  
-Output bắt buộc: Total score, score theo tiêu chí (logic/audience fit/hook/body/CTA/platform fit), vấn đề cần sửa, Recommendation theo evidence (Content Logic Evidence), và kiểm Layout Fit / 10.”
-
-### 5) Prompt chuẩn bị ingestion an toàn
-**Prompt:**
-“Bạn là Agentic AI Content Marketing Skill operator. Task là ingestion.  
-Trước khi ingest, hãy hỏi user theo ingestion safety:  
-(1) Exact source files nào cần ingest?  
-(2) File nào đã ingest rồi?  
-(3) Batch ID mới là gì?  
-(4) Nạp vào folder/file đích nào?  
-(5) Có update kiến thức cũ không?  
-(6) Có đổi status/confidence không?  
-(7) Có giữ bản cũ không?  
-Chỉ tiếp tục sau khi user xác nhận exact source files. Không đọc/sửa ngoài phạm vi.”
-
-## 13. Quy Tắc Vận Hành Cuối Cùng
-- Không ưu tiên làm nhanh hơn làm đúng.
-- Không ingest dữ liệu mới khi chưa có xác nhận exact source files.
-- Không sửa file ngoài phạm vi batch.
-- Không đoán nếu thiếu evidence (taxonomy/layout-fit/final-output QA).
-- Nếu đầu ra fail → sửa theo checklist; không tự “ước lượng bằng niềm tin”.
+**Chấm điểm (Scoring):**
+```text
+@Content_Marketing_Agent, sử dụng lệnh /content-score cho bài viết sau: [dán bài viết]. Chạy qua final-output-checklist.md và layout-fit-checklist.md để chấm điểm.
+```

@@ -83,7 +83,7 @@ Khi nhận lệnh, Agent tự động đóng vai trò là **Bộ điều phối 
 ### Giai đoạn 5 — Viết Bài Hoàn Chỉnh & Kiểm Soát Dẫn Nguồn (Drafting & Marker Cleanup)
 - Chấp bút viết bài post tiếp thị hoàn chỉnh dựa trên dàn ý và hook đã chọn.
 - **Áp dụng Minimalist Content Mode (Chế độ Tối giản)**:
-  - Bắt buộc tuân thủ bộ quy tắc `02-frameworks/minimalist-content-writing.md`.
+  - Bắt buộc tuân thủ bộ quy tắc tại `01-core-principles/content-marketing-mindset.md`.
   - **Quy tắc Lọc Văn AI (Avoid-list + Rewrite Rule)**:
     - *Avoid-list*: Cấm sử dụng các cụm từ sáo rỗng, rập khuôn mang tính liệt kê hoặc chuyển ý đậm chất AI như: "Trong bối cảnh hiện nay", "Có thể thấy rằng", "Nhìn chung", "Không thể phủ nhận rằng", "Sự thật là".
     - *Rewrite Rule*: Đi thẳng vào vấn đề (Get straight to the point), thay thế bằng văn phong đối thoại tự nhiên (Human-like conversational tone). Đoạn văn ngắn gọn, không lan man.

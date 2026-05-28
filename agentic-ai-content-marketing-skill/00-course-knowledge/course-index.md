@@ -283,16 +283,16 @@ Batch 2B chỉ nên nạp từng bố cục vào khu `02-frameworks/content-layo
 
 
 
-## Batch 4B-1 â€” Content Minimalism Upgrade
-### TÃ i Liá»‡u Nguá»“n ÄÃ£ Äá»c
-- `Nghá»‡ Thuáº­t Chuyá»ƒn Äá»•i TÆ° Duy Viáº¿t Ná»™i Dung Marketing Chuáº©n ToÃ n Diá»‡n.docx`
+## Batch 4B-1 — Content Minimalism Upgrade
+### Tài Liệu Nguồn Đã Đọc
+- `Nghệ Thuật Chuyển Đổi Tư Duy Viết Nội Dung Marketing Chuẩn Toàn Diện.docx`
 
-### Kiáº¿n Thá»©c ÄÃ£ Náº¡p
-- Bá»• sung tÆ° duy Content Minimalism: XÃ³a bá» sá»± lan man, rÆ°á»m rÃ .
-- Bá»• sung tÆ° duy tá»± chá»§: Tuyá»‡t Ä‘á»‘i khÃ´ng láº¡m dá»¥ng "VÄƒn AI" sÃ¡o rá»—ng.
-- Cáº­p nháº­t quy táº¯c Avoid-list + Rewrite Rule Ä‘á»ƒ cáº¯t bá» cÃ¡c tá»« ná»‘i mÃ¡y mÃ³c vÃ  Ä‘i tháº³ng vÃ o váº¥n Ä‘á».
-- Ãp dá»¥ng Minimalist Mode vÃ o `facebook-post-template.md` vÃ  `Content_Marketing_Agent.md`.
+### Kiến Thức Đã Nạp
+- Bổ sung tư duy Content Minimalism: Xóa bỏ sự lan man, rườm rà.
+- Bổ sung tư duy tự chủ: Tuyệt đối không lạm dụng "Văn AI" sáo rỗng.
+- Cập nhật quy tắc Avoid-list + Rewrite Rule để cắt bỏ các từ nối máy móc và đi thẳng vào vấn đề.
+- Áp dụng Minimalist Mode vào `facebook-post-template.md` và `Content_Marketing_Agent.md`.
 
-### File Kiáº¿n Thá»©c LiÃªn Quan
-- `02-frameworks/minimalist-content-writing.md`
+### File Kiến Thức Liên Quan
+- `01-core-principles/content-marketing-mindset.md`
 - `04-commands/Content_Marketing_Agent.md`

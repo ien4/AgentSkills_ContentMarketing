@@ -1377,3 +1377,20 @@ Harden và sửa lỗi thiết kế của `@Content_Marketing_Agent` để phòn
 
 ### Khuyáº¿n Nghá»‹ Cho Batch Sau
 - Náº¡p thÃªm ká»¹ thuáº­t viáº¿t Hook ngáº¯n tá»« `docs/HÆ°á»›ng Dáº«n Viáº¿t Hook Thu HÃºt Äá»™c Giáº£.docx`.
+
+## Batch 4B-1.1: Duplicate Fix-Forward
+**Date:** 2026-05-28
+**Agent:** @Data_Ingestion_Agent, @Content_Marketing_Agent
+
+### Hoáº¡t Ä‘á»™ng
+- **XÃ³a file trÃ¹ng láº·p:** XÃ³a `02-frameworks/minimalist-content-writing.md` do kiáº¿n thá»©c cÆ¡ báº£n (Bá»‘ cá»¥c 5 pháº§n) Ä‘Ã£ tá»“n táº¡i trong Batch 3A-2I-1.
+- **Gá»™p kiáº¿n thá»©c má»›i:** Di chuyá»ƒn cÃ¡c quy táº¯c giÃ¡ trá»‹ (Minimalist Content Mode, Avoid-list, Rewrite Rule) vÃ o `01-core-principles/content-marketing-mindset.md`.
+- **Cáº­p nháº­t liÃªn káº¿t:** Sá»­a `Content_Marketing_Agent.md` Ä‘á»ƒ trá» Minimalist Mode vá» Ä‘Ãºng `content-marketing-mindset.md`.
+- **Cáº­p nháº­t Metadata:** Äiá»u chá»‰nh `source-map.md` vÃ  `course-index.md` pháº£n Ã¡nh cáº¥u trÃºc má»›i.
+
+### Files ÄÃ£ Cáº­p Nháº­t / XÃ³a
+- `agentic-ai-content-marketing-skill/02-frameworks/minimalist-content-writing.md` (XÃ³a)
+- `agentic-ai-content-marketing-skill/01-core-principles/content-marketing-mindset.md` (Cáº­p nháº­t)
+- `agentic-ai-content-marketing-skill/04-commands/Content_Marketing_Agent.md` (Sá»­a link)
+- `agentic-ai-content-marketing-skill/00-course-knowledge/source-map.md` (Cáº­p nháº­t mapping)
+- `agentic-ai-content-marketing-skill/00-course-knowledge/course-index.md` (Sá»­a lá»—i encoding & cáº­p nháº­t)

@@ -36,12 +36,13 @@ Kêu gọi hành động phù hợp.
 
 ## Final Post
 
-Viết bài hoàn chỉnh tại đây.
+> (Viết bài hoàn chỉnh tại đây. **Minimalist Mode**: Đi thẳng vào vấn đề. Tối đa 2-3 câu mỗi đoạn. Loại bỏ các từ nối sáo rỗng như 'Nhìn chung', 'Trong bối cảnh'. Sử dụng ngôn ngữ đối thoại tự nhiên).
 
 ## QA
 
 - [ ] Đúng audience.
 - [ ] Có pain point.
-- [ ] Có logic.
+- [ ] Có logic mạch lạc.
+- [ ] Không lan man, "văn AI".
 - [ ] Có CTA.
 

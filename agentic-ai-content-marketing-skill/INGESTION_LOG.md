@@ -1354,3 +1354,26 @@ Harden và sửa lỗi thiết kế của `@Content_Marketing_Agent` để phòn
 ### Modified Files
 - `agentic-ai-content-marketing-skill/10-system/guides/OPERATOR_PLAYBOOK.md`
 - `agentic-ai-content-marketing-skill/INGESTION_LOG.md`
+
+## Batch 4B-1: Content Minimalism Upgrade & Ingestion
+**Date:** 2026-05-28
+**Agent:** @Data_Ingestion_Agent, @Content_Marketing_Agent
+
+### Sources
+- `docs/Nghá»‡ Thuáº­t Chuyá»ƒn Äá»•i TÆ° Duy Viáº¿t Ná»™i Dung Marketing Chuáº©n ToÃ n Diá»‡n.docx` (Elevated to Primary)
+
+### Kiáº¿n Thá»©c ÄÃ£ Náº¡p
+1. **TÆ° duy Content Minimalism:** Viáº¿t ngáº¯n gá»n, bá»›t lan man, loáº¡i bá» cÃ¡c tá»« ná»‘i sÃ¡o rá»—ng.
+2. **Quy táº¯c Anti-AI (Avoid-list):** Thiáº¿t láº­p Avoid-list (cÃ¡c tá»« nhÆ° "NhÃ¬n chung", "CÃ³ thá»ƒ tháº¥y ráº±ng") vÃ  Rewrite Rule (thay tháº¿ báº±ng vÄƒn phong Ä‘á»‘i thoáº¡i tá»± nhiÃªn, Ä‘i tháº³ng vÃ o váº¥n Ä‘á»).
+3. **Template Tá»‘i Æ°u:** Cáº­p nháº­t `facebook-post-template.md` theo Minimalist Mode (2-3 cÃ¢u/Ä‘oáº¡n).
+
+### Files ÄÃ£ Cáº­p Nháº­t / Táº¡o Má»›i
+- `agentic-ai-content-marketing-skill/02-frameworks/minimalist-content-writing.md` (Táº¡o má»›i)
+- `agentic-ai-content-marketing-skill/04-commands/Content_Marketing_Agent.md` (ThÃªm Minimalist Mode vÃ  Quality Rules)
+- `agentic-ai-content-marketing-skill/05-templates/facebook-post-template.md` (ThÃªm Minimalist Mode & QA)
+- `agentic-ai-content-marketing-skill/07-quality-gates/final-output-checklist.md` (ThÃªm Wordiness Check)
+- `agentic-ai-content-marketing-skill/00-course-knowledge/source-map.md` (Cáº­p nháº­t mapping)
+- `agentic-ai-content-marketing-skill/00-course-knowledge/course-index.md` (Cáº­p nháº­t má»¥c lá»¥c)
+
+### Khuyáº¿n Nghá»‹ Cho Batch Sau
+- Náº¡p thÃªm ká»¹ thuáº­t viáº¿t Hook ngáº¯n tá»« `docs/HÆ°á»›ng Dáº«n Viáº¿t Hook Thu HÃºt Äá»™c Giáº£.docx`.

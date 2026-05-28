@@ -17,7 +17,8 @@ Checklist cuối trước khi bàn giao nội dung.
 - [ ] Có final content.
 - [ ] Có CTA.
 - [ ] Đúng nền tảng.
-- [ ] Không lan man.
+- [ ] Không lan man (Wordiness Check).
+- [ ] Không sáo rỗng, không đậm chất văn AI (Avoid-list Check).
 - [ ] Không tự bịa dữ kiện.
 - [ ] Có QA notes nếu cần.
 
@@ -30,4 +31,5 @@ Checklist cuối trước khi bàn giao nội dung.
 - FAIL nếu dùng meta-framework như root layout.
 - FAIL nếu chưa kiểm layout-fit.
 - FAIL nếu final content nghe chung chung, sáo rỗng, không có tình huống cụ thể.
+- FAIL nếu vi phạm quy tắc "văn AI", dùng từ nối khuôn mẫu, sáo rỗng, rườm rà.
 - FAIL nếu nội dung có claim quá đà nhưng không có nguồn hoặc bằng chứng.

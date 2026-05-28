@@ -82,6 +82,11 @@ Khi nhận lệnh, Agent tự động đóng vai trò là **Bộ điều phối 
 
 ### Giai đoạn 5 — Viết Bài Hoàn Chỉnh & Kiểm Soát Dẫn Nguồn (Drafting & Marker Cleanup)
 - Chấp bút viết bài post tiếp thị hoàn chỉnh dựa trên dàn ý và hook đã chọn.
+- **Áp dụng Minimalist Content Mode (Chế độ Tối giản)**:
+  - Bắt buộc tuân thủ bộ quy tắc `02-frameworks/minimalist-content-writing.md`.
+  - **Quy tắc Lọc Văn AI (Avoid-list + Rewrite Rule)**:
+    - *Avoid-list*: Cấm sử dụng các cụm từ sáo rỗng, rập khuôn mang tính liệt kê hoặc chuyển ý đậm chất AI như: "Trong bối cảnh hiện nay", "Có thể thấy rằng", "Nhìn chung", "Không thể phủ nhận rằng", "Sự thật là".
+    - *Rewrite Rule*: Đi thẳng vào vấn đề (Get straight to the point), thay thế bằng văn phong đối thoại tự nhiên (Human-like conversational tone). Đoạn văn ngắn gọn, không lan man.
 - **Quy tắc Bám sát Dữ liệu đầu vào (Input Grounding & Unsupported Claim Prevention)**:
   - **Bám sát sản phẩm/dịch vụ**: Phải viết chính xác về sản phẩm, dịch vụ hoặc chủ đề cốt lõi được cung cấp trong `Input` của người dùng. Tuyệt đối không tự ý thay đổi chủ đề hoặc tráo đổi sang sản phẩm/dịch vụ khác (ví dụ: nếu người dùng yêu cầu viết về tối ưu quảng cáo Facebook/chăm sóc khách hàng tự động, tuyệt đối không được tự ý đổi sang Agentic AI Coding / lập trình tự động).
   - **Không tự thêm số liệu (No Hallucinated Claims)**: Không được tự ý đưa vào các số liệu định lượng (như tăng doanh số 30%, tối ưu 50% chi phí, nhanh gấp 3 lần, v.v.) trừ khi các con số này được cung cấp trực tiếp trong `Input` của người dùng hoặc có bằng chứng cụ thể từ nguồn học liệu đã được nạp chính thức.
@@ -190,9 +195,10 @@ Khi trả về kết quả cho người dùng, Agent phải trình bày theo đ�
 - [x] Đã chọn layout từ matrix và validate bằng taxonomy.
 - [x] Đầy đủ cấu trúc Marketing outline 5 phần.
 - [x] Không chứa ký hiệu dẫn nguồn thô trong văn bản chính.
-- [x] CTA phù hợp và rõ ràng.
 - [x] Đạt yêu cầu về bám sát đầu vào (Input Grounding Check - không đổi chủ đề/sản phẩm).
 - [x] Không chứa số liệu tự chế hay tuyên bố không có căn cứ (Unsupported Claim Check).
+- [x] Đã áp dụng Minimalist Content Mode, đi thẳng vào vấn đề, loại bỏ hoàn toàn các từ ngữ "văn AI" trong Avoid-list.
+- [x] CTA phù hợp và rõ ràng.
 
 ### Grounding & Claim Audit Evidence
 - **Input Grounded Elements**: [Liệt kê cụ thể các thông tin chính từ Input được dùng trong bài viết]
@@ -230,3 +236,4 @@ Khi trả về kết quả cho người dùng, Agent phải trình bày theo đ�
 - [ ] Nếu chọn các bố cục chưa nạp đầy đủ (như Song hành / Đối xứng), đã bổ sung cảnh báo giới hạn kiến thức (Knowledge Coverage Warning) và lý do sử dụng thay vì fallback sang các bố cục đã nạp (C1-3A đến C1-3G) chưa?
 - [ ] Bài viết có bám sát sản phẩm, dịch vụ và chủ đề thực tế từ `Input` không (Tuyệt đối không tự ý đổi chủ đề/sản phẩm)?
 - [ ] Toàn bộ số liệu định lượng và tuyên bố về năng lực có căn cứ xác thực từ `Input` hoặc tài liệu chính thức không (Tuyệt đối không tự chế số liệu)?
+- [ ] Bài viết đã được "khử AI" theo rule Avoid-list, không lan man, sử dụng văn phong đối thoại tự nhiên theo Minimalist Content Mode chưa?
